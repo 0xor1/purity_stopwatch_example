@@ -1,0 +1,12 @@
+name: purity_stopwatch_example
+version: 0.0.0
+author: "Daniel Robinson\r\n<daniel.robinson.dart@gmail.com>"
+description: A sample Purity web application
+homepage: http://github.com/0xor1/purity_stopwatch_example
+environment:
+  sdk: '>=0.8.10+6 <2.0.0'
+dependencies:
+  browser: any
+  controls_and_panels: '>=0.0.1 <1.0.0'
+  eventable: '>=2.0.13 <3.0.0'
+  purity: '>=0.0.1 <1.0.0'
