@@ -6,7 +6,7 @@ library StopwatchClient;
 
 import 'dart:html';
 import 'package:purity/purity_client.dart';
-import '../lib/view/stopwatch_view.dart';
+import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
 
 void main(){
   initPurityAppView((stopwatch){

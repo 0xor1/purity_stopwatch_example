@@ -19,7 +19,7 @@ class Stopwatch extends Model implements IStopwatch{
   Duration _du = new Duration();
   bool get _isRunning => _timer != null;
 
-  StopWatch(){
+  Stopwatch(){
     registerTranTypes();
   }
 
