@@ -9,4 +9,4 @@ dependencies:
   browser: any
   controls_and_panels: '>=0.0.1 <1.0.0'
   eventable: '>=2.0.13 <3.0.0'
-  purity: '>=0.0.3 <1.0.0'
+  purity: '>=0.0.6 <1.0.0'
