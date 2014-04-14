@@ -8,18 +8,20 @@ import 'package:purity/purity.dart';
 
 part 'stopwatch_events.dart';
 
-abstract class IStopwatch implements Model{
+abstract class IStopwatch{
   void start();
   void stop();
   void setTimeLimit(Duration du);
   void clearTimeLimit();
 }
 
-bool _tranTypesRegistered = false;
-void registerTranTypes(){
-  if(_tranTypesRegistered){ return; }
-  _tranTypesRegistered = true;
-  registerTranSubtype('sw_dce', DurationChangeEvent);
-  registerTranSubtype('sw_se', StartEvent);
-  registerTranSubtype('sw_ste', StopEvent);
+bool _stopwatchTranTypesRegistered = false;
+void registerStopwatchTranTypes(){
+  if(_stopwatchTranTypesRegistered){ return; }
+  _stopwatchTranTypesRegistered = true;
+  registerTranTypes('Stopwatch', 's', (){
+    registerTranSubtype('a', DurationChangeEvent);
+    registerTranSubtype('b', StartEvent);
+    registerTranSubtype('c', StopEvent);
+  });
 }

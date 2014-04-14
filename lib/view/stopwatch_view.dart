@@ -9,9 +9,9 @@ import 'package:eventable/eventable.dart';
 import 'package:controls_and_panels/controls_and_panels.dart';
 import '../interface/i_stopwatch.dart';
 
-class StopwatchView extends Base with EventDetector{
+class StopwatchView extends PurityView with EventDetector{
 
-  final IStopwatch _stopwatch;
+  IStopwatch get stopwatch => model;
   final DivElement _duration =
     new DivElement()
     ..classes.add('duration');
@@ -25,9 +25,10 @@ class StopwatchView extends Base with EventDetector{
     new DivElement()
     ..classes.add('buttons');
 
-  StopwatchView(IStopwatch this._stopwatch){
+  StopwatchView(stopwatch):
+    super(stopwatch){
 
-    registerTranTypes();
+    registerStopwatchTranTypes();
 
     html
     ..classes.add('stopwatch')
@@ -40,12 +41,12 @@ class StopwatchView extends Base with EventDetector{
       _duration,
     ]);
 
-    _startButton.onClick.listen((e) => _stopwatch.start());
-    _stopButton.onClick.listen((e) => _stopwatch.stop());
+    _startButton.onClick.listen((e) => stopwatch.start());
+    _stopButton.onClick.listen((e) => stopwatch.stop());
 
-    listen(_stopwatch, DurationChangeEvent, _handleDurationChangeEvent);
+    listen(stopwatch, DurationChangeEvent, _handleDurationChangeEvent);
 
-    _stopwatch.setTimeLimit(new Duration());
+    stopwatch.setTimeLimit(new Duration());
 
   }
 

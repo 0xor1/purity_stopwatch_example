@@ -12,7 +12,7 @@ const Duration _TIMER_TICK_DURATION = const Duration(seconds:1);
 const String _UP = 'up';
 const String _DOWN = 'down';
 
-class Stopwatch extends Model implements IStopwatch{
+class Stopwatch extends PurityModel implements IStopwatch{
 
   Timer _timer;
   String _direction = _UP;
@@ -20,7 +20,7 @@ class Stopwatch extends Model implements IStopwatch{
   bool get _isRunning => _timer != null;
 
   Stopwatch(){
-    registerTranTypes();
+    registerStopwatchTranTypes();
   }
 
   void set _duration(Duration du){
