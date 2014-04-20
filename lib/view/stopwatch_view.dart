@@ -4,14 +4,14 @@
 
 library StopwatchView;
 
-import 'package:purity/purity_client.dart';
-import 'package:eventable/eventable.dart';
-import 'package:controls_and_panels/controls_and_panels.dart';
+import 'dart:html';
+import 'package:purity/purity.dart';
 import '../interface/i_stopwatch.dart';
 
-class StopwatchView extends PurityView with EventDetector{
+class StopwatchView extends PurityModelConsumer{
 
   IStopwatch get stopwatch => model;
+  final DivElement html = new DivElement();
   final DivElement _duration =
     new DivElement()
     ..classes.add('duration');
@@ -21,6 +21,9 @@ class StopwatchView extends PurityView with EventDetector{
   final ButtonElement _stopButton =
     new ButtonElement()
     ..text = 'Stop';
+  final ButtonElement _resetButton =
+    new ButtonElement()
+    ..text = 'Reset';
   final DivElement _buttons =
     new DivElement()
     ..classes.add('buttons');
