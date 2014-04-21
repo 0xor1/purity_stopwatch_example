@@ -12,7 +12,7 @@ void main(){
   var server = new PurityServer(
     InternetAddress.LOOPBACK_IP_V4,
     4346,
-    Platform.script.resolve('../build/web').toFilePath(),
+    Platform.script.resolve('../web').toFilePath(),
     () => new SW.Stopwatch(),
     (stopwatch){});
 }
