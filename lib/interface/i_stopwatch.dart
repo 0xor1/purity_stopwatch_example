@@ -8,11 +8,10 @@ import 'package:purity/purity.dart';
 
 part 'stopwatch_events.dart';
 
-abstract class IStopwatch{
+abstract class IStopwatch implements PurityModel{
   void start();
   void stop();
-  void setTimeLimit(Duration du);
-  void clearTimeLimit();
+  void reset();
 }
 
 bool _stopwatchTranTypesRegistered = false;

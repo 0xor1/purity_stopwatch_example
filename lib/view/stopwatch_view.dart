@@ -10,7 +10,8 @@ import '../interface/i_stopwatch.dart';
 
 class StopwatchView extends PurityModelConsumer{
 
-  IStopwatch get stopwatch => model;
+  dynamic get stopwatch => model;
+  
   final DivElement html = new DivElement();
   final DivElement _duration =
     new DivElement()
@@ -42,15 +43,18 @@ class StopwatchView extends PurityModelConsumer{
         _stopButton
       ]),
       _duration,
+      _resetButton
     ]);
-
+    
+    _hookUpEvents();
+    stopwatch.reset();
+  }
+  
+  void _hookUpEvents(){
     _startButton.onClick.listen((e) => stopwatch.start());
     _stopButton.onClick.listen((e) => stopwatch.stop());
-
+    _resetButton.onClick.listen((e) => stopwatch.reset());
     listen(stopwatch, DurationChangeEvent, _handleDurationChangeEvent);
-
-    stopwatch.setTimeLimit(new Duration());
-
   }
 
   String _durationToDisplayString(Duration du){
