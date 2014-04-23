@@ -1,9 +1,17 @@
 #Purity Stopwatch Example
 
 The simplest possible example application I could think of to demo Purity.
-Run `test/integration/index.html` to see the whole app running on the client side.
-Run `bin/server.dart` file after running `pub build` to run the app as a Purity
-client-server app.
+Run `test/integration/index_without_purity.html` to see the whole app running
+on the client side with the view directly consuming the model, or run
+`test/integration/index_with_purity.html` to see the whole app running on the 
+client side with remote proxy objects relaying meesages through the core Purity
+app server also running in the browser.
+
+Run `pub build` and then run `build/bin/server.dart` to run the app as a full Purity
+client-server app and browse to `http://127.0.0.1:4346/` to see the view consuming
+the remote proxy object with all messages being realyed to the remote server via websockets.
+
+Enjoy!
 
 ##Interface
 
@@ -14,50 +22,50 @@ The Stopwatch model interface
 abstract class IStopwatch implements Model{
   void start();
   void stop();
-  void setTimeLimit(Duration du);
-  void clearTimeLimit();
+  void reset();
 }
 ```
 
 The Stopwatch model events
 ```dart
-class DurationChangeEvent extends Event implements IDurationChangeEvent{}
+class DurationChangeEvent extends PurityEvent implements IDurationChangeEvent{}
 abstract class IDurationChangeEvent{
   Duration duration;
 }
 
-class StartEvent extends Event{}
+class StartEvent extends PurityEvent{}
 
-class StopEvent extends Event{}
+class StopEvent extends PurityEvent{}
 ```
 
 The function to wrap all transmittable type registrations
 ```dart
-bool _tranTypesRegistered = false;
-void registerTranTypes(){
-  if(_tranTypesRegistered){ return; }
-  _tranTypesRegistered = true;
-  registerTranSubtype('sw_dce', DurationChangeEvent);
-  registerTranSubtype('sw_se', StartEvent);
-  registerTranSubtype('sw_ste', StopEvent);
+bool _stopwatchTranTypesRegistered = false;
+void registerStopwatchTranTypes(){
+  if(_stopwatchTranTypesRegistered){ return; }
+  _stopwatchTranTypesRegistered = true;
+  registerTranTypes('Stopwatch', 's', (){
+    registerTranSubtype('a', DurationChangeEvent);
+    registerTranSubtype('b', StartEvent);
+    registerTranSubtype('c', StopEvent);
+  });
 }
 ```
 
 ##Model
 
-The model library is where the business logic is kept and the interface library model interfaces are implemented on each model. Notice that the `registerTranTypes()` is called in the stopwatch constructor.
+The model library is where the business logic is kept and the interface library model interfaces are implemented on each model. Notice that the `registerStopwatchTranTypes()` is called in the stopwatch constructor.
 
 The Stopwatch model
 ```dart
-class Stopwatch extends Model implements IStopwatch{
+class Stopwatch extends PurityModel implements IStopwatch{
 
   Timer _timer;
-  String _direction = _UP;
   Duration _du = new Duration();
   bool get _isRunning => _timer != null;
 
   Stopwatch(){
-    registerTranTypes();
+    registerStopwatchTranTypes();
   }
 
   void set _duration(Duration du){
@@ -82,35 +90,27 @@ class Stopwatch extends Model implements IStopwatch{
     }
   }
 
-  void setTimeLimit(Duration du){
+  void reset(){
     stop();
-    _direction = du.inSeconds != 0? _DOWN: _UP;
-    _duration = du;
+    _direction = new Duration();
   }
 
-  void clearTimeLimit() => setTimeLimit(new Duration());
-
   void _handleTick(Timer timer){
-    if(_direction == _UP){
-      _duration = _du + _TIMER_TICK_DURATION;
-    }else{
-      _duration = _du - _TIMER_TICK_DURATION;
-      if(_du.inSeconds == 0){
-        stop();
-      }
-    }
+    _duration = _du + _TIMER_TICK_DURATION;
   }
 }
 ```
 
 ##View
 
-The view library contains the Stopwatch view, it is important to note that it only references the interface library and not the model library, and so the view constructor expects an `IStopwatch`. Also notice that the view constructor calls the `registerTranTypes()` function from the interface library also.
+The view library contains the Stopwatch view, it is important to note that it only references the interface library and not the model library, and so the view constructor expects an `IStopwatch`. Also notice that the view constructor calls the `registerStopwatchTranTypes()` function from the interface library also.
 
 ```dart
-class StopwatchView extends Base with EventDetector{
+class StopwatchView extends PurityModelConsumer{
 
-  final IStopwatch _stopwatch;
+  dynamic get stopwatch => model;
+  
+  final DivElement html = new DivElement();
   final DivElement _duration =
     new DivElement()
     ..classes.add('duration');
@@ -120,42 +120,34 @@ class StopwatchView extends Base with EventDetector{
   final ButtonElement _stopButton =
     new ButtonElement()
     ..text = 'Stop';
+  final ButtonElement _resetButton =
+    new ButtonElement()
+    ..text = 'Reset';
   final DivElement _buttons =
     new DivElement()
     ..classes.add('buttons');
 
-  StopwatchView(IStopwatch this._stopwatch){
-
-    registerTranTypes();
-
-    html
-    ..classes.add('stopwatch')
-    ..children.addAll([
-      _buttons
-      ..children.addAll([
-        _startButton,
-        _stopButton
-      ]),
-      _duration,
-    ]);
-
-    _startButton.onClick.listen((e) => _stopwatch.start());
-    _stopButton.onClick.listen((e) => _stopwatch.stop());
-
-    listen(_stopwatch, DurationChangeEvent, _handleDurationChangeEvent);
-
-    _stopwatch.setTimeLimit(new Duration());
-
+  StopwatchView(stopwatch):
+    super(stopwatch){
+    
+    registerStopwatchTranTypes();
+    /**
+     * setup html stuff
+     */
+    _hookUpEvents()
+    stopwatch.reset();
+    
   }
 
+  void _hookUpEvents(){
+    _startButton.onClick.listen((e) => stopwatch.start());
+    _stopButton.onClick.listen((e) => stopwatch.stop());
+    _resetButton.onClick.listen((e) => stopwatch.reset());
+    listen(stopwatch, DurationChangeEvent, _handleDurationChangeEvent);
+  }
+  
   String _durationToDisplayString(Duration du){
-    var seconds = du.inSeconds % 60;
-    seconds = seconds < 10? '0$seconds':'$seconds';
-    var minutes = du.inMinutes % 60;
-    minutes = minutes < 10? '0$minutes':'$minutes';
-    var hours = du.inHours;
-    hours = hours < 10? '0$hours':'$hours';
-    return '$hours : $minutes : $seconds';
+    // duration to display string stuff
   }
 
   void _handleDurationChangeEvent(DurationChangeEvent e){
