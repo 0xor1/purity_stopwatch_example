@@ -2,7 +2,7 @@
  * author: Daniel Robinson  http://github.com/0xor1
  */
 
-library StopwatchServer;
+library stopwatch.server;
 
 import 'dart:io';
 import 'package:purity/purity_server.dart';

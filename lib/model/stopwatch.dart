@@ -2,7 +2,7 @@
  * author: Daniel Robinson  http://github.com/0xor1
  */
 
-library Stopwatch;
+library stopwatch.model;
 
 import 'dart:async';
 import 'package:purity/purity.dart';

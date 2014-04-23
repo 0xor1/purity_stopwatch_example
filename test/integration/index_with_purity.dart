@@ -7,12 +7,12 @@ library StopwatchLocalTest;
 import 'dart:html';
 import 'package:purity/purity.dart';
 import 'package:purity/purity_client.dart';
-import 'package:purity_stopwatch_example/model/stopwatch.dart' as SW;
+import 'package:purity_stopwatch_example/model/stopwatch.dart' as sw;
 import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
 
 void main(){
   
-  var purityTestServer = new PurityTestServer(() => new SW.Stopwatch(), (stopwatch){});
+  var purityTestServer = new PurityTestServer(() => new sw.Stopwatch(), (stopwatch){});
   var purityTestServerView = new PurityTestServerView(purityTestServer);
   
   initPurityTestAppView(

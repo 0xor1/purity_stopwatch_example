@@ -2,7 +2,7 @@
  * author: Daniel Robinson  http://github.com/0xor1
  */
 
-library IStopwatch;
+library stopwatch.interface;
 
 import 'package:purity/purity.dart';
 
