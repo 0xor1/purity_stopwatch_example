@@ -103,7 +103,7 @@ class Stopwatch extends PurityModel implements IStopwatch{
 
 ##View
 
-The view library contains the Stopwatch view, it is important to note that it only references the interface library and not the model library, and so the view constructor expects an `IStopwatch`. Also notice that the view constructor calls the `registerStopwatchTranTypes()` function from the interface library also.
+The view library contains the Stopwatch view, it is important to note that it only references the interface library and not the model library, also notice that the view constructor calls the `registerStopwatchTranTypes()` function from the interface library also.
 
 ```dart
 class StopwatchView extends PurityModelConsumer{
