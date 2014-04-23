@@ -2,7 +2,7 @@
  * author: Daniel Robinson  http://github.com/0xor1
  */
 
-part of IStopwatch;
+part of stopwatch.interface;
 
 class DurationChangeEvent extends PurityEvent implements IDurationChangeEvent{}
 abstract class IDurationChangeEvent{

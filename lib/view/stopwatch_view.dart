@@ -2,7 +2,7 @@
  * author: Daniel Robinson  http://github.com/0xor1
  */
 
-library StopwatchView;
+library stopwatch.view;
 
 import 'dart:html';
 import 'package:purity/purity.dart';
