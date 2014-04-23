@@ -4,14 +4,15 @@
 
 library StopwatchView;
 
-import 'package:purity/purity_client.dart';
-import 'package:eventable/eventable.dart';
-import 'package:controls_and_panels/controls_and_panels.dart';
+import 'dart:html';
+import 'package:purity/purity.dart';
 import '../interface/i_stopwatch.dart';
 
-class StopwatchView extends Base with EventDetector{
+class StopwatchView extends PurityModelConsumer{
 
-  final IStopwatch _stopwatch;
+  dynamic get stopwatch => model;
+  
+  final DivElement html = new DivElement();
   final DivElement _duration =
     new DivElement()
     ..classes.add('duration');
@@ -21,13 +22,17 @@ class StopwatchView extends Base with EventDetector{
   final ButtonElement _stopButton =
     new ButtonElement()
     ..text = 'Stop';
+  final ButtonElement _resetButton =
+    new ButtonElement()
+    ..text = 'Reset';
   final DivElement _buttons =
     new DivElement()
     ..classes.add('buttons');
 
-  StopwatchView(IStopwatch this._stopwatch){
+  StopwatchView(stopwatch):
+    super(stopwatch){
 
-    registerTranTypes();
+    registerStopwatchTranTypes();
 
     html
     ..classes.add('stopwatch')
@@ -38,15 +43,18 @@ class StopwatchView extends Base with EventDetector{
         _stopButton
       ]),
       _duration,
+      _resetButton
     ]);
-
-    _startButton.onClick.listen((e) => _stopwatch.start());
-    _stopButton.onClick.listen((e) => _stopwatch.stop());
-
-    listen(_stopwatch, DurationChangeEvent, _handleDurationChangeEvent);
-
-    _stopwatch.setTimeLimit(new Duration());
-
+    
+    _hookUpEvents();
+    stopwatch.reset();
+  }
+  
+  void _hookUpEvents(){
+    _startButton.onClick.listen((e) => stopwatch.start());
+    _stopButton.onClick.listen((e) => stopwatch.stop());
+    _resetButton.onClick.listen((e) => stopwatch.reset());
+    listen(stopwatch, DurationChangeEvent, _handleDurationChangeEvent);
   }
 
   String _durationToDisplayString(Duration du){

@@ -9,18 +9,15 @@ import 'package:purity/purity.dart';
 import '../interface/i_stopwatch.dart';
 
 const Duration _TIMER_TICK_DURATION = const Duration(seconds:1);
-const String _UP = 'up';
-const String _DOWN = 'down';
 
-class Stopwatch extends Model implements IStopwatch{
+class Stopwatch extends PurityModel implements IStopwatch{
 
   Timer _timer;
-  String _direction = _UP;
   Duration _du = new Duration();
   bool get _isRunning => _timer != null;
 
   Stopwatch(){
-    registerTranTypes();
+    registerStopwatchTranTypes();
   }
 
   void set _duration(Duration du){
@@ -45,23 +42,13 @@ class Stopwatch extends Model implements IStopwatch{
     }
   }
 
-  void setTimeLimit(Duration du){
+  void reset(){
     stop();
-    _direction = du.inSeconds != 0? _DOWN: _UP;
-    _duration = du;
+    _duration = new Duration();
   }
 
-  void clearTimeLimit() => setTimeLimit(new Duration());
-
   void _handleTick(Timer timer){
-    if(_direction == _UP){
-      _duration = _du + _TIMER_TICK_DURATION;
-    }else{
-      _duration = _du - _TIMER_TICK_DURATION;
-      if(_du.inSeconds == 0){
-        stop();
-      }
-    }
+    _duration = _du + _TIMER_TICK_DURATION;
   }
 
 }
