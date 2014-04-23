@@ -8,7 +8,10 @@ client side with remote proxy objects relaying meesages through the core Purity
 app server also running in the browser.
 
 Run `pub build` and then run `build/bin/server.dart` to run the app as a full Purity
-client-server app.
+client-server app and browse to `http://127.0.0.1:4346/` to see the view consuming
+the remote proxy object with all messages being realyed to the remote server via websockets.
+
+Enjoy!
 
 ##Interface
 
