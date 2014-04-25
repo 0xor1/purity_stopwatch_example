@@ -6,45 +6,54 @@ library stopwatch.view;
 
 import 'dart:html';
 import 'package:purity/purity.dart';
+import 'package:controls_and_panels/controls_and_panels.dart';
 import '../interface/i_stopwatch.dart';
 
 class StopwatchView extends PurityModelConsumer{
 
   dynamic get stopwatch => model;
   
-  final DivElement html = new DivElement();
-  final DivElement _duration =
-    new DivElement()
-    ..classes.add('duration');
-  final ButtonElement _startButton =
-    new ButtonElement()
-    ..text = 'Start';
-  final ButtonElement _stopButton =
-    new ButtonElement()
-    ..text = 'Stop';
-  final ButtonElement _resetButton =
-    new ButtonElement()
-    ..text = 'Reset';
-  final DivElement _buttons =
-    new DivElement()
-    ..classes.add('buttons');
-
+  DivElement get html => _rootContainer.html;
+  
+  final SizerPanel _rootContainer =
+    new SizerPanel('100%', '100%');
+  final StackPanel _containerStack =
+    new StackPanel.vertical();
+  final SizerPanel _upperButtonsSizer = new SizerPanel('230px', '35px');
+  final StackPanel _upperButtonsStack =
+    new StackPanel.horizontal();
+  final Button _startButton = 
+    new Button(new SizerPanel('100px', '22px')..add(new Label('Start')));
+  final Button _stopButton = 
+    new Button(new SizerPanel('100px', '22px')..add(new Label('Stop')));
+  final Button _resetButton = 
+    new Button(new SizerPanel('220px', '22px')..add(new Label('Reset')));
+  final SizerPanel _durationSizer = new SizerPanel('230px', '35px');
+  final Label _durationLabel =
+    new Label('');
+  final SizerPanel _resetSizer = new SizerPanel('230px', '35px');
+  
   StopwatchView(stopwatch):
     super(stopwatch){
 
     registerStopwatchTranTypes();
 
-    html
-    ..classes.add('stopwatch')
-    ..children.addAll([
-      _buttons
-      ..children.addAll([
-        _startButton,
-        _stopButton
-      ]),
-      _duration,
-      _resetButton
-    ]);
+    _rootContainer
+    ..add(
+      _containerStack
+      ..add(
+        _upperButtonsSizer
+        ..add(
+          _upperButtonsStack
+          ..add(_startButton)
+          ..add(new SizerPanel('10px', '0px'))
+          ..add(_stopButton)))
+      ..add(
+        _durationSizer
+        ..add(_durationLabel))
+      ..add(
+        _resetSizer
+        ..add(_resetButton)));
     
     _hookUpEvents();
     stopwatch.reset();
@@ -68,7 +77,7 @@ class StopwatchView extends PurityModelConsumer{
   }
 
   void _handleDurationChangeEvent(DurationChangeEvent e){
-    _duration.text = _durationToDisplayString(e.duration);
+    _durationLabel.text = _durationToDisplayString(e.duration);
   }
 
 }
