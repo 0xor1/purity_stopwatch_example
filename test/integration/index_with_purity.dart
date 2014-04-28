@@ -12,7 +12,7 @@ import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
 
 void main(){
   
-  var purityTestServer = new PurityTestServer(() => new sw.Stopwatch(), (stopwatch){});
+  var purityTestServer = new PurityTestServer(() => new sw.Stopwatch(), (stopwatch){}, 0);
   var purityTestServerView = new PurityTestServerView(purityTestServer);
   
   initPurityTestAppView(

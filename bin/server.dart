@@ -14,5 +14,6 @@ void main(){
     4346,
     Platform.script.resolve('../web').toFilePath(),
     () => new SW.Stopwatch(),
-    (stopwatch){});
+    (stopwatch){},
+    0);
 }
