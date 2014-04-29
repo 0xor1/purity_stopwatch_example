@@ -11,7 +11,7 @@ import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
 void main(){
   initPurityAppView(
     'ws',
-    (stopwatch){
+    (stopwatch, clientCore){
       var view = new StopwatchView(stopwatch);
       document.body.children.add(view.html);
    },

@@ -16,9 +16,9 @@ void main(){
   var purityTestServerView = new PurityTestServerView(purityTestServer);
   
   initPurityTestAppView(
-    (stopwatch){
+    (stopwatch, clientCore){
       var view = new StopwatchView(stopwatch);
-      purityTestServerView.addNewClientView(view.html);
+      purityTestServerView.addNewClientView(clientCore, view.html);
     },
     (){});
   
