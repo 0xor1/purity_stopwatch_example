@@ -4,11 +4,11 @@
 
 part of stopwatch.interface;
 
-class DurationChangeEvent extends PurityEvent implements IDurationChangeEvent{}
+class DurationChangeEvent extends Event implements IDurationChangeEvent{}
 abstract class IDurationChangeEvent{
   Duration duration;
 }
 
-class StartEvent extends PurityEvent{}
+class StartEvent extends Event{}
 
-class StopEvent extends PurityEvent{}
+class StopEvent extends Event{}

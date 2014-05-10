@@ -10,7 +10,7 @@ import '../interface/i_stopwatch.dart';
 
 const Duration _TIMER_TICK_DURATION = const Duration(seconds:1);
 
-class Stopwatch extends PurityModel implements IStopwatch{
+class Stopwatch extends Source implements IStopwatch{
 
   Timer _timer;
   Duration _du = new Duration();
