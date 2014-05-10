@@ -5,20 +5,25 @@
 library StopwatchLocalTest;
 
 import 'dart:html';
-import 'package:purity/purity.dart';
-import 'package:purity/purity_client.dart';
+import 'dart:async';
+import 'package:purity/local.dart';
+import 'package:purity/client.dart' as client;
 import 'package:purity_stopwatch_example/model/stopwatch.dart' as sw;
 import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
 
 void main(){
   
-  var purityTestServer = new PurityTestServer(() => new sw.Stopwatch(), (stopwatch){}, 0);
-  var purityTestServerView = new PurityTestServerView(purityTestServer);
+  var host = new Host(
+    (_) => new Future.delayed(new Duration(), () => new sw.Stopwatch()),
+    (_) => new Future.delayed(new Duration(), (){}),
+    0);
   
-  initPurityTestAppView(
-    (stopwatch, clientCore){
+  var purityTestServerView = new client.LocalHostView(host);
+  
+  initConsumerSettings(
+    (stopwatch, proxyEndPoint){
       var view = new StopwatchView(stopwatch);
-      purityTestServerView.addNewClientView(clientCore, view.html);
+      purityTestServerView.addNewClientView(proxyEndPoint, view.html);
     },
     (){});
   

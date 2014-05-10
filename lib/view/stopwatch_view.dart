@@ -9,9 +9,9 @@ import 'package:purity/purity.dart';
 import 'package:controls_and_panels/controls_and_panels.dart';
 import '../interface/i_stopwatch.dart';
 
-class StopwatchView extends PurityModelConsumer{
+class StopwatchView extends Consumer{
 
-  dynamic get stopwatch => model;
+  dynamic get stopwatch => source;
   
   DivElement get html => _rootContainer.html;
   
