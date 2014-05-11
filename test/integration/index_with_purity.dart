@@ -18,14 +18,14 @@ void main(){
     (_) => new Future.delayed(new Duration(), (){}),
     0);
   
-  var purityTestServerView = new client.LocalHostView(host);
+  var hostView = new client.LocalHostView(host);
   
   initConsumerSettings(
     (stopwatch, proxyEndPoint){
       var view = new StopwatchView(stopwatch);
-      purityTestServerView.addNewClientView(proxyEndPoint, view.html);
+      hostView.addNewClientView(proxyEndPoint, view.html);
     },
     (){});
   
-  document.body.append(purityTestServerView.html);
+  document.body.append(hostView.html);
 }
