@@ -23,7 +23,7 @@ class Stopwatch extends Source implements IStopwatch{
   void set _duration(Duration du){
     _du = new Duration(seconds:du.inSeconds.abs());
     emitEvent(
-      new DurationChangeEvent()
+      new DurationChange()
       ..duration = _du);
   }
 
