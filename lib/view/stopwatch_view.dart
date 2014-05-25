@@ -4,17 +4,16 @@
 
 library stopwatch.view;
 
-import 'dart:html';
-import 'package:purity/purity.dart';
+import 'package:purity/purity.dart' as purity;
 import 'package:controls_and_panels/controls_and_panels.dart';
 import '../interface/i_stopwatch.dart';
 
-class StopwatchView extends Consumer{
+class StopwatchView extends purity.Consumer{
 
   dynamic get stopwatch => source;
-  
+
   DivElement get html => _rootContainer.html;
-  
+
   final SizerPanel _rootContainer =
     new SizerPanel('100%', '100%');
   final StackPanel _containerStack =
@@ -22,17 +21,17 @@ class StopwatchView extends Consumer{
   final SizerPanel _upperButtonsSizer = new SizerPanel('230px', '35px');
   final StackPanel _upperButtonsStack =
     new StackPanel.horizontal();
-  final Button _startButton = 
+  final Button _startButton =
     new Button(new SizerPanel('100px', '22px')..add(new Label('Start')));
-  final Button _stopButton = 
+  final Button _stopButton =
     new Button(new SizerPanel('100px', '22px')..add(new Label('Stop')));
-  final Button _resetButton = 
+  final Button _resetButton =
     new Button(new SizerPanel('220px', '22px')..add(new Label('Reset')));
   final SizerPanel _durationSizer = new SizerPanel('230px', '35px');
   final Label _durationLabel =
     new Label('');
   final SizerPanel _resetSizer = new SizerPanel('230px', '35px');
-  
+
   StopwatchView(stopwatch):
     super(stopwatch){
 
@@ -54,16 +53,16 @@ class StopwatchView extends Consumer{
       ..add(
         _resetSizer
         ..add(_resetButton)));
-    
+
     _hookUpEvents();
     stopwatch.reset();
   }
-  
+
   void _hookUpEvents(){
     _startButton.onClick.listen((e) => stopwatch.start());
     _stopButton.onClick.listen((e) => stopwatch.stop());
     _resetButton.onClick.listen((e) => stopwatch.reset());
-    listen(stopwatch, DurationChangeEvent, _handleDurationChangeEvent);
+    listen(stopwatch, DurationChange, _handleDurationChange);
   }
 
   String _durationToDisplayString(Duration du){
@@ -76,8 +75,8 @@ class StopwatchView extends Consumer{
     return '$hours : $minutes : $seconds';
   }
 
-  void _handleDurationChangeEvent(DurationChangeEvent e){
-    _durationLabel.text = _durationToDisplayString(e.duration);
+  void _handleDurationChange(purity.Event<DurationChange> e){
+    _durationLabel.text = _durationToDisplayString(e.data.duration);
   }
 
 }
