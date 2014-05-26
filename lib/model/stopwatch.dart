@@ -4,6 +4,10 @@
 
 library stopwatch.model;
 
+@MirrorsUsed(targets: const[
+  Stopwatch
+  ], override: '*')
+import 'dart:mirrors';
 import 'dart:async';
 import 'package:purity/purity.dart';
 import '../interface/i_stopwatch.dart';
@@ -30,7 +34,7 @@ class Stopwatch extends Source implements IStopwatch{
   void start(){
     if(!_isRunning){
       _timer = new Timer.periodic(_TIMER_TICK_DURATION, _handleTick);
-      emitEvent(new StartEvent());
+      emitEvent(new Start());
     }
   }
 
@@ -38,7 +42,7 @@ class Stopwatch extends Source implements IStopwatch{
     if(_isRunning){
       _timer.cancel();
       _timer = null;
-      emitEvent(new StopEvent());
+      emitEvent(new Stop());
     }
   }
 
