@@ -8,4 +8,4 @@ environment:
 dependencies:
   browser: any
   controls_and_panels: '>=0.1.0 <0.2.0'
-  purity: '>=0.6.0 <0.7.0'
+  purity: '>=0.6.1 <0.7.0'
