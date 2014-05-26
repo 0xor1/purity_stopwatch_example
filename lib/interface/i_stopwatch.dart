@@ -4,6 +4,12 @@
 
 library stopwatch.interface;
 
+@MirrorsUsed(targets: const[
+  DurationChange,
+  Start,
+  Stop
+  ], override: '*')
+import 'dart:mirrors';
 import 'package:purity/purity.dart';
 
 part 'stopwatch_events.dart';
@@ -19,8 +25,8 @@ void registerStopwatchTranTypes(){
   if(_stopwatchTranTypesRegistered){ return; }
   _stopwatchTranTypesRegistered = true;
   registerTranTypes('stopwatch.interface', 'si', (){
-    registerTranSubtype('a', DurationChange);
-    registerTranSubtype('b', StartEvent);
-    registerTranSubtype('c', StopEvent);
+    registerTranSubtype('a', DurationChange, () => new DurationChange());
+    registerTranSubtype('b', Start, () => new Start());
+    registerTranSubtype('c', Stop, () => new Stop());
   });
 }

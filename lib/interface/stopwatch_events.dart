@@ -9,6 +9,6 @@ abstract class IDurationChange{
   Duration duration;
 }
 
-class StartEvent extends Transmittable{}
+class Start extends Transmittable{}
 
-class StopEvent extends Transmittable{}
+class Stop extends Transmittable{}
