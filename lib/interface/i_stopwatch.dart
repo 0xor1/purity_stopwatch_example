@@ -5,7 +5,6 @@
 library stopwatch.interface;
 
 @MirrorsUsed(targets: const[
-  IStopwatch,
   DurationChange,
   Start,
   Stop
@@ -16,9 +15,9 @@ import 'package:purity/purity.dart';
 part 'stopwatch_events.dart';
 
 abstract class IStopwatch{
-  void start(){}
-  void stop(){}
-  void reset(){}
+  void start();
+  void stop();
+  void reset();
 }
 
 bool _stopwatchTranTypesRegistered = false;

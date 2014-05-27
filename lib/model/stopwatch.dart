@@ -4,6 +4,10 @@
 
 library stopwatch.model;
 
+@MirrorsUsed(targets: const[
+  Stopwatch
+  ], override: '*')
+import 'dart:mirrors';
 import 'dart:async';
 import 'package:purity/purity.dart';
 import '../interface/i_stopwatch.dart';
