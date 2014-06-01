@@ -25,8 +25,8 @@ void registerStopwatchTranTypes(){
   if(_stopwatchTranTypesRegistered){ return; }
   _stopwatchTranTypesRegistered = true;
   registerTranTypes('stopwatch.interface', 'si', (){
-    registerTranSubtype('a', DurationChange, () => new DurationChange());
-    registerTranSubtype('b', Start, () => new Start());
-    registerTranSubtype('c', Stop, () => new Stop());
+    registerTranSubtype(DurationChange, () => new DurationChange());
+    registerTranSubtype(Start, () => new Start());
+    registerTranSubtype(Stop, () => new Stop());
   });
 }
