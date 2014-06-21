@@ -14,23 +14,23 @@ class StopwatchView extends purity.Consumer{
 
   DivElement get html => _rootContainer.html;
 
-  final SizerPanel _rootContainer =
-    new SizerPanel('100%', '100%');
+  final AlignPanel _rootContainer =
+    new AlignPanel()..fill();
   final StackPanel _containerStack =
-    new StackPanel.vertical();
-  final SizerPanel _upperButtonsSizer = new SizerPanel('230px', '35px');
+    new StackPanel(Orientation.VERTICAL);
+  final AlignPanel _upperButtonsSizer = new AlignPanel()..setSize('230px', '35px');
   final StackPanel _upperButtonsStack =
-    new StackPanel.horizontal();
+    new StackPanel(Orientation.HORIZONTAL);
   final Button _startButton =
-    new Button(new SizerPanel('100px', '22px')..add(new Label('Start')));
+    new Button(new AlignPanel()..setSize('100px', '22px')..add(new Label('Start')));
   final Button _stopButton =
-    new Button(new SizerPanel('100px', '22px')..add(new Label('Stop')));
+    new Button(new AlignPanel()..setSize('100px', '22px')..add(new Label('Stop')));
   final Button _resetButton =
-    new Button(new SizerPanel('220px', '22px')..add(new Label('Reset')));
-  final SizerPanel _durationSizer = new SizerPanel('230px', '35px');
+    new Button(new AlignPanel()..setSize('220px', '22px')..add(new Label('Reset')));
+  final AlignPanel _durationSizer = new AlignPanel()..setSize('230px', '35px');
   final Label _durationLabel =
     new Label('');
-  final SizerPanel _resetSizer = new SizerPanel('230px', '35px');
+  final AlignPanel _resetSizer = new AlignPanel()..setSize('230px', '35px');
 
   StopwatchView(stopwatch):
     super(stopwatch){
@@ -45,7 +45,7 @@ class StopwatchView extends purity.Consumer{
         ..add(
           _upperButtonsStack
           ..add(_startButton)
-          ..add(new SizerPanel('10px', '0px'))
+          ..add(new AlignPanel()..setSize('10px', '0px'))
           ..add(_stopButton)))
       ..add(
         _durationSizer
