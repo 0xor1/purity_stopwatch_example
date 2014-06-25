@@ -12,20 +12,20 @@ import 'package:purity_stopwatch_example/model/stopwatch.dart' as sw;
 import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
 
 void main(){
-  
+
   var host = new Host(
     (_) => new Future.delayed(new Duration(), () => new sw.Stopwatch()),
     (_) => new Future.delayed(new Duration(), (){}),
     0);
-  
+
   var hostView = new client.LocalHostView(host);
-  
+
   initConsumerSettings(
     (stopwatch, proxyEndPoint){
       var view = new StopwatchView(stopwatch);
-      hostView.addNewClientView(proxyEndPoint, view.html);
+      hostView.addNewClientView(proxyEndPoint, view.html, 300);
     },
     (){});
-  
+
   document.body.append(hostView.html);
 }
