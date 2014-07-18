@@ -15,8 +15,13 @@
         overflow: hidden;
       }
     </style>
-    <script type="application/dart" src="../index_without_purity.dart"></script>
-    <script src="../packages/browser/dart.js"></script>
+    <script>
+        var script = document.createElement('script');
+        script.src = "../index_without_purity.dart";
+        var parent = document.head;
+        document.currentScript = script;
+        parent.appendChild(script);
+    </script>
   </head>
   <body>
   </body>
