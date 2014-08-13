@@ -10,11 +10,12 @@ import 'package:purity/host.dart';
 import 'package:purity_stopwatch_example/model/stopwatch.dart' as sw;
 
 void main(){
-  var server = new Host(
+  new Host(
     InternetAddress.LOOPBACK_IP_V4,
     4346,
     Platform.script.resolve('../web').toFilePath(),
     (_) => new Future.delayed(new Duration(),() => new sw.Stopwatch()),
     (stopwatch) => new Future.delayed(new Duration(), (){}),
-    0);
+    0)
+  ..start();
 }
