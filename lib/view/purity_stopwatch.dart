@@ -81,6 +81,7 @@ class StopwatchConsumer extends purity.Consumer{
   final PurityStopwatch view = new Element.tag('purity-stopwatch');
 
   StopwatchConsumer(src) : super(src){
+    registerStopwatchTranTypes();
     view.consumer = this;
     view._initSourceBinding();
   }
