@@ -4779,8 +4779,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   },
   Timestamp: {
     "^": "BsonObject;seconds,increment",
+    get$value: function(_) {
+      return this;
+    },
     toString$0: function(_) {
-      return "Timestamp(seconds: " + H.S(this.seconds) + ", increment: " + H.S(this.increment) + ")";
+      return "Timestamp(" + H.S(this.seconds) + ", " + H.S(this.increment) + ")";
     },
     Timestamp$2: function(seconds, increment) {
       var t1;
@@ -4823,21 +4826,32 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         t1 = [];
         t1.push(this);
         C.JSArray_methods.addAll$1(t1, other._matchers);
-        return new L._DisjunctiveCharMatcher(t1);
+        return new L._DisjunctiveCharMatcher(P.List_List$from(t1, false, null));
       } else
-        return new L._DisjunctiveCharMatcher([this, other]);
+        return new L._DisjunctiveCharMatcher(P.List_List$from([this, other], false, null));
     },
     everyOf$1: function(sequence) {
       return J.every$1$ax(J.get$codeUnits$s(sequence), this.get$match());
     }
   },
-  _NegateCharMatcher: {
-    "^": "CharMatcher;_matcher",
-    $not: function(_) {
-      return this._matcher;
-    },
+  _AnyCharMatcher: {
+    "^": "CharMatcher;",
     match$1: [function(value) {
-      return !this._matcher.match$1(value);
+      return true;
+    }, "call$1", "get$match", 2, 0, 94, 16, []],
+    $not: function(_) {
+      return C.C__NoneCharMatcher;
+    },
+    $or: function(_, other) {
+      return this;
+    }
+  },
+  _DigitCharMatcher: {
+    "^": "CharMatcher;",
+    match$1: [function(value) {
+      if (typeof value !== "number")
+        return H.iae(value);
+      return 48 <= value && value <= 57;
     }, "call$1", "get$match", 2, 0, 94, 16, []]
   },
   _DisjunctiveCharMatcher: {
@@ -4855,12 +4869,12 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
           t1 = [];
           C.JSArray_methods.addAll$1(t1, t2);
           C.JSArray_methods.addAll$1(t1, other._matchers);
-          return new L._DisjunctiveCharMatcher(t1);
+          return new L._DisjunctiveCharMatcher(P.List_List$from(t1, false, null));
         } else {
           t1 = [];
           C.JSArray_methods.addAll$1(t1, t2);
           t1.push(other);
-          return new L._DisjunctiveCharMatcher(t1);
+          return new L._DisjunctiveCharMatcher(P.List_List$from(t1, false, null));
         }
       }
     },
@@ -4876,17 +4890,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     },
     $isFunction: true
   },
-  _AnyCharMatcher: {
-    "^": "CharMatcher;",
-    match$1: [function(value) {
-      return true;
-    }, "call$1", "get$match", 2, 0, 94, 16, []],
+  _NegateCharMatcher: {
+    "^": "CharMatcher;_matcher",
     $not: function(_) {
-      return C.C__NoneCharMatcher;
+      return this._matcher;
     },
-    $or: function(_, other) {
-      return this;
-    }
+    match$1: [function(value) {
+      return !this._matcher.match$1(value);
+    }, "call$1", "get$match", 2, 0, 94, 16, []]
   },
   _NoneCharMatcher: {
     "^": "CharMatcher;",
@@ -4906,14 +4917,6 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       if (typeof value !== "number")
         return H.iae(value);
       return this._char_matcher$_start <= value && value <= this._stop;
-    }, "call$1", "get$match", 2, 0, 94, 16, []]
-  },
-  _DigitCharMatcher: {
-    "^": "CharMatcher;",
-    match$1: [function(value) {
-      if (typeof value !== "number")
-        return H.iae(value);
-      return 48 <= value && value <= 57;
     }, "call$1", "get$match", 2, 0, 94, 16, []]
   }
 }],
@@ -28217,8 +28220,6 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       receiver.startButton = this.get$$$(receiver)._observable_map$_map.$index(0, "startButton");
       receiver.stopButton = this.get$$$(receiver)._observable_map$_map.$index(0, "stopButton");
       receiver.resetButton = this.get$$$(receiver)._observable_map$_map.$index(0, "resetButton");
-      J.set$disabled$x(receiver.stopButton, true);
-      J.set$disabled$x(receiver.resetButton, true);
     },
     detached$0: function(receiver) {
       A.Polymer.prototype.detached$0.call(this, receiver);

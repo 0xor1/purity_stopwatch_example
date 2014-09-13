@@ -4,7 +4,7 @@
 
 (function() {
 // Bootstrap support for Dart scripts on the page as this script.
-if (true) {
+if (navigator.userAgent.indexOf('(Dart)') === -1) {
   // TODO:
   // - Support in-browser compilation.
   // - Handle inline Dart scripts.
