@@ -7,14 +7,14 @@ environment:
   sdk: '>=0.8.10+6 <2.0.0'
 dependencies:
   browser: any
-  purity: '>=0.9.0 <0.10.0'
+  core_elements: '>=0.2.0 <0.3.0'
+  paper_elements: '>=0.2.0 <0.3.0'
   polymer: '>=0.14.0 <0.15.0'
-  core_elements: ">=0.2.0 <0.3.0"
-  paper_elements: ">=0.2.0 <0.3.0"
+  purity:
+    path: ../purity
 transformers:
 - polymer:
     entry_points:
     - web/index.html
     - test/integration/index_with_purity.html
     - test/integration/index_without_purity.html
-
