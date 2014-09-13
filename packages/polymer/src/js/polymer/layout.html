@@ -1,36 +1,12 @@
-﻿<!DOCTYPE html><html><head><script src="packages/web_components/platform.concat.js"></script>
-
-  	<meta charset="utf-8">
-    <title>Purity Stopwatch Example (Test - With Purity)</title>
-    
-    
-    
-    
-    
-  <link rel="stylesheet" type="text/css" href="packages/polymer/src/build/log_injector.css"></head>
-  <body><style>
-      html, body {
-        position: relative;
-        display: inline-block;
-        margin: 0;
-        border: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-      }
-    </style><script src="packages/web_components/dart_support.js"></script>
-
-
-
-<!-- unminified for debugging:
-<link rel="import" href="src/js/polymer/layout.html">
-<script src="src/js/polymer/polymer.concat.js"></script>
+<!--
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
-
-
-
-<style shim-shadowdom="">
+<style shim-shadowdom>
 /*******************************
           Flex Layout
 *******************************/
@@ -307,37 +283,4 @@ html /deep/ [segment], html /deep/ segment {
   border-radius: 5px 5px 5px 5px;
 }
 
-</style><script src="packages/polymer/src/js/polymer/polymer.js"></script><script>
-// TODO(sigmund): remove this script tag (dartbug.com/19650). This empty
-// script tag is necessary to work around a bug in Chrome 36.
-</script><polymer-element name="purity-stopwatch">
-
-  <template>
-    <style>
-      :host {
-        background-color: LemonChiffon;
-        text-align: center;
-        display: inline-block;
-        border: solid 1px;
-        padding: 10px 10px 10px 10px;
-      }
-    </style>
-    <div>
-      <div>
-        {{counter}}
-      </div>
-      <div>
-        <button on-click="{{start}}" id="startButton">Start</button>
-        <button on-click="{{stop}}" id="stopButton">Stop</button>
-        <button on-click="{{reset}}" id="resetButton">Reset</button>
-      </div>
-    </div>
-  </template>
-
-  
-
-</polymer-element>
-
-  
-
-<script type="application/dart" src="index_with_purity.html_bootstrap.dart"></script><script src="packages/browser/dart.js"></script></body></html>
+</style>
