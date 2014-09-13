@@ -14,7 +14,7 @@ import 'package:polymer/polymer.dart';
 class PurityStopwatch extends PolymerElement with purity.EventDetector{
 
   @published
-  String counter = '00:00';
+  String counter;
   StopwatchConsumer consumer;
   ButtonElement stopButton;
   ButtonElement startButton;
@@ -54,12 +54,12 @@ class PurityStopwatch extends PolymerElement with purity.EventDetector{
 
   void reset(Event e, var detail, Node target) {
     consumer.source.reset();
-    counter = '00:00';
     resetButton.disabled = true;
   }
 
   void _initSourceBinding(){
     listen(consumer.source, DurationChange, _handleDurationChange);
+    consumer.source.reset();
   }
 
   String _durationToDisplayString(Duration du){
@@ -79,6 +79,7 @@ class PurityStopwatch extends PolymerElement with purity.EventDetector{
 
 class StopwatchConsumer extends purity.Consumer{
   final PurityStopwatch view = new Element.tag('purity-stopwatch');
+
   StopwatchConsumer(src) : super(src){
     view.consumer = this;
     view._initSourceBinding();

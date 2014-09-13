@@ -13,5 +13,8 @@ dependencies:
   paper_elements: ">=0.2.0 <0.3.0"
 transformers:
 - polymer:
-    entry_points: web/index.html , index_without_purity.html , index_with_purity.html
+    entry_points:
+    - web/index.html
+    - test/integration/index_with_purity.html
+    - test/integration/index_without_purity.html
 
