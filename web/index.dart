@@ -5,14 +5,16 @@
 library StopwatchClient;
 
 import 'dart:html';
+import 'package:polymer/polymer.dart';
 import 'package:purity/client.dart';
-import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
+import 'package:purity_stopwatch_example/view/purity_stopwatch.dart';
 
 void main(){
+  initPolymer();
   initConsumerSettings(
     (stopwatch, proxyEndPoint){
-      var view = new StopwatchView(stopwatch);
-      document.body.children.add(view.html);
+      var consumer = new StopwatchConsumer(stopwatch);
+      document.body.children.add(consumer.view);
     },
     (){
       //No shutdown code required for this app

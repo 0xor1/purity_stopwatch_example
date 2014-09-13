@@ -6,12 +6,15 @@ library StopwatchLocalTest;
 
 import 'dart:html';
 import 'dart:async';
+import 'package:polymer/polymer.dart';
 import 'package:purity/local.dart';
 import 'package:purity/client.dart' as client;
 import 'package:purity_stopwatch_example/model/stopwatch.dart' as sw;
-import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
+import 'package:purity_stopwatch_example/view/purity_stopwatch.dart';
 
 void main(){
+
+  initPolymer();
 
   var host = new Host(
     (_) => new Future.delayed(new Duration(), () => new sw.Stopwatch()),
@@ -22,8 +25,8 @@ void main(){
 
   initConsumerSettings(
     (stopwatch, proxyEndPoint){
-      var view = new StopwatchView(stopwatch);
-      hostView.addNewClientView(proxyEndPoint, view.html, 300);
+      var consumer = new StopwatchConsumer(stopwatch);
+      hostView.addNewClientView(proxyEndPoint, consumer.view, 300);
     },
     (){});
 
