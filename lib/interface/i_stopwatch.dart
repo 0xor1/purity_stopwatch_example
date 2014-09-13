@@ -5,9 +5,7 @@
 library stopwatch.interface;
 
 @MirrorsUsed(targets: const[
-  DurationChange,
-  Start,
-  Stop
+  IDurationChange
   ], override: '*')
 import 'dart:mirrors';
 import 'package:purity/purity.dart';
