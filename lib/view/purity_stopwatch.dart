@@ -28,9 +28,6 @@ class PurityStopwatch extends PolymerElement with purity.EventDetector{
     startButton = $['startButton'];
     stopButton = $['stopButton'];
     resetButton = $['resetButton'];
-
-    stopButton.disabled = true;
-    resetButton.disabled = true;
   }
 
   @override
@@ -40,21 +37,14 @@ class PurityStopwatch extends PolymerElement with purity.EventDetector{
 
   void start(Event e, var detail, Node target) {
     consumer.source.start();
-    startButton.disabled = true;
-    stopButton.disabled = false;
-    resetButton.disabled = true;
   }
 
   void stop(Event e, var detail, Node target) {
     consumer.source.stop();
-    startButton.disabled = false;
-    resetButton.disabled = false;
-    stopButton.disabled = true;
   }
 
   void reset(Event e, var detail, Node target) {
     consumer.source.reset();
-    resetButton.disabled = true;
   }
 
   void _initSourceBinding(){
