@@ -5,11 +5,13 @@
 library StopwatchLocalTest;
 
 import 'dart:html';
+import 'package:polymer/polymer.dart';
 import 'package:purity_stopwatch_example/model/stopwatch.dart' as SW;
-import 'package:purity_stopwatch_example/view/stopwatch_view.dart';
+import 'package:purity_stopwatch_example/view/purity_stopwatch.dart';
 
 void main(){
+  initPolymer();
   var model = new SW.Stopwatch();
-  var view = new StopwatchView(model);
-  document.body.children.add(view.html);
+  var consumer = new StopwatchConsumer(model);
+  document.body.children.add(consumer.view);
 }
