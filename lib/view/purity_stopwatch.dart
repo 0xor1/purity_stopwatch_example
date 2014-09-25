@@ -5,7 +5,6 @@
 library stopwatch.view;
 
 import 'dart:html';
-import 'dart:async';
 import 'package:purity/purity.dart' as purity;
 import 'package:purity_stopwatch_example/interface/i_stopwatch.dart';
 import 'package:polymer/polymer.dart';
