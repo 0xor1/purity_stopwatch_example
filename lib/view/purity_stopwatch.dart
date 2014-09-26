@@ -5,10 +5,10 @@
 library stopwatch.view;
 
 import 'dart:html';
-import 'dart:async';
 import 'package:purity/purity.dart' as purity;
 import 'package:purity_stopwatch_example/interface/i_stopwatch.dart';
 import 'package:polymer/polymer.dart';
+import 'package:paper_elements/paper_button.dart';
 
 @CustomTag('purity-stopwatch')
 class PurityStopwatch extends PolymerElement with purity.EventDetector{
@@ -16,9 +16,9 @@ class PurityStopwatch extends PolymerElement with purity.EventDetector{
   @published
   String counter;
   StopwatchConsumer consumer;
-  ButtonElement stopButton;
-  ButtonElement startButton;
-  ButtonElement resetButton;
+  PaperButton stopButton;
+  PaperButton startButton;
+  PaperButton resetButton;
 
   PurityStopwatch.created() : super.created();
 
