@@ -5,26 +5,34 @@
 
 <!DOCTYPE html>
 <link rel="import" href="../../../packages/polymer/polymer.html">
+<link rel="import" href="../../../packages/paper_elements/paper_button.html">
 <polymer-element name="purity-stopwatch">
 
   <template>
     <style>
+      paper-button[raisedButton] {
+        background: #4285f4;
+        color: #fff;
+      }
       :host {
-        background-color: LemonChiffon;
         text-align: center;
         display: inline-block;
         border: solid 1px;
-        padding: 10px 10px 10px 10px;
+        font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+        font-size: 16px;
+      }
+      .root > *{
+        margin: 10px;
       }
     </style>
-    <div>
+    <div class="root">
       <div>
-        {{counter}}
+        <span>{{counter}}</span>
       </div>
       <div>
-        <button on-click="{{start}}" id="startButton">Start</button>
-        <button on-click="{{stop}}"  id="stopButton">Stop</button>
-        <button on-click="{{reset}}" id="resetButton">Reset</button>
+        <paper-button on-click="{{start}}" id="startButton" label="Start" raisedButton></paper-button>
+        <paper-button on-click="{{stop}}" id="stopButton" label="Stop" raisedButton></paper-button>
+        <paper-button on-click="{{reset}}" id="resetButton" label="Reset" raisedButton></paper-button>
       </div>
     </div>
   </template>
