@@ -4581,7 +4581,7 @@ init.mangledNames = {_core0$_invoke$1: "_core0$_invoke:1:0", _handleTick$1: "_ha
     $.typeInspector = new O.GeneratedTypeInspectorService(t2);
     $.symbolConverter = new O.GeneratedSymbolConverterService(t2);
     new F.LogInjector(null, null).injectLogsFromUrl$1("index_without_purity.html._buildLogs");
-    $.initializers = [S.upgradeCoreMeta$closure(), M.upgradeCoreIconset$closure(), L.upgradeCoreIcon$closure(), N.upgradePaperFocusable$closure(), F.upgradePaperRipple$closure(), V.upgradePaperShadow$closure(), G.upgradePaperButton$closure(), new E.main_closure17()];
+    $.initializers = [S.upgradeCoreMeta$closure(), M.upgradeCoreIconset$closure(), L.upgradeCoreIcon$closure(), D.upgradePaperFocusable$closure(), L.upgradePaperRipple$closure(), Z.upgradePaperShadow$closure(), L.upgradePaperButton$closure(), new E.main_closure17()];
     $.deployMode = true;
     A.initPolymer();
     t2 = P.Duration$(0, 0, 0, 0, 0, 0);
@@ -5142,99 +5142,7 @@ init.mangledNames = {_core0$_invoke$1: "_core0$_invoke:1:0", _handleTick$1: "_ha
     "^": "HtmlElement+DomProxyMixin;"
   }
 }],
-["core_elements.paper_button", "package:paper_elements/paper_button.dart", , G, {
-  "^": "",
-  upgradePaperButton: [function() {
-    return N.registerDartType("paper-button", C.Type_MPa, null);
-  }, "call$0", "upgradePaperButton$closure", 0, 0, 14],
-  PaperButton: {
-    "^": "PaperFocusable;common$DomProxyMixin$_proxy",
-    get$label: function(receiver) {
-      return J.$index$asx(this.get$jsElement(receiver), "label");
-    },
-    get$raisedButton: function(receiver) {
-      return J.$index$asx(this.get$jsElement(receiver), "raisedButton");
-    },
-    get$iconSrc: function(receiver) {
-      return J.$index$asx(this.get$jsElement(receiver), "iconSrc");
-    },
-    set$iconSrc: function(receiver, value) {
-      J.$indexSet$ax(this.get$jsElement(receiver), "iconSrc", value);
-    },
-    get$icon: function(receiver) {
-      return J.$index$asx(this.get$jsElement(receiver), "icon");
-    },
-    set$icon: function(receiver, value) {
-      J.$indexSet$ax(this.get$jsElement(receiver), "icon", value);
-    },
-    static: {PaperButton$created: function(receiver) {
-        receiver.toString;
-        C.PaperButton_methods.Element$created$0(receiver);
-        return receiver;
-      }}
-  }
-}],
-["core_elements.paper_focusable", "package:paper_elements/paper_focusable.dart", , N, {
-  "^": "",
-  upgradePaperFocusable: [function() {
-    return N.registerDartType("paper-focusable", C.Type_K6o, null);
-  }, "call$0", "upgradePaperFocusable$closure", 0, 0, 14],
-  PaperFocusable: {
-    "^": "HtmlElement_DomProxyMixin1;common$DomProxyMixin$_proxy",
-    static: {PaperFocusable$created: function(receiver) {
-        receiver.toString;
-        C.PaperFocusable_methods.Element$created$0(receiver);
-        return receiver;
-      }}
-  },
-  HtmlElement_DomProxyMixin1: {
-    "^": "HtmlElement+DomProxyMixin;"
-  }
-}],
-["core_elements.paper_ripple", "package:paper_elements/paper_ripple.dart", , F, {
-  "^": "",
-  upgradePaperRipple: [function() {
-    return N.registerDartType("paper-ripple", C.Type_AyE, null);
-  }, "call$0", "upgradePaperRipple$closure", 0, 0, 14],
-  PaperRipple: {
-    "^": "HtmlElement_DomProxyMixin2;common$DomProxyMixin$_proxy",
-    static: {PaperRipple$created: function(receiver) {
-        receiver.toString;
-        C.PaperRipple_methods.Element$created$0(receiver);
-        return receiver;
-      }}
-  },
-  HtmlElement_DomProxyMixin2: {
-    "^": "HtmlElement+DomProxyMixin;"
-  }
-}],
-["core_elements.paper_shadow", "package:paper_elements/paper_shadow.dart", , V, {
-  "^": "",
-  upgradePaperShadow: [function() {
-    return N.registerDartType("paper-shadow", C.Type_aRS, null);
-  }, "call$0", "upgradePaperShadow$closure", 0, 0, 14],
-  PaperShadow: {
-    "^": "HtmlElement_DomProxyMixin3;common$DomProxyMixin$_proxy",
-    get$target: function(receiver) {
-      return J.$index$asx(this.get$jsElement(receiver), "target");
-    },
-    get$z: function(receiver) {
-      return J.$index$asx(this.get$jsElement(receiver), "z");
-    },
-    set$z: function(receiver, value) {
-      J.$indexSet$ax(this.get$jsElement(receiver), "z", value);
-    },
-    static: {PaperShadow$created: function(receiver) {
-        receiver.toString;
-        C.PaperShadow_methods.Element$created$0(receiver);
-        return receiver;
-      }}
-  },
-  HtmlElement_DomProxyMixin3: {
-    "^": "HtmlElement+DomProxyMixin;"
-  }
-}],
-["core_elements.src.common", "package:core_elements/src/common.dart", , N, {
+["custom_element_apigen.src.common", "package:custom_element_apigen/src/common.dart", , V, {
   "^": "",
   DomProxyMixin: {
     "^": "Object;",
@@ -23023,6 +22931,98 @@ init.mangledNames = {_core0$_invoke$1: "_core0$_invoke:1:0", _handleTick$1: "_ha
       }}
   }
 }],
+["paper_elements.paper_button", "package:paper_elements/paper_button.dart", , L, {
+  "^": "",
+  upgradePaperButton: [function() {
+    return N.registerDartType("paper-button", C.Type_MIo, null);
+  }, "call$0", "upgradePaperButton$closure", 0, 0, 14],
+  PaperButton: {
+    "^": "PaperFocusable;common$DomProxyMixin$_proxy",
+    get$label: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "label");
+    },
+    get$raisedButton: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "raisedButton");
+    },
+    get$iconSrc: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "iconSrc");
+    },
+    set$iconSrc: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "iconSrc", value);
+    },
+    get$icon: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "icon");
+    },
+    set$icon: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "icon", value);
+    },
+    static: {PaperButton$created: function(receiver) {
+        receiver.toString;
+        C.PaperButton_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  }
+}],
+["paper_elements.paper_focusable", "package:paper_elements/paper_focusable.dart", , D, {
+  "^": "",
+  upgradePaperFocusable: [function() {
+    return N.registerDartType("paper-focusable", C.Type_2KD, null);
+  }, "call$0", "upgradePaperFocusable$closure", 0, 0, 14],
+  PaperFocusable: {
+    "^": "HtmlElement_DomProxyMixin1;common$DomProxyMixin$_proxy",
+    static: {PaperFocusable$created: function(receiver) {
+        receiver.toString;
+        C.PaperFocusable_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin1: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
+["paper_elements.paper_ripple", "package:paper_elements/paper_ripple.dart", , L, {
+  "^": "",
+  upgradePaperRipple: [function() {
+    return N.registerDartType("paper-ripple", C.Type_SaW, null);
+  }, "call$0", "upgradePaperRipple$closure", 0, 0, 14],
+  PaperRipple: {
+    "^": "HtmlElement_DomProxyMixin2;common$DomProxyMixin$_proxy",
+    static: {PaperRipple$created: function(receiver) {
+        receiver.toString;
+        C.PaperRipple_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin2: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
+["paper_elements.paper_shadow", "package:paper_elements/paper_shadow.dart", , Z, {
+  "^": "",
+  upgradePaperShadow: [function() {
+    return N.registerDartType("paper-shadow", C.Type_IsU, null);
+  }, "call$0", "upgradePaperShadow$closure", 0, 0, 14],
+  PaperShadow: {
+    "^": "HtmlElement_DomProxyMixin3;common$DomProxyMixin$_proxy",
+    get$target: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "target");
+    },
+    get$z: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "z");
+    },
+    set$z: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "z", value);
+    },
+    static: {PaperShadow$created: function(receiver) {
+        receiver.toString;
+        C.PaperShadow_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin3: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
 ["path", "package:path/path.dart", , B, {
   "^": "",
   current: function() {
@@ -24173,10 +24173,15 @@ init.mangledNames = {_core0$_invoke$1: "_core0$_invoke:1:0", _handleTick$1: "_ha
   PolymerEventBindings: {
     "^": "Object;",
     findController$1: function(node) {
-      var t1;
+      var t1, eventController;
       for (; t1 = J.getInterceptor$x(node), t1.get$parentNode(node) != null;) {
         if (!!t1.$isPolymer && J.$index$asx(node.polymer$Polymer$_jsElem, "eventController") != null)
           return J.$index$asx(t1.get$_jsElem(node), "eventController");
+        else if (!!t1.$isElement) {
+          eventController = J.$index$asx(P.JsObject_JsObject$fromBrowserObject(node), "eventController");
+          if (eventController != null)
+            return eventController;
+        }
         node = t1.get$parentNode(node);
       }
       return !!t1.$isShadowRoot ? node.host : null;
@@ -28345,14 +28350,15 @@ init.mangledNames = {_core0$_invoke$1: "_core0$_invoke:1:0", _handleTick$1: "_ha
       setter.call$2(object, value);
     },
     invoke$5$adjust$namedArgs: function(object, $name, args, adjust, namedArgs) {
-      var method, tentativeError, t1, classMethods, getter, min, max, exception;
+      var method, tentativeError, t1, t2, classMethods, getter, min, max, exception;
       method = null;
-      t1 = this._configuration;
-      if (!!J.getInterceptor(object).$isType) {
-        classMethods = t1.staticMethods.$index(0, object);
+      t1 = !!J.getInterceptor(object).$isType && !J.$eq($name, C.Symbol_toString);
+      t2 = this._configuration;
+      if (t1) {
+        classMethods = t2.staticMethods.$index(0, object);
         method = classMethods == null ? null : J.$index$asx(classMethods, $name);
       } else {
-        getter = t1.getters.$index(0, $name);
+        getter = t2.getters.$index(0, $name);
         method = getter == null ? null : getter.call$1(object);
       }
       if (method == null)
@@ -31904,10 +31910,10 @@ C.JSNull_methods = J.JSNull.prototype;
 C.JSNumber_methods = J.JSNumber.prototype;
 C.JSString_methods = J.JSString.prototype;
 C.NodeList_methods = W.NodeList.prototype;
-C.PaperButton_methods = G.PaperButton.prototype;
-C.PaperFocusable_methods = N.PaperFocusable.prototype;
-C.PaperRipple_methods = F.PaperRipple.prototype;
-C.PaperShadow_methods = V.PaperShadow.prototype;
+C.PaperButton_methods = L.PaperButton.prototype;
+C.PaperFocusable_methods = D.PaperFocusable.prototype;
+C.PaperRipple_methods = L.PaperRipple.prototype;
+C.PaperShadow_methods = Z.PaperShadow.prototype;
 C.PlainJavaScriptObject_methods = J.PlainJavaScriptObject.prototype;
 C.PolymerElement_methods = A.PolymerElement.prototype;
 C.PurityStopwatch_methods = B.PurityStopwatch.prototype;
@@ -32163,10 +32169,12 @@ C.Symbol_removeEventAction = new H.Symbol("removeEventAction");
 C.Symbol_reset = new H.Symbol("reset");
 C.Symbol_start = new H.Symbol("start");
 C.Symbol_stop = new H.Symbol("stop");
+C.Symbol_toString = new H.Symbol("toString");
 C.Symbol_upAction = new H.Symbol("upAction");
 C.Symbol_value = new H.Symbol("value");
 C.Symbol_void = new H.Symbol("void");
 C.Symbol_z = new H.Symbol("z");
+C.Type_2KD = H.createRuntimeType('PaperFocusable');
 C.Type_46y = H.createRuntimeType('Map');
 C.Type_4y3 = H.createRuntimeType('Start');
 C.Type_6L0 = H.createRuntimeType('Uint8List');
@@ -32175,7 +32183,6 @@ C.Type_AGr = H.createRuntimeType('JsTypeVariableMirror');
 C.Type_AHF = H.createRuntimeType('NativeTypedArray');
 C.Type_Art = H.createRuntimeType('Float32List');
 C.Type_AuK = H.createRuntimeType('Stop');
-C.Type_AyE = H.createRuntimeType('PaperRipple');
 C.Type_CAk = H.createRuntimeType('Uint16List');
 C.Type_EOZ = H.createRuntimeType('_M1');
 C.Type_EQs = H.createRuntimeType('GlobalEventHandlers');
@@ -32185,20 +32192,20 @@ C.Type_GNh = H.createRuntimeType('_M0');
 C.Type_HqF = H.createRuntimeType('Object');
 C.Type_I2I = H.createRuntimeType('PolymerElement');
 C.Type_I5O = H.createRuntimeType('Symbol0');
-C.Type_K6o = H.createRuntimeType('PaperFocusable');
-C.Type_MPa = H.createRuntimeType('PaperButton');
+C.Type_IsU = H.createRuntimeType('PaperShadow');
+C.Type_MIo = H.createRuntimeType('PaperButton');
 C.Type_NlB = H.createRuntimeType('NativeTypedArrayOfDouble');
 C.Type_OqP = H.createRuntimeType('DurationChange');
 C.Type_Q1p = H.createRuntimeType('Set');
 C.Type_QuW = H.createRuntimeType('Uint8ClampedList');
 C.Type_QyU = H.createRuntimeType('WindowEventHandlers');
+C.Type_SaW = H.createRuntimeType('PaperRipple');
 C.Type_SnA = H.createRuntimeType('$int');
 C.Type_T43 = H.createRuntimeType('Type');
 C.Type_UWS = H.createRuntimeType('List');
 C.Type_UoK = H.createRuntimeType('Int16List');
 C.Type_XXD = H.createRuntimeType('JSObject');
 C.Type_aB0 = H.createRuntimeType('CoreMeta');
-C.Type_aRS = H.createRuntimeType('PaperShadow');
 C.Type_ckn = H.createRuntimeType('Float64List');
 C.Type_dOE = H.createRuntimeType('RegExp');
 C.Type_dTZ = H.createRuntimeType('Int32List');
@@ -32287,7 +32294,7 @@ $._currentNamespace = null;
 $._currentNamespaceKeyCount = 0;
 $._tranTranTypesRegistered = false;
 $.interceptedNames = ["$add", "$and", "$div", "$eq", "$ge", "$gt", "$index", "$indexSet", "$le", "$lt", "$mod", "$mul", "$negate", "$not", "$or", "$shl", "$shr", "$sub", "$tdiv", "$xor", "AutoBindingElement$created$0", "Element$created$0", "PolymerElement$created$0", "__isolate_helper$_add$1", "_add$1", "_async$_add$1", "_checkIndex$2", "_checkSublistArguments$3", "_clearChildren$0", "_ensureRequestAnimationFrame$0", "_eval$_observe$2", "_getBindingForComputedProperty$1", "_getPropertyValueHelper$1", "_handleDurationChange$1", "_initCustomEvent$4", "_initSourceBinding$0", "_initialiseIndexes$2", "_invalidIndex$2", "_observable$_observed$0", "_propertyChange$3", "_propertyChangeWorkaround$1", "_rangeCheck$2", "_requestAnimationFrame$1", "_setPropertyHelper$3", "_setRangeFast$4", "_shlPositive$1", "_shrOtherPositive$1", "_tdivFast$1", "_unobserved$0", "abs$0", "accept$1", "add$1", "addAll$1", "addEventListener$3", "addHostListeners$0", "allMatches$1", "allMatches$2", "any$1", "append$1", "async$1", "asyncUnbindAll$0", "attached$0", "attributeChanged$3", "attributeToProperty$2", "bind$3$oneTime", "bindFinished$0", "bindProperty$3$oneTime", "bindToAccessor$2", "bindToAccessor$3$resolveBindingValue", "cancelUnbindAll$0", "clear$0", "close$0", "closeNamedObservers$0", "closeObservers$0", "codeUnitAt$1", "compareTo$1", "complete$0", "complete$1", "contains$1", "contains$2", "copyInstanceAttributes$0", "createComputedProperties$0", "createDocumentFragment$0", "createElement$1", "createElement$2", "createFragment$3$treeSanitizer$validator", "createHtmlDocument$1", "createInstance$2", "createPropertyObserver$0", "createShadowRoot$0", "defaultValue$1", "deliverChanges$0", "detached$0", "dispatchEvent$1", "dispatchMethod$3", "elementAt$1", "emitPropertyChangeRecord$3", "endsWith$1", "fire$1", "fire$5$canBubble$cancelable$detail$onNode", "firstWhere$1", "firstWhere$2$defaultValue", "firstWhere$2$orElse", "fold$2", "forEach$1", "get$$$", "get$__js_helper$_name", "get$_children", "get$_dartDetail", "get$_element", "get$_emitterIndexes", "get$_jsElem", "get$_name", "get$_observable$_changes", "get$_observe", "get$_polymer$_name", "get$_records", "get$_selector", "get$_self", "get$_typeIndexes", "get$_values", "get$attributes", "get$baseUri", "get$bindingDelegate", "get$bindings", "get$bottom", "get$changes", "get$className", "get$classes", "get$clear", "get$codeUnits", "get$consumer", "get$content", "get$counter", "get$currentTarget", "get$data", "get$defaultValue", "get$detail", "get$duration", "get$element", "get$entries", "get$error", "get$first", "get$firstChild", "get$hasObservers", "get$hashCode", "get$head", "get$height", "get$host", "get$hostname", "get$href", "get$icon", "get$iconSrc", "get$id", "get$implementation", "get$index", "get$isEmpty", "get$isNaN", "get$isNegative", "get$isNotEmpty", "get$iterator", "get$jsElement", "get$key", "get$kind", "get$label", "get$last", "get$lastChild", "get$left", "get$length", "get$localName", "get$message", "get$method", "get$model", "get$name", "get$namespaceUri", "get$nextElementSibling", "get$nextNode", "get$nodes", "get$offset", "get$onClick", "get$onError", "get$operator", "get$ownerDocument", "get$parent", "get$parentNode", "get$pattern", "get$port", "get$protocol", "get$raisedButton", "get$responseText", "get$right", "get$runtimeType", "get$single", "get$span", "get$src", "get$start", "get$syntax", "get$tagName", "get$target", "get$templateInstance", "get$text", "get$top", "get$topLeft", "get$type", "get$value", "get$values", "get$width", "get$window", "get$x", "get$y", "get$z", "getBoundingClientRect$0", "getElementById$1", "getPropertyValue$1", "getRange$2", "ignoreAllEvents$0", "ignoreAllEventsFrom$1", "ignoreAllEventsOfType$1", "ignoreSpecificEventBinding$2", "importNode$2", "index$2", "indexOf$1", "indexOf$2", "insert$2", "insertBefore$2", "join$1", "join$8", "lastIndexOf$1", "lastIndexOf$2", "listen$1", "listen$3", "listen$3$onDone$onError", "listen$4$cancelOnError$onDone$onError", "makeElementReady$0", "map$1", "marshalNodeReferences$1", "matches$1", "matchesWithAncestors$1", "message$1", "message$2$color", "noSuchMethod$1", "notifyChange$1", "notifyPropertyChange$3", "notifyPropertyChanges$3", "observe$2", "observe$3$attributeFilter$attributes", "observe$8$attributeFilter$attributeOldValue$attributes$characterData$characterDataOldValue$childList$subtree", "observeArrayValue$3", "observed$0", "onError$1", "open$1", "open$3$async", "open$5$async$password$user", "parseDeclaration$1", "parseDeclarations$1", "pause$0", "pause$1", "polymerCreated$0", "prepareElement$0", "print$1", "propertyForAttribute$1", "query$2", "querySelector$1", "querySelectorAll$1", "reflectPropertyToAttribute$1", "remainder$1", "remove$0", "remove$1", "removeAt$1", "removeEventListener$3", "removeLast$0", "replaceAll$2", "replaceAllMapped$2", "replaceFirst$2", "reset$0", "reset$1", "reset$3", "round$0", "roundToDouble$0", "send$1", "send$2", "serializeValue$1", "set$$$", "set$__js_helper$_name", "set$_children", "set$_dartDetail", "set$_element", "set$_emitterIndexes", "set$_jsElem", "set$_name", "set$_observable$_changes", "set$_observe", "set$_records", "set$_selector", "set$_self", "set$_typeIndexes", "set$_values", "set$baseUri", "set$bindingDelegate", "set$bindings", "set$bottom", "set$className", "set$consumer", "set$content", "set$counter", "set$data", "set$defaultValue", "set$duration", "set$element", "set$entries", "set$error", "set$firstChild", "set$height", "set$hostname", "set$href", "set$icon", "set$iconSrc", "set$id", "set$implementation", "set$index", "set$key", "set$kind", "set$label", "set$lastChild", "set$left", "set$length", "set$message", "set$method", "set$model", "set$name", "set$nextElementSibling", "set$nextNode", "set$offset", "set$operator", "set$ownerDocument", "set$parent", "set$parentNode", "set$pattern", "set$port", "set$protocol", "set$responseText", "set$right", "set$span", "set$src", "set$start", "set$syntax", "set$tagName", "set$target", "set$text", "set$top", "set$type", "set$value", "set$values", "set$width", "set$x", "set$y", "set$z", "setProperty$3", "setRange$4", "shadowFromTemplate$1", "skip$1", "split$1", "start$0", "start$1", "start$2", "start$3", "startsWith$1", "startsWith$2", "stop$0", "stop$3", "sublist$1", "sublist$2", "substring$1", "substring$2", "take$1", "takeAttributes$0", "toInt$0", "toList$0", "toList$1$growable", "toLowerCase$0", "toRadixString$1", "toString$0", "toUpperCase$0", "trim$0", "unbindAll$0", "unobserved$0", "where$1"];
-$.mapTypeToInterceptor = [C.Type_fPs, W.HtmlElement, {}, C.Type_ACQ, M.CoreIconset, {created: M.CoreIconset$created}, C.Type_AHF, H.NativeTypedArray, {"": H.NativeTypedArray$}, C.Type_AyE, F.PaperRipple, {created: F.PaperRipple$created}, C.Type_EQs, W.GlobalEventHandlers, {}, C.Type_I2I, A.PolymerElement, {created: A.PolymerElement$created}, C.Type_K6o, N.PaperFocusable, {created: N.PaperFocusable$created}, C.Type_MPa, G.PaperButton, {created: G.PaperButton$created}, C.Type_NlB, H.NativeTypedArrayOfDouble, {"": H.NativeTypedArrayOfDouble$}, C.Type_QyU, W.WindowEventHandlers, {}, C.Type_aB0, S.CoreMeta, {created: S.CoreMeta$created}, C.Type_aRS, V.PaperShadow, {created: V.PaperShadow$created}, C.Type_jWj, L.CoreIcon, {created: L.CoreIcon$created}, C.Type_ol5, B.PurityStopwatch, {created: B.PurityStopwatch$created}, C.Type_s8b, Y.AutoBindingElement, {created: Y.AutoBindingElement$created}, C.Type_wOW, H.NativeTypedArrayOfInt, {"": H.NativeTypedArrayOfInt$}];
+$.mapTypeToInterceptor = [C.Type_fPs, W.HtmlElement, {}, C.Type_2KD, D.PaperFocusable, {created: D.PaperFocusable$created}, C.Type_ACQ, M.CoreIconset, {created: M.CoreIconset$created}, C.Type_AHF, H.NativeTypedArray, {"": H.NativeTypedArray$}, C.Type_EQs, W.GlobalEventHandlers, {}, C.Type_I2I, A.PolymerElement, {created: A.PolymerElement$created}, C.Type_IsU, Z.PaperShadow, {created: Z.PaperShadow$created}, C.Type_MIo, L.PaperButton, {created: L.PaperButton$created}, C.Type_NlB, H.NativeTypedArrayOfDouble, {"": H.NativeTypedArrayOfDouble$}, C.Type_QyU, W.WindowEventHandlers, {}, C.Type_SaW, L.PaperRipple, {created: L.PaperRipple$created}, C.Type_aB0, S.CoreMeta, {created: S.CoreMeta$created}, C.Type_jWj, L.CoreIcon, {created: L.CoreIcon$created}, C.Type_ol5, B.PurityStopwatch, {created: B.PurityStopwatch$created}, C.Type_s8b, Y.AutoBindingElement, {created: Y.AutoBindingElement$created}, C.Type_wOW, H.NativeTypedArrayOfInt, {"": H.NativeTypedArrayOfInt$}];
 Isolate.$lazy($, "thisScript", "IsolateNatives_thisScript", "get$IsolateNatives_thisScript", function() {
   return H.IsolateNatives_computeThisScript();
 });
@@ -38074,73 +38081,6 @@ function dart_precompiled($collectedClasses) {
   if ($desc instanceof Array)
     $desc = $desc[1];
   HtmlElement_DomProxyMixin0.prototype = $desc;
-  function PaperButton(common$DomProxyMixin$_proxy) {
-    this.common$DomProxyMixin$_proxy = common$DomProxyMixin$_proxy;
-  }
-  PaperButton.builtin$cls = "PaperButton";
-  if (!"name" in PaperButton)
-    PaperButton.name = "PaperButton";
-  $desc = $collectedClasses.PaperButton;
-  if ($desc instanceof Array)
-    $desc = $desc[1];
-  PaperButton.prototype = $desc;
-  function PaperFocusable(common$DomProxyMixin$_proxy) {
-    this.common$DomProxyMixin$_proxy = common$DomProxyMixin$_proxy;
-  }
-  PaperFocusable.builtin$cls = "PaperFocusable";
-  if (!"name" in PaperFocusable)
-    PaperFocusable.name = "PaperFocusable";
-  $desc = $collectedClasses.PaperFocusable;
-  if ($desc instanceof Array)
-    $desc = $desc[1];
-  PaperFocusable.prototype = $desc;
-  function HtmlElement_DomProxyMixin1() {
-  }
-  HtmlElement_DomProxyMixin1.builtin$cls = "HtmlElement_DomProxyMixin1";
-  if (!"name" in HtmlElement_DomProxyMixin1)
-    HtmlElement_DomProxyMixin1.name = "HtmlElement_DomProxyMixin1";
-  $desc = $collectedClasses.HtmlElement_DomProxyMixin1;
-  if ($desc instanceof Array)
-    $desc = $desc[1];
-  HtmlElement_DomProxyMixin1.prototype = $desc;
-  function PaperRipple(common$DomProxyMixin$_proxy) {
-    this.common$DomProxyMixin$_proxy = common$DomProxyMixin$_proxy;
-  }
-  PaperRipple.builtin$cls = "PaperRipple";
-  if (!"name" in PaperRipple)
-    PaperRipple.name = "PaperRipple";
-  $desc = $collectedClasses.PaperRipple;
-  if ($desc instanceof Array)
-    $desc = $desc[1];
-  PaperRipple.prototype = $desc;
-  function HtmlElement_DomProxyMixin2() {
-  }
-  HtmlElement_DomProxyMixin2.builtin$cls = "HtmlElement_DomProxyMixin2";
-  if (!"name" in HtmlElement_DomProxyMixin2)
-    HtmlElement_DomProxyMixin2.name = "HtmlElement_DomProxyMixin2";
-  $desc = $collectedClasses.HtmlElement_DomProxyMixin2;
-  if ($desc instanceof Array)
-    $desc = $desc[1];
-  HtmlElement_DomProxyMixin2.prototype = $desc;
-  function PaperShadow(common$DomProxyMixin$_proxy) {
-    this.common$DomProxyMixin$_proxy = common$DomProxyMixin$_proxy;
-  }
-  PaperShadow.builtin$cls = "PaperShadow";
-  if (!"name" in PaperShadow)
-    PaperShadow.name = "PaperShadow";
-  $desc = $collectedClasses.PaperShadow;
-  if ($desc instanceof Array)
-    $desc = $desc[1];
-  PaperShadow.prototype = $desc;
-  function HtmlElement_DomProxyMixin3() {
-  }
-  HtmlElement_DomProxyMixin3.builtin$cls = "HtmlElement_DomProxyMixin3";
-  if (!"name" in HtmlElement_DomProxyMixin3)
-    HtmlElement_DomProxyMixin3.name = "HtmlElement_DomProxyMixin3";
-  $desc = $collectedClasses.HtmlElement_DomProxyMixin3;
-  if ($desc instanceof Array)
-    $desc = $desc[1];
-  HtmlElement_DomProxyMixin3.prototype = $desc;
   function DomProxyMixin() {
   }
   DomProxyMixin.builtin$cls = "DomProxyMixin";
@@ -43308,6 +43248,73 @@ function dart_precompiled($collectedClasses) {
   if ($desc instanceof Array)
     $desc = $desc[1];
   _ObservedSet.prototype = $desc;
+  function PaperButton(common$DomProxyMixin$_proxy) {
+    this.common$DomProxyMixin$_proxy = common$DomProxyMixin$_proxy;
+  }
+  PaperButton.builtin$cls = "PaperButton";
+  if (!"name" in PaperButton)
+    PaperButton.name = "PaperButton";
+  $desc = $collectedClasses.PaperButton;
+  if ($desc instanceof Array)
+    $desc = $desc[1];
+  PaperButton.prototype = $desc;
+  function PaperFocusable(common$DomProxyMixin$_proxy) {
+    this.common$DomProxyMixin$_proxy = common$DomProxyMixin$_proxy;
+  }
+  PaperFocusable.builtin$cls = "PaperFocusable";
+  if (!"name" in PaperFocusable)
+    PaperFocusable.name = "PaperFocusable";
+  $desc = $collectedClasses.PaperFocusable;
+  if ($desc instanceof Array)
+    $desc = $desc[1];
+  PaperFocusable.prototype = $desc;
+  function HtmlElement_DomProxyMixin1() {
+  }
+  HtmlElement_DomProxyMixin1.builtin$cls = "HtmlElement_DomProxyMixin1";
+  if (!"name" in HtmlElement_DomProxyMixin1)
+    HtmlElement_DomProxyMixin1.name = "HtmlElement_DomProxyMixin1";
+  $desc = $collectedClasses.HtmlElement_DomProxyMixin1;
+  if ($desc instanceof Array)
+    $desc = $desc[1];
+  HtmlElement_DomProxyMixin1.prototype = $desc;
+  function PaperRipple(common$DomProxyMixin$_proxy) {
+    this.common$DomProxyMixin$_proxy = common$DomProxyMixin$_proxy;
+  }
+  PaperRipple.builtin$cls = "PaperRipple";
+  if (!"name" in PaperRipple)
+    PaperRipple.name = "PaperRipple";
+  $desc = $collectedClasses.PaperRipple;
+  if ($desc instanceof Array)
+    $desc = $desc[1];
+  PaperRipple.prototype = $desc;
+  function HtmlElement_DomProxyMixin2() {
+  }
+  HtmlElement_DomProxyMixin2.builtin$cls = "HtmlElement_DomProxyMixin2";
+  if (!"name" in HtmlElement_DomProxyMixin2)
+    HtmlElement_DomProxyMixin2.name = "HtmlElement_DomProxyMixin2";
+  $desc = $collectedClasses.HtmlElement_DomProxyMixin2;
+  if ($desc instanceof Array)
+    $desc = $desc[1];
+  HtmlElement_DomProxyMixin2.prototype = $desc;
+  function PaperShadow(common$DomProxyMixin$_proxy) {
+    this.common$DomProxyMixin$_proxy = common$DomProxyMixin$_proxy;
+  }
+  PaperShadow.builtin$cls = "PaperShadow";
+  if (!"name" in PaperShadow)
+    PaperShadow.name = "PaperShadow";
+  $desc = $collectedClasses.PaperShadow;
+  if ($desc instanceof Array)
+    $desc = $desc[1];
+  PaperShadow.prototype = $desc;
+  function HtmlElement_DomProxyMixin3() {
+  }
+  HtmlElement_DomProxyMixin3.builtin$cls = "HtmlElement_DomProxyMixin3";
+  if (!"name" in HtmlElement_DomProxyMixin3)
+    HtmlElement_DomProxyMixin3.name = "HtmlElement_DomProxyMixin3";
+  $desc = $collectedClasses.HtmlElement_DomProxyMixin3;
+  if ($desc instanceof Array)
+    $desc = $desc[1];
+  HtmlElement_DomProxyMixin3.prototype = $desc;
   function Context(style, _context1$_current) {
     this.style = style;
     this._context1$_current = _context1$_current;
@@ -47254,5 +47261,5 @@ function dart_precompiled($collectedClasses) {
   if ($desc instanceof Array)
     $desc = $desc[1];
   registerDartType_upgradeElement.prototype = $desc;
-  return [HtmlElement, _EntryArray, AnchorElement, AnimationEvent, AreaElement, AudioElement, AutocompleteErrorEvent, BRElement, BaseElement, BeforeLoadEvent, BeforeUnloadEvent, Blob, BodyElement, ButtonElement, CDataSection, CanvasElement, CharacterData, CloseEvent, Comment, CompositionEvent, ContentElement, CssFontFaceLoadEvent, CssStyleDeclaration, CustomEvent, DListElement, DataListElement, DetailsElement, DeviceMotionEvent, DeviceOrientationEvent, DialogElement, DivElement, Document, DocumentFragment, DomError, DomException, DomImplementation, Element, EmbedElement, ErrorEvent, Event0, EventTarget, FieldSetElement, File, FileError, FocusEvent, FormElement, HRElement, HashChangeEvent, HeadElement, HeadingElement, HtmlCollection, HtmlDocument, HtmlFormControlsCollection, HtmlHtmlElement, HtmlOptionsCollection, HttpRequest, HttpRequestEventTarget, IFrameElement, ImageData, ImageElement, InputElement, InstallEvent, InstallPhaseEvent, KeyboardEvent, KeygenElement, LIElement, LabelElement, LegendElement, LinkElement, Location, MapElement, MediaElement, MediaError, MediaKeyError, MediaKeyEvent, MediaKeyMessageEvent, MediaKeyNeededEvent, MediaStream, MediaStreamEvent, MediaStreamTrackEvent, MenuElement, MessageEvent, MetaElement, MeterElement, MidiConnectionEvent, MidiInput, MidiMessageEvent, MidiOutput, MidiPort, ModElement, MouseEvent, MutationObserver, MutationRecord, Navigator, NavigatorUserMediaError, Node, NodeList, OListElement, ObjectElement, OptGroupElement, OptionElement, OutputElement, OverflowEvent, PageTransitionEvent, ParagraphElement, ParamElement, PopStateEvent, PositionError, PreElement, ProcessingInstruction, ProgressElement, ProgressEvent, QuoteElement, Range, ResourceProgressEvent, RtcDataChannelEvent, RtcDtmfToneChangeEvent, RtcIceCandidateEvent, ScriptElement, SecurityPolicyViolationEvent, SelectElement, ShadowElement, ShadowRoot, SourceElement, SpanElement, SpeechInputEvent, SpeechRecognitionError, SpeechRecognitionEvent, SpeechSynthesisEvent, StorageEvent, StyleElement, TableCaptionElement, TableCellElement, TableColElement, TableElement, TableRowElement, TableSectionElement, TemplateElement, Text, TextAreaElement, TextEvent, TitleElement, TouchEvent, TrackElement, TrackEvent, TransitionEvent, UIEvent, UListElement, UnknownElement, VideoElement, WheelEvent, Window, XmlDocument, _Attr, _ClientRect, _DocumentType, _HTMLAppletElement, _HTMLDirectoryElement, _HTMLFontElement, _HTMLFrameElement, _HTMLFrameSetElement, _HTMLMarqueeElement, _MutationEvent, _NamedNodeMap, _Notation, _XMLHttpRequestProgressEvent, KeyRange, VersionChangeEvent, AElement, AltGlyphElement, AnimateElement, AnimateMotionElement, AnimateTransformElement, AnimatedEnumeration, AnimatedLength, AnimatedLengthList, AnimatedNumber, AnimatedNumberList, AnimatedString, AnimationElement, CircleElement, ClipPathElement, DefsElement, DescElement, DiscardElement, EllipseElement, FEBlendElement, FEColorMatrixElement, FEComponentTransferElement, FECompositeElement, FEConvolveMatrixElement, FEDiffuseLightingElement, FEDisplacementMapElement, FEDistantLightElement, FEFloodElement, FEFuncAElement, FEFuncBElement, FEFuncGElement, FEFuncRElement, FEGaussianBlurElement, FEImageElement, FEMergeElement, FEMergeNodeElement, FEMorphologyElement, FEOffsetElement, FEPointLightElement, FESpecularLightingElement, FESpotLightElement, FETileElement, FETurbulenceElement, FilterElement, ForeignObjectElement, GElement, GeometryElement, GraphicsElement, ImageElement0, LineElement, LinearGradientElement, MarkerElement, MaskElement, MetadataElement, PathElement, PatternElement, PolygonElement, PolylineElement, RadialGradientElement, RectElement, ScriptElement0, SetElement, StopElement, StyleElement0, SvgElement, SvgSvgElement, SwitchElement, SymbolElement, TSpanElement, TextContentElement, TextElement, TextPathElement, TextPositioningElement, TitleElement0, UseElement, ViewElement, ZoomEvent, _GradientElement, _SVGAltGlyphDefElement, _SVGAltGlyphItemElement, _SVGComponentTransferFunctionElement, _SVGCursorElement, _SVGFEDropShadowElement, _SVGFontElement, _SVGFontFaceElement, _SVGFontFaceFormatElement, _SVGFontFaceNameElement, _SVGFontFaceSrcElement, _SVGFontFaceUriElement, _SVGGlyphElement, _SVGGlyphRefElement, _SVGHKernElement, _SVGMPathElement, _SVGMissingGlyphElement, _SVGVKernElement, AudioProcessingEvent, OfflineAudioCompletionEvent, ContextEvent, SqlError, NativeByteBuffer, NativeTypedData, NativeByteData, NativeFloat32List, NativeFloat64List, NativeInt16List, NativeInt32List, NativeInt8List, NativeUint16List, NativeUint32List, NativeUint8ClampedList, NativeUint8List, JS_CONST, Interceptor, JSBool, JSNull, JavaScriptObject, PlainJavaScriptObject, UnknownJavaScriptObject, JSArray, JSMutableArray, JSFixedArray, JSExtendableArray, JSNumber, JSInt, JSDouble, JSPositiveInt, JSUInt32, JSUInt31, JSString, _CodeUnits, startRootIsolate_closure, startRootIsolate_closure0, _Manager, _IsolateContext, _IsolateContext_handlePing_respond, _EventLoop, _EventLoop__runHelper_next, _IsolateEvent, _MainManagerStub, IsolateNatives__processWorkerMessage_closure, IsolateNatives__startIsolate_runStartFunction, _BaseSendPort, _NativeJsSendPort, _NativeJsSendPort_send_closure, _WorkerSendPort, RawReceivePortImpl, _JsSerializer, _JsCopier, _JsDeserializer, _JsVisitedMap, _MessageTraverserVisitedMap, _MessageTraverser, _Copier, _Copier_visitMap_closure, _Serializer, _Deserializer, TimerImpl, TimerImpl_internalCallback, TimerImpl_internalCallback0, TimerImpl$periodic_closure, CapabilityImpl, NoSideEffects, NoThrows, NoInline, Native, ConstantMap, ConstantStringMap, ConstantStringMap_values_closure, _ConstantMapKeyIterable, _Patch, JSInvocationMirror, CachedInvocation, CachedCatchAllInvocation, CachedNoSuchMethodInvocation, ReflectionInfo, ReflectionInfo_sortedIndex_closure, Primitives_functionNoSuchMethod_closure, Primitives_applyFunction_closure, TypeErrorDecoder, NullError, JsNoSuchMethodError, UnknownJsTypeError, unwrapException_saveStackTrace, _StackTrace, invokeClosure_closure, invokeClosure_closure0, invokeClosure_closure1, invokeClosure_closure2, invokeClosure_closure3, Closure, TearOffClosure, BoundClosure, Creates, Returns, JSName, CastErrorImplementation, RuntimeError, RuntimeType, RuntimeFunctionType, DynamicRuntimeType, RuntimeTypePlain, RuntimeTypeGeneric, UnimplementedNoSuchMethodError, TypeImpl, initHooks_closure, initHooks_closure0, initHooks_closure1, JSSyntaxRegExp, _MatchImplementation, _AllMatchesIterable, _AllMatchesIterator, StringMatch, main_closure, main_closure0, main_closure1, main_closure2, main_closure3, main_closure4, main_closure5, main_closure6, main_closure7, main_closure8, main_closure9, main_closure10, main_closure11, main_closure12, main_closure13, main_closure14, main_closure15, main_closure16, main_closure17, BsonObject, BsonBinary, ObjectId, ObjectId_createId_getOctet, Timestamp, MessageId, Message, BuildLogEntry, LogEntryTable, LogEntryTable_LogEntryTable$fromJson_closure, LogEntryTable_toJson_closure, LogEntryTable_toJson__closure, LogEntryTable_add_closure, LogEntryTable_addAll_closure, CoreIcon, HtmlElement_DomProxyMixin, CoreIconset, CoreMeta, HtmlElement_DomProxyMixin0, PaperButton, PaperFocusable, HtmlElement_DomProxyMixin1, PaperRipple, HtmlElement_DomProxyMixin2, PaperShadow, HtmlElement_DomProxyMixin3, DomProxyMixin, ListIterable, SubListIterable, ListIterator, MappedIterable, EfficientLengthMappedIterable, MappedIterator, MappedListIterable, WhereIterable, WhereIterator, SkipIterable, EfficientLengthSkipIterable, SkipIterator, EmptyIterable, EmptyIterator, IterableMixinWorkaround, FixedLengthListMixin, UnmodifiableListMixin, UnmodifiableListBase, ReversedListIterable, Symbol, JsMirrorSystem, JsMirrorSystem_computeLibrariesByName_closure, JsMirror, JsIsolateMirror, JsDeclarationMirror, JsTypeVariableMirror, JsTypeMirror, JsLibraryMirror, JsDeclarationMirror_JsObjectMirror, JsLibraryMirror___members_addToResult, JsLibraryMirror_declarations_addToResult, filterMembers_closure, JsMixinApplication, JsTypeMirror_JsObjectMirror, JsObjectMirror, JsInstanceMirror, JsInstanceMirror__invokeMethodWithNamedArguments_closure, JsTypeBoundClassMirror, JsTypeBoundClassMirror_typeArguments_addTypeArgument, JsTypeBoundClassMirror_typeArguments_addTypeArgument_closure, JsTypeBoundClassMirror_typeArguments_closure, JsTypeBoundClassMirror_declarations_closure, JsClassMirror, JsTypeMirror_JsObjectMirror0, JsClassMirror_declarations_addToResult, JsClassMirror_declarations_closure, JsVariableMirror, JsClosureMirror, JsMethodMirror, JsParameterMirror, JsTypedefMirror, BrokenClassMirror, JsFunctionTypeMirror, typeMirrorFromRuntimeTypeRepresentation_getTypeArgument, typeMirrorFromRuntimeTypeRepresentation_substituteTypeVariable, extractMetadata_closure, NoSuchStaticMethodError, computeReflectiveNames_closure, _AsyncRun__initializeScheduleImmediate_internalCallback, _AsyncRun__initializeScheduleImmediate_closure, _AsyncRun__scheduleImmediateJsOverride_internalCallback, _AsyncError, _UncaughtAsyncError, _BroadcastStream, _BroadcastSubscription, _BroadcastStreamController, _SyncBroadcastStreamController, _SyncBroadcastStreamController__sendData_closure, _SyncBroadcastStreamController__sendError_closure, _SyncBroadcastStreamController__sendDone_closure, _AsyncBroadcastStreamController, Future, Future_Future$delayed_closure, _Completer, _AsyncCompleter, _SyncCompleter, _Future, _Future__addListener_closure, _Future__chainForeignFuture_closure, _Future__chainForeignFuture_closure0, _Future__asyncComplete_closure, _Future__asyncComplete_closure0, _Future__asyncCompleteError_closure, _Future__propagateToListeners_handleValueCallback, _Future__propagateToListeners_handleError, _Future__propagateToListeners_handleWhenCompleteCallback, _Future__propagateToListeners_handleWhenCompleteCallback_closure, _Future__propagateToListeners_handleWhenCompleteCallback_closure0, _AsyncCallbackEntry, Stream, Stream_fold_closure, Stream_fold__closure, Stream_fold__closure0, Stream_fold_closure1, Stream_fold_closure0, Stream_join_closure, Stream_join_closure1, Stream_join_closure0, Stream_contains_closure, Stream_contains__closure, Stream_contains__closure0, Stream_contains_closure0, Stream_forEach_closure, Stream_forEach__closure, Stream_forEach__closure0, Stream_forEach_closure0, Stream_any_closure, Stream_any__closure, Stream_any__closure0, Stream_any_closure0, Stream_length_closure, Stream_length_closure0, Stream_isEmpty_closure, Stream_isEmpty_closure0, Stream_toList_closure, Stream_toList_closure0, Stream_first_closure, Stream_first_closure0, Stream_last_closure, Stream_last_closure0, Stream_firstWhere_closure, Stream_firstWhere__closure, Stream_firstWhere__closure0, Stream_firstWhere_closure0, Stream_elementAt_closure, Stream_elementAt_closure0, StreamSubscription, _ControllerStream, _ControllerSubscription, _EventSink, _BufferingStreamSubscription, _BufferingStreamSubscription__sendError_sendError, _BufferingStreamSubscription__sendDone_sendDone, _StreamImpl, _DelayedEvent, _DelayedData, _DelayedError, _DelayedDone, _PendingEvents, _PendingEvents_schedule_closure, _StreamImplEvents, _DoneStreamSubscription, _cancelAndError_closure, _cancelAndErrorClosure_closure, _cancelAndValue_closure, _ForwardingStream, _ForwardingStreamSubscription, _WhereStream, _MapStream, _SkipStream, Timer, _ZoneFunction, ZoneSpecification, _ZoneSpecification, ZoneDelegate, Zone, _ZoneDelegate, _Zone, _CustomZone, _CustomZone_bindCallback_closure, _CustomZone_bindCallback_closure0, _CustomZone_bindUnaryCallback_closure, _CustomZone_bindUnaryCallback_closure0, _CustomZone_bindBinaryCallback_closure, _CustomZone_bindBinaryCallback_closure0, _rootHandleUncaughtError_closure, _RootZone, _RootZone_bindCallback_closure, _RootZone_bindCallback_closure0, _RootZone_bindUnaryCallback_closure, _RootZone_bindUnaryCallback_closure0, _RootZone_bindBinaryCallback_closure, _RootZone_bindBinaryCallback_closure0, _HashMap, _HashMap_values_closure, _HashMap_addAll_closure, _IdentityHashMap, _CustomHashMap, _CustomHashMap_closure, HashMapKeyIterable, HashMapKeyIterator, _LinkedHashMap, _LinkedHashMap_values_closure, _LinkedHashMap_addAll_closure, LinkedHashMapCell, LinkedHashMapKeyIterable, LinkedHashMapKeyIterator, _HashSet, HashSetIterator, _LinkedHashSet, LinkedHashSetCell, LinkedHashSetIterator, UnmodifiableListView, _HashSetBase, IterableBase, ListBase, Object_ListMixin, ListMixin, MapBase, MapMixin, _MapBaseValueIterable, _MapBaseValueIterator, _UnmodifiableMapMixin, MapView, UnmodifiableMapView, Maps_mapToString_closure, ListQueue, _ListQueueIterator, SetMixin, SetBase, _JsonMap, _JsonMap_values_closure, _JsonMap_addAll_closure, Codec, Converter, Encoding, HtmlEscapeMode, HtmlEscape, JsonCodec, JsonDecoder, Utf8Codec, Utf8Encoder, _Utf8Encoder, Utf8Decoder, _Utf8Decoder, _Utf8Decoder_convert_scanOneByteCharacters, _Utf8Decoder_convert_addSingleBytes, Function__toMangledNames_closure, NoSuchMethodError_toString_closure, Deprecated, _Override, _Proxy, bool, Comparable, DateTime, DateTime_parse_parseIntOrZero, DateTime_parse_parseDoubleOrZero, $double, Duration, Duration_toString_sixDigits, Duration_toString_twoDigits, Error, NullThrownError, ArgumentError, RangeError, NoSuchMethodError, UnsupportedError, UnimplementedError, StateError, ConcurrentModificationError, OutOfMemoryError, StackOverflowError, CyclicInitializationError, _ExceptionImplementation, FormatException, IntegerDivisionByZeroException, Expando, Function, $int, Invocation, Iterable, Iterator, List, Map, Null, num, Object, Match, RegExp, StackTrace, String, RuneIterator, StringBuffer, Symbol0, Type, Uri, Uri_parse_isRegName, Uri_parse_parseAuth, Uri__checkNonWindowsPathReservedCharacters_closure, Uri__makePath_closure, Uri__makeQuery_closure, Uri_hashCode_combine, Uri_parseIPv4Address_error, Uri_parseIPv4Address_closure, Uri_parseIPv6Address_error, Uri_parseIPv6Address_parseHex, Uri__uriEncode_byteToHex, Interceptor_CssStyleDeclarationBase, CssStyleDeclarationBase, _FrozenElementList, _FrozenElementList$_wrap_closure, Element_Element$html_closure, Entry, Interceptor_ListMixin, Interceptor_ListMixin_ImmutableListMixin, HttpRequest_getString_closure, HttpRequest_request_closure0, HttpRequest_request_closure, MutationObserver_observe_override, _ChildNodeListLazy, Interceptor_ListMixin0, Interceptor_ListMixin_ImmutableListMixin0, Interceptor_ListMixin1, Interceptor_ListMixin_ImmutableListMixin1, _AttributeMap, _AttributeMap_addAll_closure, _ElementAttributeMap, _MultiElementCssClassSet, _MultiElementCssClassSet_closure, _MultiElementCssClassSet_readClasses_closure, _MultiElementCssClassSet_modify_closure, _MultiElementCssClassSet_toggle_closure, _MultiElementCssClassSet_remove_closure, _MultiElementCssClassSet__modifyWithReturnValue_closure, _ElementCssClassSet, EventStreamProvider, _EventStream, _ElementEventStreamImpl, _ElementEventStreamImpl_matches_closure, _ElementEventStreamImpl_matches_closure0, _ElementListEventStreamImpl, _ElementListEventStreamImpl_matches_closure, _ElementListEventStreamImpl_matches_closure0, _EventStreamSubscription, _StreamPool, _StreamPool_add_closure, _Html5NodeValidator, ImmutableListMixin, NodeValidatorBuilder, NodeValidatorBuilder_allowsElement_closure, NodeValidatorBuilder_allowsAttribute_closure, _SimpleNodeValidator, _TemplatingNodeValidator, _TemplatingNodeValidator_closure, FixedSizeListIterator, _callConstructor_closure, _JSElementUpgrader, _DOMWindowCrossFrame, NodeValidator, _SameOriginUriPolicy, _ValidatingTreeSanitizer, _ValidatingTreeSanitizer_sanitizeTree_walk, _AttributeClassSet, Capability, JsObject, JsObject__convertDataTree__convert, JsFunction, JsArray, JsObject_ListMixin, _convertToJS_closure, _convertToJS_closure0, _wrapToDart_closure, _wrapToDart_closure0, _wrapToDart_closure1, _JSRandom, Point, _RectangleBase, Rectangle, Mirror, DeclarationMirror, InstanceMirror, LibraryMirror, TypeMirror, ClassMirror, TypeVariableMirror, MethodMirror, VariableMirror, ParameterMirror, MirrorsUsed, Endianness, NativeTypedArray, NativeTypedArrayOfDouble, NativeTypedArray_ListMixin, NativeTypedArray_ListMixin_FixedLengthListMixin, NativeTypedArrayOfInt, NativeTypedArray_ListMixin0, NativeTypedArray_ListMixin_FixedLengthListMixin0, DuplicateEventSettingError, EmitTimeQueueChangeError, Event, EventDetector, EventEmitter, EventEmitter_emitEvent_closure, EventEmitter_emitEvent__closure, EventEmitter_emitEvent__closure0, _convertDartToNative_PrepareForStructuredClone_findSlot, _convertDartToNative_PrepareForStructuredClone_readSlot, _convertDartToNative_PrepareForStructuredClone_writeSlot, _convertDartToNative_PrepareForStructuredClone_cleanupSlots, _convertDartToNative_PrepareForStructuredClone_walk, _convertDartToNative_PrepareForStructuredClone_walk_closure, convertNativeToDart_AcceptStructuredClone_findSlot, convertNativeToDart_AcceptStructuredClone_readSlot, convertNativeToDart_AcceptStructuredClone_writeSlot, convertNativeToDart_AcceptStructuredClone_walk, CssClassSetImpl, CssClassSetImpl_add_closure, CssClassSetImpl_addAll_closure, CssClassSetImpl_clear_closure, Logger, Logger_Logger_closure, Level, LogRecord, SupportedBrowser, Experimental, DomName, DocsEditable, Unstable, Bindable, ChangeNotifier, ChangeRecord, PropertyChangeRecord, dirtyCheckZoneSpec_enqueueDirtyCheck, dirtyCheckZoneSpec_enqueueDirtyCheck_closure, dirtyCheckZoneSpec_wrapCallback, dirtyCheckZoneSpec_wrapCallback_closure, dirtyCheckZoneSpec_wrapUnaryCallback, dirtyCheckZoneSpec_wrapUnaryCallback_closure, ListChangeRecord, ObservableProperty, Reflectable, Observable, Observable_deliverChanges_closure, ObservableBox, MapChangeRecord, ObservableMap, ObservableMap_addAll_closure, ObservableMap_clear_closure, ObserverTransform, PathObserver, PropertyPath, _InvalidPropertyPath, closure7, _PathParser, _PathParser_push_closure, CompoundObserver, CompoundObserver_addObserver_closure, CompoundObserver__check_closure, _ObserverSentinel, _Observer, _ObservedSet, Context, Context_join_closure, Context_joinAll_closure, Context_split_closure, _validateArgList_closure, InternalStyle, ParsedPath, ParsedPath_normalize_closure, PathException, Style, PosixStyle, UrlStyle, WindowsStyle, PolymerDeclaration, PolymerDeclaration__getPublishedProperties_closure, PolymerDeclaration__getPublishedProperties_closure0, PolymerDeclaration_accumulateInstanceAttributes_closure, PolymerDeclaration_addAttributeDelegates_closure, PolymerDeclaration_installLocalSheets_closure, PolymerDeclaration_cssTextForScope_matcher, PolymerDeclaration_explodeObservers_closure, PolymerDeclaration__lowerCaseMap_closure, PolymerDeclaration_createPropertyAccessors_closure, PolymerExpressions, BindingDelegate_PolymerEventBindings, PolymerEventBindings, PolymerEventBindings_getEventHandler_closure, PolymerEventBindings_prepareEventBinding_closure, PolymerEventBindings_prepareEventBinding__closure, _EventBindable, PublishedProperty, PolymerElement, HtmlElement_Polymer, HtmlElement_Polymer_ChangeNotifier, Polymer, Polymer_makeElementReady_closure, Polymer_attached_closure, Polymer_copyInstanceAttributes_closure, Polymer_copyInstanceAttributes__closure, Polymer_asyncUnbindAll_closure, Polymer_cancelUnbindAll_closure, Polymer_cancelUnbindAll_closure0, Polymer_notifyPropertyChanges_closure, Polymer__propertyChange_closure, Polymer_observeArrayValue_closure, Polymer_observeArrayValue_closure0, Polymer_observeArrayValue_closure1, Polymer_bindProperty_closure, Polymer_bindProperty_closure0, Polymer_addHostListeners_closure, Polymer_addHostListeners_closure0, Polymer_dispatchMethod_closure, Polymer_dispatchMethod_closure0, _PolymerBinding, _CloseOnlyBinding, PolymerJob, PolymerJob_start_closure, CustomTag, InitMethodAnnotation, initPolymer_closure, _hookJsPolymer_closure, _hookJsPolymer_registerDart, _hookJsPolymer_registerDart_closure, closure, _initializeLogging_closure, _initializeLogging_closure0, _initializeLogging_closure1, _initializeLogging_closure2, _PropertyAccessor, AutoBindingElement, TemplateElement_Polymer, TemplateElement_Polymer_Observable, AutoBindingElement$created_closure, AutoBindingElement$created__closure, _AutoBindingSyntax, LogInjector, LogInjector_injectLogsFromUrl_closure, LogInjector_injectLogs_closure, LogInjector_injectLogs__closure2, LogInjector_injectLogs___closure, LogInjector_injectLogs_closure0, LogInjector_injectLogs__closure, LogInjector_injectLogs__closure0, LogInjector_injectLogs__closure1, _OpenUriPolicy, closure0, closure1, closure2, closure3, closure4, _closure0, closure5, _closure, _classAttributeConverter_closure, _styleAttributeConverter_closure, PolymerExpressions0, PolymerExpressions_prepareBinding_closure, PolymerExpressions_prepareBinding_closure0, PolymerExpressions_prepareBinding_closure1, PolymerExpressions_prepareInstanceModel_closure, PolymerExpressions_prepareInstanceModel_closure0, _Binding, _Binding_open_closure, ScopeFactory, StreamBinding, StreamBinding_closure, closure13, closure14, closure15, closure16, closure17, closure18, closure19, closure20, closure21, closure22, closure23, closure24, closure25, closure26, closure27, closure28, closure10, closure11, closure12, Scope, _ModelScope, _LocalVariableScope, _GlobalsScope, ExpressionObserver, Updater, Closer, EvalVisitor, ObserverBuilder, ObserverBuilder_visitInvoke_closure, ObserverBuilder_visitListLiteral_closure, ObserverBuilder_visitMapLiteral_closure, EmptyObserver, LiteralObserver, ListLiteralObserver, ListLiteralObserver__updateSelf_closure, MapLiteralObserver, MapLiteralObserver__updateSelf_closure, MapLiteralEntryObserver, IdentifierObserver, IdentifierObserver__updateSelf_closure, IdentifierObserver__updateSelf__closure, UnaryObserver, BinaryObserver, BinaryObserver__updateSelf_closure, TernaryObserver, GetterObserver, GetterObserver__updateSelf_closure, GetterObserver__updateSelf__closure, IndexObserver, IndexObserver__updateSelf_closure0, IndexObserver__updateSelf__closure0, IndexObserver__updateSelf_closure, IndexObserver__updateSelf__closure, InvokeObserver, InvokeObserver__updateSelf_closure, InvokeObserver__updateSelf_closure0, InvokeObserver__updateSelf__closure, EvalException, AstFactory, Expression, EmptyExpression, Literal, ListLiteral, MapLiteral, MapLiteralEntry, ParenthesizedExpression, Identifier, UnaryOperator, BinaryOperator, TernaryOperator, InExpression, AsExpression, Index, Getter, Invoke, _hashList_closure, Parser, IndexedValue, EnumerateIterable, EnumerateIterator, Token, Tokenizer, ParseException, Visitor, RecursiveVisitor, _Base, Object_EventEmitter, Object_EventEmitter_EventDetector, Consumer, Object_EventDetector, RestrictedMethodError, Source, IEndPointMessage, _IGarbageCollectionReport, _ProxyInvocation, _IProxyInvocation, _ISourceEvent, _ISourceReady, _Transmission, QueryOptions, Declaration, DeclarationKind, StaticConfiguration, StaticConfiguration_closure, StaticConfiguration_addAll_closure, StaticConfiguration__nestedAddAll_closure, GeneratedObjectAccessorService, GeneratedTypeInspectorService, GeneratedSymbolConverterService, MissingCodeException, SourceLocation, SourceSpan, SourceSpanBase, SourceSpanMixin, registerStopwatchTranTypes_closure, registerStopwatchTranTypes__closure, registerStopwatchTranTypes__closure0, registerStopwatchTranTypes__closure1, DurationChange, IDurationChange, Start, Stop, Stopwatch, PurityStopwatch, PolymerElement_EventDetector, PolymerElement_EventDetector_ChangeNotifier, StopwatchConsumer, BindingDelegate, _InstanceBindingMap, _TemplateBindingMap, NodeBindExtension, _NodeBindingsMap, _NodeBindingsMap_keys_closure, _JsBindable, bindableToJsObject_inZone, bindableToJsObject_inZoneUnary, bindableToJsObject_closure, bindableToJsObject__closure, bindableToJsObject_closure0, bindableToJsObject_closure1, bindableToJsObject_closure2, bindableToJsObject_closure3, TemplateInstance, TemplateBindExtension, TemplateBindExtension_bind_closure, TemplateBindExtension_bootstrap__bootstrap, closure6, closure8, closure9, _InstanceExtension, _getDelegateFactory_closure, _parseAttributeBindings_closure, _TemplateIterator, MustacheTokens, DuplicateTranKeyError, DuplicateTranNamespaceError, DuplicateTranTypeError, InvalidTranNamespaceError, NestedRegisterTranTypesCallError, TranMethodError, TranRegistrationOutsideOfNamespaceError, TransmittableLockedError, UnregisteredTypeError, _InternalPointer, registerTranSubtype_closure, _registerTranTranTypes_closure, _registerTranTranTypes__closure, _registerTranTranTypes__closure0, _registerTranTranTypes__closure1, _registerTranTranTypes__closure2, _registerTranTranTypes__closure3, _registerTranTranTypes__closure4, _registerTranTranTypes__closure5, _registerTranTranTypes__closure6, _registerTranTranTypes__closure7, _registerTranTranTypes__closure8, _registerTranTranTypes__closure9, _registerTranTranTypes__closure10, _registerTranTranTypes__closure11, _registerTranTranTypes__closure12, _registerTranTranTypes__closure13, _registerTranTranTypes__closure14, _registerTranTranTypes__closure15, _registerTranTranTypes__closure16, _registerTranTranTypes__closure17, _registerTranTranTypes__closure18, _registerTranTranTypes__closure19, _registerTranTranTypes__closure20, _registerTranTranTypes__closure21, _registerTranTranTypes__closure22, _registerTranTranTypes__closure23, _processIterableToString_closure, _processMapToString_closure, _TranCodec, getRegisteredMappingsByType_closure, getRegisteredMappingsByKey_closure, Transmittable, ListRange, _ListRangeIteratorImpl, Utf16CodeUnitDecoder, registerDartType_upgradeElement];
+  return [HtmlElement, _EntryArray, AnchorElement, AnimationEvent, AreaElement, AudioElement, AutocompleteErrorEvent, BRElement, BaseElement, BeforeLoadEvent, BeforeUnloadEvent, Blob, BodyElement, ButtonElement, CDataSection, CanvasElement, CharacterData, CloseEvent, Comment, CompositionEvent, ContentElement, CssFontFaceLoadEvent, CssStyleDeclaration, CustomEvent, DListElement, DataListElement, DetailsElement, DeviceMotionEvent, DeviceOrientationEvent, DialogElement, DivElement, Document, DocumentFragment, DomError, DomException, DomImplementation, Element, EmbedElement, ErrorEvent, Event0, EventTarget, FieldSetElement, File, FileError, FocusEvent, FormElement, HRElement, HashChangeEvent, HeadElement, HeadingElement, HtmlCollection, HtmlDocument, HtmlFormControlsCollection, HtmlHtmlElement, HtmlOptionsCollection, HttpRequest, HttpRequestEventTarget, IFrameElement, ImageData, ImageElement, InputElement, InstallEvent, InstallPhaseEvent, KeyboardEvent, KeygenElement, LIElement, LabelElement, LegendElement, LinkElement, Location, MapElement, MediaElement, MediaError, MediaKeyError, MediaKeyEvent, MediaKeyMessageEvent, MediaKeyNeededEvent, MediaStream, MediaStreamEvent, MediaStreamTrackEvent, MenuElement, MessageEvent, MetaElement, MeterElement, MidiConnectionEvent, MidiInput, MidiMessageEvent, MidiOutput, MidiPort, ModElement, MouseEvent, MutationObserver, MutationRecord, Navigator, NavigatorUserMediaError, Node, NodeList, OListElement, ObjectElement, OptGroupElement, OptionElement, OutputElement, OverflowEvent, PageTransitionEvent, ParagraphElement, ParamElement, PopStateEvent, PositionError, PreElement, ProcessingInstruction, ProgressElement, ProgressEvent, QuoteElement, Range, ResourceProgressEvent, RtcDataChannelEvent, RtcDtmfToneChangeEvent, RtcIceCandidateEvent, ScriptElement, SecurityPolicyViolationEvent, SelectElement, ShadowElement, ShadowRoot, SourceElement, SpanElement, SpeechInputEvent, SpeechRecognitionError, SpeechRecognitionEvent, SpeechSynthesisEvent, StorageEvent, StyleElement, TableCaptionElement, TableCellElement, TableColElement, TableElement, TableRowElement, TableSectionElement, TemplateElement, Text, TextAreaElement, TextEvent, TitleElement, TouchEvent, TrackElement, TrackEvent, TransitionEvent, UIEvent, UListElement, UnknownElement, VideoElement, WheelEvent, Window, XmlDocument, _Attr, _ClientRect, _DocumentType, _HTMLAppletElement, _HTMLDirectoryElement, _HTMLFontElement, _HTMLFrameElement, _HTMLFrameSetElement, _HTMLMarqueeElement, _MutationEvent, _NamedNodeMap, _Notation, _XMLHttpRequestProgressEvent, KeyRange, VersionChangeEvent, AElement, AltGlyphElement, AnimateElement, AnimateMotionElement, AnimateTransformElement, AnimatedEnumeration, AnimatedLength, AnimatedLengthList, AnimatedNumber, AnimatedNumberList, AnimatedString, AnimationElement, CircleElement, ClipPathElement, DefsElement, DescElement, DiscardElement, EllipseElement, FEBlendElement, FEColorMatrixElement, FEComponentTransferElement, FECompositeElement, FEConvolveMatrixElement, FEDiffuseLightingElement, FEDisplacementMapElement, FEDistantLightElement, FEFloodElement, FEFuncAElement, FEFuncBElement, FEFuncGElement, FEFuncRElement, FEGaussianBlurElement, FEImageElement, FEMergeElement, FEMergeNodeElement, FEMorphologyElement, FEOffsetElement, FEPointLightElement, FESpecularLightingElement, FESpotLightElement, FETileElement, FETurbulenceElement, FilterElement, ForeignObjectElement, GElement, GeometryElement, GraphicsElement, ImageElement0, LineElement, LinearGradientElement, MarkerElement, MaskElement, MetadataElement, PathElement, PatternElement, PolygonElement, PolylineElement, RadialGradientElement, RectElement, ScriptElement0, SetElement, StopElement, StyleElement0, SvgElement, SvgSvgElement, SwitchElement, SymbolElement, TSpanElement, TextContentElement, TextElement, TextPathElement, TextPositioningElement, TitleElement0, UseElement, ViewElement, ZoomEvent, _GradientElement, _SVGAltGlyphDefElement, _SVGAltGlyphItemElement, _SVGComponentTransferFunctionElement, _SVGCursorElement, _SVGFEDropShadowElement, _SVGFontElement, _SVGFontFaceElement, _SVGFontFaceFormatElement, _SVGFontFaceNameElement, _SVGFontFaceSrcElement, _SVGFontFaceUriElement, _SVGGlyphElement, _SVGGlyphRefElement, _SVGHKernElement, _SVGMPathElement, _SVGMissingGlyphElement, _SVGVKernElement, AudioProcessingEvent, OfflineAudioCompletionEvent, ContextEvent, SqlError, NativeByteBuffer, NativeTypedData, NativeByteData, NativeFloat32List, NativeFloat64List, NativeInt16List, NativeInt32List, NativeInt8List, NativeUint16List, NativeUint32List, NativeUint8ClampedList, NativeUint8List, JS_CONST, Interceptor, JSBool, JSNull, JavaScriptObject, PlainJavaScriptObject, UnknownJavaScriptObject, JSArray, JSMutableArray, JSFixedArray, JSExtendableArray, JSNumber, JSInt, JSDouble, JSPositiveInt, JSUInt32, JSUInt31, JSString, _CodeUnits, startRootIsolate_closure, startRootIsolate_closure0, _Manager, _IsolateContext, _IsolateContext_handlePing_respond, _EventLoop, _EventLoop__runHelper_next, _IsolateEvent, _MainManagerStub, IsolateNatives__processWorkerMessage_closure, IsolateNatives__startIsolate_runStartFunction, _BaseSendPort, _NativeJsSendPort, _NativeJsSendPort_send_closure, _WorkerSendPort, RawReceivePortImpl, _JsSerializer, _JsCopier, _JsDeserializer, _JsVisitedMap, _MessageTraverserVisitedMap, _MessageTraverser, _Copier, _Copier_visitMap_closure, _Serializer, _Deserializer, TimerImpl, TimerImpl_internalCallback, TimerImpl_internalCallback0, TimerImpl$periodic_closure, CapabilityImpl, NoSideEffects, NoThrows, NoInline, Native, ConstantMap, ConstantStringMap, ConstantStringMap_values_closure, _ConstantMapKeyIterable, _Patch, JSInvocationMirror, CachedInvocation, CachedCatchAllInvocation, CachedNoSuchMethodInvocation, ReflectionInfo, ReflectionInfo_sortedIndex_closure, Primitives_functionNoSuchMethod_closure, Primitives_applyFunction_closure, TypeErrorDecoder, NullError, JsNoSuchMethodError, UnknownJsTypeError, unwrapException_saveStackTrace, _StackTrace, invokeClosure_closure, invokeClosure_closure0, invokeClosure_closure1, invokeClosure_closure2, invokeClosure_closure3, Closure, TearOffClosure, BoundClosure, Creates, Returns, JSName, CastErrorImplementation, RuntimeError, RuntimeType, RuntimeFunctionType, DynamicRuntimeType, RuntimeTypePlain, RuntimeTypeGeneric, UnimplementedNoSuchMethodError, TypeImpl, initHooks_closure, initHooks_closure0, initHooks_closure1, JSSyntaxRegExp, _MatchImplementation, _AllMatchesIterable, _AllMatchesIterator, StringMatch, main_closure, main_closure0, main_closure1, main_closure2, main_closure3, main_closure4, main_closure5, main_closure6, main_closure7, main_closure8, main_closure9, main_closure10, main_closure11, main_closure12, main_closure13, main_closure14, main_closure15, main_closure16, main_closure17, BsonObject, BsonBinary, ObjectId, ObjectId_createId_getOctet, Timestamp, MessageId, Message, BuildLogEntry, LogEntryTable, LogEntryTable_LogEntryTable$fromJson_closure, LogEntryTable_toJson_closure, LogEntryTable_toJson__closure, LogEntryTable_add_closure, LogEntryTable_addAll_closure, CoreIcon, HtmlElement_DomProxyMixin, CoreIconset, CoreMeta, HtmlElement_DomProxyMixin0, DomProxyMixin, ListIterable, SubListIterable, ListIterator, MappedIterable, EfficientLengthMappedIterable, MappedIterator, MappedListIterable, WhereIterable, WhereIterator, SkipIterable, EfficientLengthSkipIterable, SkipIterator, EmptyIterable, EmptyIterator, IterableMixinWorkaround, FixedLengthListMixin, UnmodifiableListMixin, UnmodifiableListBase, ReversedListIterable, Symbol, JsMirrorSystem, JsMirrorSystem_computeLibrariesByName_closure, JsMirror, JsIsolateMirror, JsDeclarationMirror, JsTypeVariableMirror, JsTypeMirror, JsLibraryMirror, JsDeclarationMirror_JsObjectMirror, JsLibraryMirror___members_addToResult, JsLibraryMirror_declarations_addToResult, filterMembers_closure, JsMixinApplication, JsTypeMirror_JsObjectMirror, JsObjectMirror, JsInstanceMirror, JsInstanceMirror__invokeMethodWithNamedArguments_closure, JsTypeBoundClassMirror, JsTypeBoundClassMirror_typeArguments_addTypeArgument, JsTypeBoundClassMirror_typeArguments_addTypeArgument_closure, JsTypeBoundClassMirror_typeArguments_closure, JsTypeBoundClassMirror_declarations_closure, JsClassMirror, JsTypeMirror_JsObjectMirror0, JsClassMirror_declarations_addToResult, JsClassMirror_declarations_closure, JsVariableMirror, JsClosureMirror, JsMethodMirror, JsParameterMirror, JsTypedefMirror, BrokenClassMirror, JsFunctionTypeMirror, typeMirrorFromRuntimeTypeRepresentation_getTypeArgument, typeMirrorFromRuntimeTypeRepresentation_substituteTypeVariable, extractMetadata_closure, NoSuchStaticMethodError, computeReflectiveNames_closure, _AsyncRun__initializeScheduleImmediate_internalCallback, _AsyncRun__initializeScheduleImmediate_closure, _AsyncRun__scheduleImmediateJsOverride_internalCallback, _AsyncError, _UncaughtAsyncError, _BroadcastStream, _BroadcastSubscription, _BroadcastStreamController, _SyncBroadcastStreamController, _SyncBroadcastStreamController__sendData_closure, _SyncBroadcastStreamController__sendError_closure, _SyncBroadcastStreamController__sendDone_closure, _AsyncBroadcastStreamController, Future, Future_Future$delayed_closure, _Completer, _AsyncCompleter, _SyncCompleter, _Future, _Future__addListener_closure, _Future__chainForeignFuture_closure, _Future__chainForeignFuture_closure0, _Future__asyncComplete_closure, _Future__asyncComplete_closure0, _Future__asyncCompleteError_closure, _Future__propagateToListeners_handleValueCallback, _Future__propagateToListeners_handleError, _Future__propagateToListeners_handleWhenCompleteCallback, _Future__propagateToListeners_handleWhenCompleteCallback_closure, _Future__propagateToListeners_handleWhenCompleteCallback_closure0, _AsyncCallbackEntry, Stream, Stream_fold_closure, Stream_fold__closure, Stream_fold__closure0, Stream_fold_closure1, Stream_fold_closure0, Stream_join_closure, Stream_join_closure1, Stream_join_closure0, Stream_contains_closure, Stream_contains__closure, Stream_contains__closure0, Stream_contains_closure0, Stream_forEach_closure, Stream_forEach__closure, Stream_forEach__closure0, Stream_forEach_closure0, Stream_any_closure, Stream_any__closure, Stream_any__closure0, Stream_any_closure0, Stream_length_closure, Stream_length_closure0, Stream_isEmpty_closure, Stream_isEmpty_closure0, Stream_toList_closure, Stream_toList_closure0, Stream_first_closure, Stream_first_closure0, Stream_last_closure, Stream_last_closure0, Stream_firstWhere_closure, Stream_firstWhere__closure, Stream_firstWhere__closure0, Stream_firstWhere_closure0, Stream_elementAt_closure, Stream_elementAt_closure0, StreamSubscription, _ControllerStream, _ControllerSubscription, _EventSink, _BufferingStreamSubscription, _BufferingStreamSubscription__sendError_sendError, _BufferingStreamSubscription__sendDone_sendDone, _StreamImpl, _DelayedEvent, _DelayedData, _DelayedError, _DelayedDone, _PendingEvents, _PendingEvents_schedule_closure, _StreamImplEvents, _DoneStreamSubscription, _cancelAndError_closure, _cancelAndErrorClosure_closure, _cancelAndValue_closure, _ForwardingStream, _ForwardingStreamSubscription, _WhereStream, _MapStream, _SkipStream, Timer, _ZoneFunction, ZoneSpecification, _ZoneSpecification, ZoneDelegate, Zone, _ZoneDelegate, _Zone, _CustomZone, _CustomZone_bindCallback_closure, _CustomZone_bindCallback_closure0, _CustomZone_bindUnaryCallback_closure, _CustomZone_bindUnaryCallback_closure0, _CustomZone_bindBinaryCallback_closure, _CustomZone_bindBinaryCallback_closure0, _rootHandleUncaughtError_closure, _RootZone, _RootZone_bindCallback_closure, _RootZone_bindCallback_closure0, _RootZone_bindUnaryCallback_closure, _RootZone_bindUnaryCallback_closure0, _RootZone_bindBinaryCallback_closure, _RootZone_bindBinaryCallback_closure0, _HashMap, _HashMap_values_closure, _HashMap_addAll_closure, _IdentityHashMap, _CustomHashMap, _CustomHashMap_closure, HashMapKeyIterable, HashMapKeyIterator, _LinkedHashMap, _LinkedHashMap_values_closure, _LinkedHashMap_addAll_closure, LinkedHashMapCell, LinkedHashMapKeyIterable, LinkedHashMapKeyIterator, _HashSet, HashSetIterator, _LinkedHashSet, LinkedHashSetCell, LinkedHashSetIterator, UnmodifiableListView, _HashSetBase, IterableBase, ListBase, Object_ListMixin, ListMixin, MapBase, MapMixin, _MapBaseValueIterable, _MapBaseValueIterator, _UnmodifiableMapMixin, MapView, UnmodifiableMapView, Maps_mapToString_closure, ListQueue, _ListQueueIterator, SetMixin, SetBase, _JsonMap, _JsonMap_values_closure, _JsonMap_addAll_closure, Codec, Converter, Encoding, HtmlEscapeMode, HtmlEscape, JsonCodec, JsonDecoder, Utf8Codec, Utf8Encoder, _Utf8Encoder, Utf8Decoder, _Utf8Decoder, _Utf8Decoder_convert_scanOneByteCharacters, _Utf8Decoder_convert_addSingleBytes, Function__toMangledNames_closure, NoSuchMethodError_toString_closure, Deprecated, _Override, _Proxy, bool, Comparable, DateTime, DateTime_parse_parseIntOrZero, DateTime_parse_parseDoubleOrZero, $double, Duration, Duration_toString_sixDigits, Duration_toString_twoDigits, Error, NullThrownError, ArgumentError, RangeError, NoSuchMethodError, UnsupportedError, UnimplementedError, StateError, ConcurrentModificationError, OutOfMemoryError, StackOverflowError, CyclicInitializationError, _ExceptionImplementation, FormatException, IntegerDivisionByZeroException, Expando, Function, $int, Invocation, Iterable, Iterator, List, Map, Null, num, Object, Match, RegExp, StackTrace, String, RuneIterator, StringBuffer, Symbol0, Type, Uri, Uri_parse_isRegName, Uri_parse_parseAuth, Uri__checkNonWindowsPathReservedCharacters_closure, Uri__makePath_closure, Uri__makeQuery_closure, Uri_hashCode_combine, Uri_parseIPv4Address_error, Uri_parseIPv4Address_closure, Uri_parseIPv6Address_error, Uri_parseIPv6Address_parseHex, Uri__uriEncode_byteToHex, Interceptor_CssStyleDeclarationBase, CssStyleDeclarationBase, _FrozenElementList, _FrozenElementList$_wrap_closure, Element_Element$html_closure, Entry, Interceptor_ListMixin, Interceptor_ListMixin_ImmutableListMixin, HttpRequest_getString_closure, HttpRequest_request_closure0, HttpRequest_request_closure, MutationObserver_observe_override, _ChildNodeListLazy, Interceptor_ListMixin0, Interceptor_ListMixin_ImmutableListMixin0, Interceptor_ListMixin1, Interceptor_ListMixin_ImmutableListMixin1, _AttributeMap, _AttributeMap_addAll_closure, _ElementAttributeMap, _MultiElementCssClassSet, _MultiElementCssClassSet_closure, _MultiElementCssClassSet_readClasses_closure, _MultiElementCssClassSet_modify_closure, _MultiElementCssClassSet_toggle_closure, _MultiElementCssClassSet_remove_closure, _MultiElementCssClassSet__modifyWithReturnValue_closure, _ElementCssClassSet, EventStreamProvider, _EventStream, _ElementEventStreamImpl, _ElementEventStreamImpl_matches_closure, _ElementEventStreamImpl_matches_closure0, _ElementListEventStreamImpl, _ElementListEventStreamImpl_matches_closure, _ElementListEventStreamImpl_matches_closure0, _EventStreamSubscription, _StreamPool, _StreamPool_add_closure, _Html5NodeValidator, ImmutableListMixin, NodeValidatorBuilder, NodeValidatorBuilder_allowsElement_closure, NodeValidatorBuilder_allowsAttribute_closure, _SimpleNodeValidator, _TemplatingNodeValidator, _TemplatingNodeValidator_closure, FixedSizeListIterator, _callConstructor_closure, _JSElementUpgrader, _DOMWindowCrossFrame, NodeValidator, _SameOriginUriPolicy, _ValidatingTreeSanitizer, _ValidatingTreeSanitizer_sanitizeTree_walk, _AttributeClassSet, Capability, JsObject, JsObject__convertDataTree__convert, JsFunction, JsArray, JsObject_ListMixin, _convertToJS_closure, _convertToJS_closure0, _wrapToDart_closure, _wrapToDart_closure0, _wrapToDart_closure1, _JSRandom, Point, _RectangleBase, Rectangle, Mirror, DeclarationMirror, InstanceMirror, LibraryMirror, TypeMirror, ClassMirror, TypeVariableMirror, MethodMirror, VariableMirror, ParameterMirror, MirrorsUsed, Endianness, NativeTypedArray, NativeTypedArrayOfDouble, NativeTypedArray_ListMixin, NativeTypedArray_ListMixin_FixedLengthListMixin, NativeTypedArrayOfInt, NativeTypedArray_ListMixin0, NativeTypedArray_ListMixin_FixedLengthListMixin0, DuplicateEventSettingError, EmitTimeQueueChangeError, Event, EventDetector, EventEmitter, EventEmitter_emitEvent_closure, EventEmitter_emitEvent__closure, EventEmitter_emitEvent__closure0, _convertDartToNative_PrepareForStructuredClone_findSlot, _convertDartToNative_PrepareForStructuredClone_readSlot, _convertDartToNative_PrepareForStructuredClone_writeSlot, _convertDartToNative_PrepareForStructuredClone_cleanupSlots, _convertDartToNative_PrepareForStructuredClone_walk, _convertDartToNative_PrepareForStructuredClone_walk_closure, convertNativeToDart_AcceptStructuredClone_findSlot, convertNativeToDart_AcceptStructuredClone_readSlot, convertNativeToDart_AcceptStructuredClone_writeSlot, convertNativeToDart_AcceptStructuredClone_walk, CssClassSetImpl, CssClassSetImpl_add_closure, CssClassSetImpl_addAll_closure, CssClassSetImpl_clear_closure, Logger, Logger_Logger_closure, Level, LogRecord, SupportedBrowser, Experimental, DomName, DocsEditable, Unstable, Bindable, ChangeNotifier, ChangeRecord, PropertyChangeRecord, dirtyCheckZoneSpec_enqueueDirtyCheck, dirtyCheckZoneSpec_enqueueDirtyCheck_closure, dirtyCheckZoneSpec_wrapCallback, dirtyCheckZoneSpec_wrapCallback_closure, dirtyCheckZoneSpec_wrapUnaryCallback, dirtyCheckZoneSpec_wrapUnaryCallback_closure, ListChangeRecord, ObservableProperty, Reflectable, Observable, Observable_deliverChanges_closure, ObservableBox, MapChangeRecord, ObservableMap, ObservableMap_addAll_closure, ObservableMap_clear_closure, ObserverTransform, PathObserver, PropertyPath, _InvalidPropertyPath, closure7, _PathParser, _PathParser_push_closure, CompoundObserver, CompoundObserver_addObserver_closure, CompoundObserver__check_closure, _ObserverSentinel, _Observer, _ObservedSet, PaperButton, PaperFocusable, HtmlElement_DomProxyMixin1, PaperRipple, HtmlElement_DomProxyMixin2, PaperShadow, HtmlElement_DomProxyMixin3, Context, Context_join_closure, Context_joinAll_closure, Context_split_closure, _validateArgList_closure, InternalStyle, ParsedPath, ParsedPath_normalize_closure, PathException, Style, PosixStyle, UrlStyle, WindowsStyle, PolymerDeclaration, PolymerDeclaration__getPublishedProperties_closure, PolymerDeclaration__getPublishedProperties_closure0, PolymerDeclaration_accumulateInstanceAttributes_closure, PolymerDeclaration_addAttributeDelegates_closure, PolymerDeclaration_installLocalSheets_closure, PolymerDeclaration_cssTextForScope_matcher, PolymerDeclaration_explodeObservers_closure, PolymerDeclaration__lowerCaseMap_closure, PolymerDeclaration_createPropertyAccessors_closure, PolymerExpressions, BindingDelegate_PolymerEventBindings, PolymerEventBindings, PolymerEventBindings_getEventHandler_closure, PolymerEventBindings_prepareEventBinding_closure, PolymerEventBindings_prepareEventBinding__closure, _EventBindable, PublishedProperty, PolymerElement, HtmlElement_Polymer, HtmlElement_Polymer_ChangeNotifier, Polymer, Polymer_makeElementReady_closure, Polymer_attached_closure, Polymer_copyInstanceAttributes_closure, Polymer_copyInstanceAttributes__closure, Polymer_asyncUnbindAll_closure, Polymer_cancelUnbindAll_closure, Polymer_cancelUnbindAll_closure0, Polymer_notifyPropertyChanges_closure, Polymer__propertyChange_closure, Polymer_observeArrayValue_closure, Polymer_observeArrayValue_closure0, Polymer_observeArrayValue_closure1, Polymer_bindProperty_closure, Polymer_bindProperty_closure0, Polymer_addHostListeners_closure, Polymer_addHostListeners_closure0, Polymer_dispatchMethod_closure, Polymer_dispatchMethod_closure0, _PolymerBinding, _CloseOnlyBinding, PolymerJob, PolymerJob_start_closure, CustomTag, InitMethodAnnotation, initPolymer_closure, _hookJsPolymer_closure, _hookJsPolymer_registerDart, _hookJsPolymer_registerDart_closure, closure, _initializeLogging_closure, _initializeLogging_closure0, _initializeLogging_closure1, _initializeLogging_closure2, _PropertyAccessor, AutoBindingElement, TemplateElement_Polymer, TemplateElement_Polymer_Observable, AutoBindingElement$created_closure, AutoBindingElement$created__closure, _AutoBindingSyntax, LogInjector, LogInjector_injectLogsFromUrl_closure, LogInjector_injectLogs_closure, LogInjector_injectLogs__closure2, LogInjector_injectLogs___closure, LogInjector_injectLogs_closure0, LogInjector_injectLogs__closure, LogInjector_injectLogs__closure0, LogInjector_injectLogs__closure1, _OpenUriPolicy, closure0, closure1, closure2, closure3, closure4, _closure0, closure5, _closure, _classAttributeConverter_closure, _styleAttributeConverter_closure, PolymerExpressions0, PolymerExpressions_prepareBinding_closure, PolymerExpressions_prepareBinding_closure0, PolymerExpressions_prepareBinding_closure1, PolymerExpressions_prepareInstanceModel_closure, PolymerExpressions_prepareInstanceModel_closure0, _Binding, _Binding_open_closure, ScopeFactory, StreamBinding, StreamBinding_closure, closure13, closure14, closure15, closure16, closure17, closure18, closure19, closure20, closure21, closure22, closure23, closure24, closure25, closure26, closure27, closure28, closure10, closure11, closure12, Scope, _ModelScope, _LocalVariableScope, _GlobalsScope, ExpressionObserver, Updater, Closer, EvalVisitor, ObserverBuilder, ObserverBuilder_visitInvoke_closure, ObserverBuilder_visitListLiteral_closure, ObserverBuilder_visitMapLiteral_closure, EmptyObserver, LiteralObserver, ListLiteralObserver, ListLiteralObserver__updateSelf_closure, MapLiteralObserver, MapLiteralObserver__updateSelf_closure, MapLiteralEntryObserver, IdentifierObserver, IdentifierObserver__updateSelf_closure, IdentifierObserver__updateSelf__closure, UnaryObserver, BinaryObserver, BinaryObserver__updateSelf_closure, TernaryObserver, GetterObserver, GetterObserver__updateSelf_closure, GetterObserver__updateSelf__closure, IndexObserver, IndexObserver__updateSelf_closure0, IndexObserver__updateSelf__closure0, IndexObserver__updateSelf_closure, IndexObserver__updateSelf__closure, InvokeObserver, InvokeObserver__updateSelf_closure, InvokeObserver__updateSelf_closure0, InvokeObserver__updateSelf__closure, EvalException, AstFactory, Expression, EmptyExpression, Literal, ListLiteral, MapLiteral, MapLiteralEntry, ParenthesizedExpression, Identifier, UnaryOperator, BinaryOperator, TernaryOperator, InExpression, AsExpression, Index, Getter, Invoke, _hashList_closure, Parser, IndexedValue, EnumerateIterable, EnumerateIterator, Token, Tokenizer, ParseException, Visitor, RecursiveVisitor, _Base, Object_EventEmitter, Object_EventEmitter_EventDetector, Consumer, Object_EventDetector, RestrictedMethodError, Source, IEndPointMessage, _IGarbageCollectionReport, _ProxyInvocation, _IProxyInvocation, _ISourceEvent, _ISourceReady, _Transmission, QueryOptions, Declaration, DeclarationKind, StaticConfiguration, StaticConfiguration_closure, StaticConfiguration_addAll_closure, StaticConfiguration__nestedAddAll_closure, GeneratedObjectAccessorService, GeneratedTypeInspectorService, GeneratedSymbolConverterService, MissingCodeException, SourceLocation, SourceSpan, SourceSpanBase, SourceSpanMixin, registerStopwatchTranTypes_closure, registerStopwatchTranTypes__closure, registerStopwatchTranTypes__closure0, registerStopwatchTranTypes__closure1, DurationChange, IDurationChange, Start, Stop, Stopwatch, PurityStopwatch, PolymerElement_EventDetector, PolymerElement_EventDetector_ChangeNotifier, StopwatchConsumer, BindingDelegate, _InstanceBindingMap, _TemplateBindingMap, NodeBindExtension, _NodeBindingsMap, _NodeBindingsMap_keys_closure, _JsBindable, bindableToJsObject_inZone, bindableToJsObject_inZoneUnary, bindableToJsObject_closure, bindableToJsObject__closure, bindableToJsObject_closure0, bindableToJsObject_closure1, bindableToJsObject_closure2, bindableToJsObject_closure3, TemplateInstance, TemplateBindExtension, TemplateBindExtension_bind_closure, TemplateBindExtension_bootstrap__bootstrap, closure6, closure8, closure9, _InstanceExtension, _getDelegateFactory_closure, _parseAttributeBindings_closure, _TemplateIterator, MustacheTokens, DuplicateTranKeyError, DuplicateTranNamespaceError, DuplicateTranTypeError, InvalidTranNamespaceError, NestedRegisterTranTypesCallError, TranMethodError, TranRegistrationOutsideOfNamespaceError, TransmittableLockedError, UnregisteredTypeError, _InternalPointer, registerTranSubtype_closure, _registerTranTranTypes_closure, _registerTranTranTypes__closure, _registerTranTranTypes__closure0, _registerTranTranTypes__closure1, _registerTranTranTypes__closure2, _registerTranTranTypes__closure3, _registerTranTranTypes__closure4, _registerTranTranTypes__closure5, _registerTranTranTypes__closure6, _registerTranTranTypes__closure7, _registerTranTranTypes__closure8, _registerTranTranTypes__closure9, _registerTranTranTypes__closure10, _registerTranTranTypes__closure11, _registerTranTranTypes__closure12, _registerTranTranTypes__closure13, _registerTranTranTypes__closure14, _registerTranTranTypes__closure15, _registerTranTranTypes__closure16, _registerTranTranTypes__closure17, _registerTranTranTypes__closure18, _registerTranTranTypes__closure19, _registerTranTranTypes__closure20, _registerTranTranTypes__closure21, _registerTranTranTypes__closure22, _registerTranTranTypes__closure23, _processIterableToString_closure, _processMapToString_closure, _TranCodec, getRegisteredMappingsByType_closure, getRegisteredMappingsByKey_closure, Transmittable, ListRange, _ListRangeIteratorImpl, Utf16CodeUnitDecoder, registerDartType_upgradeElement];
 }

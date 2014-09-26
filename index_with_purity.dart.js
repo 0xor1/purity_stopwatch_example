@@ -6351,35 +6351,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     static: {"^": "VAlign_TOP,VAlign_BOTTOM,VAlign_CENTER,VAlign__V_CENTER"}
   }
 }],
-["core_elements.paper_button", "package:paper_elements/paper_button.dart", , G, {
-  "^": "",
-  PaperButton: {
-    "^": "PaperFocusable;common$DomProxyMixin$_proxy",
-    static: {PaperButton$created: function(receiver) {
-        receiver.toString;
-        C.PaperButton_methods.Element$created$0(receiver);
-        return receiver;
-      }}
-  }
-}],
-["core_elements.paper_focusable", "package:paper_elements/paper_focusable.dart", , N, {
-  "^": "",
-  PaperFocusable: {
-    "^": "HtmlElement_DomProxyMixin;common$DomProxyMixin$_proxy",
-    set$disabled: function(receiver, value) {
-      J.$indexSet$ax(this.get$jsElement(receiver), "disabled", value);
-    },
-    static: {PaperFocusable$created: function(receiver) {
-        receiver.toString;
-        C.PaperFocusable_methods.Element$created$0(receiver);
-        return receiver;
-      }}
-  },
-  HtmlElement_DomProxyMixin: {
-    "^": "HtmlElement+DomProxyMixin;"
-  }
-}],
-["core_elements.src.common", "package:core_elements/src/common.dart", , N, {
+["custom_element_apigen.src.common", "package:custom_element_apigen/src/common.dart", , V, {
   "^": "",
   DomProxyMixin: {
     "^": "Object;",
@@ -23446,6 +23418,34 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   }
 }],
+["paper_elements.paper_button", "package:paper_elements/paper_button.dart", , L, {
+  "^": "",
+  PaperButton: {
+    "^": "PaperFocusable;common$DomProxyMixin$_proxy",
+    static: {PaperButton$created: function(receiver) {
+        receiver.toString;
+        C.PaperButton_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  }
+}],
+["paper_elements.paper_focusable", "package:paper_elements/paper_focusable.dart", , D, {
+  "^": "",
+  PaperFocusable: {
+    "^": "HtmlElement_DomProxyMixin;common$DomProxyMixin$_proxy",
+    set$disabled: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "disabled", value);
+    },
+    static: {PaperFocusable$created: function(receiver) {
+        receiver.toString;
+        C.PaperFocusable_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
 ["polymer", "package:polymer/polymer.dart", , A, {
   "^": "",
   _shimShadowDomStyling: function(template, $name, extendee) {
@@ -23843,10 +23843,15 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   PolymerEventBindings: {
     "^": "Object;",
     findController$1: function(node) {
-      var t1;
+      var t1, eventController;
       for (; t1 = J.getInterceptor$x(node), t1.get$parentNode(node) != null;) {
         if (!!t1.$isPolymer && J.$index$asx(node.polymer$Polymer$_jsElem, "eventController") != null)
           return J.$index$asx(t1.get$_jsElem(node), "eventController");
+        else if (!!t1.$isElement) {
+          eventController = J.$index$asx(P.JsObject_JsObject$fromBrowserObject(node), "eventController");
+          if (eventController != null)
+            return eventController;
+        }
         node = t1.get$parentNode(node);
       }
       return !!t1.$isShadowRoot ? node.host : null;
@@ -27264,14 +27269,51 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       this._binder.addAll$1(0, [new M.CommandLineBinding("newClient", "Simulates a new client browsing to the Host", new L.LocalHostView__addCommandBindings_closure(this)), new M.CommandLineBinding("closeClient", "Simulates the specified client closing the page, example close client 1: > closeClient 1", new L.LocalHostView__addCommandBindings_closure0(this)), new M.CommandLineBinding("showComs", "Shows the communications window", new L.LocalHostView__addCommandBindings_closure1(this)), new M.CommandLineBinding("hideComs", "Hides the communications window", new L.LocalHostView__addCommandBindings_closure2(this))]);
     },
     LocalHostView$1: function(host) {
-      var t1, t2;
+      var t1, t2, t3, t4, t5, t6;
       $.get$LocalHostView__localHostViewStyle().insert$0(0);
       t1 = M.CommandLine$();
+      t2 = P.StreamController_StreamController(null, null, null, null, false, null);
+      t3 = P.StreamController_StreamController(null, null, null, null, false, null);
+      t4 = $.Control__idSource;
+      $.Control__idSource = t4 + 1;
+      t5 = document.createElement("div", null);
+      t3 = new M.Paragraph(t4, t2, t3, t5);
+      t3.Base$0();
+      t3.Control$0();
+      t2 = $.get$Paragraph__paragraphStyle();
+      t2.insert$0(0);
+      t3.addClass$1("cnp-paragraph");
+      t5.textContent = "Enter showComs to display a window showing all communications to/from the Purity Host.";
+      t1.enterBase$1(t3);
+      t3 = P.StreamController_StreamController(null, null, null, null, false, null);
+      t5 = P.StreamController_StreamController(null, null, null, null, false, null);
+      t4 = $.Control__idSource;
+      $.Control__idSource = t4 + 1;
+      t6 = document.createElement("div", null);
+      t5 = new M.Paragraph(t4, t3, t5, t6);
+      t5.Base$0();
+      t5.Control$0();
+      t2.insert$0(0);
+      t5.addClass$1("cnp-paragraph");
+      t6.textContent = "Enter newClient to simulate a new client connecting to the host.";
+      t1.enterBase$1(t5);
+      t5 = P.StreamController_StreamController(null, null, null, null, false, null);
+      t6 = P.StreamController_StreamController(null, null, null, null, false, null);
+      t3 = $.Control__idSource;
+      $.Control__idSource = t3 + 1;
+      t4 = document.createElement("div", null);
+      t6 = new M.Paragraph(t3, t5, t6, t4);
+      t6.Base$0();
+      t6.Control$0();
+      t2.insert$0(0);
+      t6.addClass$1("cnp-paragraph");
+      t4.textContent = "Enter closeClient # to simulate the client with id # closing down.";
+      t1.enterBase$1(t6);
       J.get$classes$x(t1.html).add$1(0, "cnp-fill");
       this._cmdLn = t1;
-      t2 = [];
-      t2.$builtinTypeInfo = [M.CommandLineBinding];
-      t1 = new M.CommandLineInputBinder(t1, t2);
+      t6 = [];
+      t6.$builtinTypeInfo = [M.CommandLineBinding];
+      t1 = new M.CommandLineInputBinder(t1, t6);
       t1._hookUpEvents$0();
       t1._addDefaultBindings$0();
       this._binder = t1;
@@ -31500,8 +31542,8 @@ C.JSNull_methods = J.JSNull.prototype;
 C.JSNumber_methods = J.JSNumber.prototype;
 C.JSString_methods = J.JSString.prototype;
 C.NodeList_methods = W.NodeList.prototype;
-C.PaperButton_methods = G.PaperButton.prototype;
-C.PaperFocusable_methods = N.PaperFocusable.prototype;
+C.PaperButton_methods = L.PaperButton.prototype;
+C.PaperFocusable_methods = D.PaperFocusable.prototype;
 C.PlainJavaScriptObject_methods = J.PlainJavaScriptObject.prototype;
 C.PolymerElement_methods = A.PolymerElement.prototype;
 C.PurityStopwatch_methods = B.PurityStopwatch.prototype;
@@ -31743,6 +31785,7 @@ C.Symbol_registerCallback = new H.Symbol("registerCallback");
 C.Symbol_removeEventAction = new H.Symbol("removeEventAction");
 C.Symbol_value = new H.Symbol("value");
 C.Symbol_void = new H.Symbol("void");
+C.Type_2KD = H.createRuntimeType('PaperFocusable');
 C.Type_46y = H.createRuntimeType('Map');
 C.Type_4y3 = H.createRuntimeType('Start');
 C.Type_6L0 = H.createRuntimeType('Uint8List');
@@ -31760,8 +31803,7 @@ C.Type_GkY = H.createRuntimeType('_ProxyInvocation');
 C.Type_HqF = H.createRuntimeType('Object');
 C.Type_I2I = H.createRuntimeType('PolymerElement');
 C.Type_I5O = H.createRuntimeType('Symbol0');
-C.Type_K6o = H.createRuntimeType('PaperFocusable');
-C.Type_MPa = H.createRuntimeType('PaperButton');
+C.Type_MIo = H.createRuntimeType('PaperButton');
 C.Type_NlB = H.createRuntimeType('NativeTypedArrayOfDouble');
 C.Type_Nm5 = H.createRuntimeType('_SourceEvent');
 C.Type_OqP = H.createRuntimeType('DurationChange');
@@ -31873,7 +31915,7 @@ $._currentNamespace = null;
 $._currentNamespaceKeyCount = 0;
 $._tranTranTypesRegistered = false;
 $.interceptedNames = ["$add", "$and", "$div", "$eq", "$ge", "$gt", "$index", "$indexSet", "$le", "$lt", "$mod", "$mul", "$negate", "$not", "$or", "$shl", "$shr", "$sub", "$tdiv", "$xor", "AutoBindingElement$created$0", "Element$created$0", "PolymerElement$created$0", "__isolate_helper$_add$1", "_add$1", "_async$_add$1", "_checkIndex$2", "_checkSublistArguments$3", "_clearChildren$0", "_ensureRequestAnimationFrame$0", "_eval$_observe$2", "_getBindingForComputedProperty$1", "_getPropertyValueHelper$1", "_handleDurationChange$1", "_initCustomEvent$4", "_initSourceBinding$0", "_initialiseIndexes$2", "_invalidIndex$2", "_observable$_observed$0", "_propertyChange$3", "_propertyChangeWorkaround$1", "_rangeCheck$2", "_replaceChild$2", "_requestAnimationFrame$1", "_setPropertyHelper$3", "_setRangeFast$4", "_shlPositive$1", "_shrOtherPositive$1", "_tdivFast$1", "_unobserved$0", "abs$0", "accept$1", "add$1", "addAll$1", "addEventListener$3", "addHostListeners$0", "allMatches$1", "allMatches$2", "any$1", "append$1", "async$1", "asyncUnbindAll$0", "attached$0", "attributeChanged$3", "attributeToProperty$2", "bind$3$oneTime", "bindFinished$0", "bindProperty$3$oneTime", "bindToAccessor$2", "bindToAccessor$3$resolveBindingValue", "blur$0", "cancelUnbindAll$0", "clear$0", "close$0", "closeNamedObservers$0", "closeObservers$0", "codeUnitAt$1", "compareTo$1", "complete$0", "complete$1", "contains$1", "contains$2", "copyInstanceAttributes$0", "createComputedProperties$0", "createDocumentFragment$0", "createElement$1", "createElement$2", "createHtmlDocument$1", "createInstance$2", "createPropertyObserver$0", "createShadowRoot$0", "defaultValue$1", "deliverChanges$0", "detached$0", "dispatchEvent$1", "dispatchMethod$3", "elementAt$1", "emitPropertyChangeRecord$3", "endsWith$1", "every$1", "fire$1", "fire$5$canBubble$cancelable$detail$onNode", "focus$0", "fold$2", "forEach$1", "get$$$", "get$__js_helper$_name", "get$_children", "get$_collection$_element", "get$_dartDetail", "get$_emitterIndexes", "get$_jsElem", "get$_name", "get$_observable$_changes", "get$_observe", "get$_polymer$_name", "get$_records", "get$_selector", "get$_self", "get$_typeIndexes", "get$_values", "get$alt", "get$attributes", "get$baseUri", "get$bindingDelegate", "get$bindings", "get$bottom", "get$changes", "get$children", "get$className", "get$classes", "get$clear", "get$client", "get$codeUnits", "get$cols", "get$consumer", "get$content", "get$ctrlKey", "get$currentTarget", "get$data", "get$defaultValue", "get$detail", "get$disabled", "get$duration", "get$element", "get$entries", "get$error", "get$first", "get$firstChild", "get$hasObservers", "get$hashCode", "get$head", "get$height", "get$host", "get$href", "get$html", "get$id", "get$implementation", "get$index", "get$isEmpty", "get$isNaN", "get$isNegative", "get$isNotEmpty", "get$iterator", "get$jsElement", "get$key", "get$keyCode", "get$kind", "get$last", "get$lastChild", "get$left", "get$length", "get$localName", "get$message", "get$method", "get$model", "get$name", "get$namespaceUri", "get$nextElementSibling", "get$nextNode", "get$nodes", "get$onBlur", "get$onClick", "get$onError", "get$onFocus", "get$onKeyDown", "get$onKeyUp", "get$onMouseDown", "get$operator", "get$ownerDocument", "get$parent", "get$parentNode", "get$pattern", "get$placeholder", "get$port", "get$right", "get$rows", "get$runtimeType", "get$src", "get$start", "get$syntax", "get$tagName", "get$target", "get$templateInstance", "get$text", "get$top", "get$type", "get$value", "get$values", "get$width", "get$window", "get$x", "get$y", "getElementById$1", "getPropertyValue$1", "getRange$2", "ignoreAllEvents$0", "ignoreAllEventsFrom$1", "ignoreAllEventsOfType$1", "ignoreSpecificEventBinding$2", "importNode$2", "index$2", "indexOf$1", "indexOf$2", "insert$0", "insert$2", "insertBefore$2", "join$1", "lastIndexOf$1", "lastIndexOf$2", "listen$1", "listen$3", "listen$3$onDone$onError", "listen$4$cancelOnError$onDone$onError", "makeElementReady$0", "map$1", "marshalNodeReferences$1", "matchAsPrefix$2", "matches$1", "matchesWithAncestors$1", "noSuchMethod$1", "notifyChange$1", "notifyPropertyChange$3", "notifyPropertyChanges$3", "observe$2", "observe$3$attributeFilter$attributes", "observe$8$attributeFilter$attributeOldValue$attributes$characterData$characterDataOldValue$childList$subtree", "observeArrayValue$3", "observed$0", "onError$1", "open$1", "open$3$async", "open$5$async$password$user", "parseDeclaration$1", "parseDeclarations$1", "pause$0", "pause$1", "polymerCreated$0", "prepareElement$0", "print$1", "propertyForAttribute$1", "querySelector$1", "querySelectorAll$1", "remainder$1", "remove$0", "remove$1", "removeAt$1", "removeEventListener$3", "removeRange$2", "replaceAll$2", "replaceWith$1", "reset$0", "reset$1", "round$0", "roundToDouble$0", "send$1", "send$2", "set$$$", "set$__js_helper$_name", "set$_children", "set$_collection$_element", "set$_dartDetail", "set$_emitterIndexes", "set$_jsElem", "set$_name", "set$_observable$_changes", "set$_observe", "set$_records", "set$_selector", "set$_self", "set$_typeIndexes", "set$_values", "set$alt", "set$baseUri", "set$bindingDelegate", "set$bindings", "set$border", "set$bottom", "set$className", "set$cols", "set$consumer", "set$content", "set$ctrlKey", "set$data", "set$defaultValue", "set$disabled", "set$duration", "set$element", "set$entries", "set$error", "set$firstChild", "set$height", "set$href", "set$html", "set$id", "set$implementation", "set$index", "set$key", "set$kind", "set$lastChild", "set$left", "set$length", "set$margin", "set$message", "set$method", "set$model", "set$name", "set$nextElementSibling", "set$nextNode", "set$operator", "set$overflow", "set$ownerDocument", "set$padding", "set$parent", "set$parentNode", "set$pattern", "set$placeholder", "set$position", "set$right", "set$rows", "set$src", "set$syntax", "set$tagName", "set$target", "set$text", "set$top", "set$value", "set$width", "set$x", "set$y", "setProperty$3", "setRange$4", "shadowFromTemplate$1", "show$0", "skip$1", "split$1", "start$0", "start$2", "startsWith$1", "startsWith$2", "stop$0", "sublist$1", "sublist$2", "substring$1", "substring$2", "take$1", "takeAttributes$0", "toInt$0", "toList$0", "toList$1$growable", "toLowerCase$0", "toRadixString$1", "toString$0", "toUpperCase$0", "trim$0", "unbindAll$0", "unobserved$0", "where$1"];
-$.mapTypeToInterceptor = [C.Type_fPs, W.HtmlElement, {}, C.Type_AHF, H.NativeTypedArray, {"": H.NativeTypedArray$}, C.Type_EQs, W.GlobalEventHandlers, {}, C.Type_I2I, A.PolymerElement, {created: A.PolymerElement$created}, C.Type_K6o, N.PaperFocusable, {created: N.PaperFocusable$created}, C.Type_MPa, G.PaperButton, {created: G.PaperButton$created}, C.Type_NlB, H.NativeTypedArrayOfDouble, {"": H.NativeTypedArrayOfDouble$}, C.Type_QyU, W.WindowEventHandlers, {}, C.Type_ol5, B.PurityStopwatch, {created: B.PurityStopwatch$created}, C.Type_s8b, Y.AutoBindingElement, {created: Y.AutoBindingElement$created}, C.Type_wOW, H.NativeTypedArrayOfInt, {"": H.NativeTypedArrayOfInt$}];
+$.mapTypeToInterceptor = [C.Type_fPs, W.HtmlElement, {}, C.Type_2KD, D.PaperFocusable, {created: D.PaperFocusable$created}, C.Type_AHF, H.NativeTypedArray, {"": H.NativeTypedArray$}, C.Type_EQs, W.GlobalEventHandlers, {}, C.Type_I2I, A.PolymerElement, {created: A.PolymerElement$created}, C.Type_MIo, L.PaperButton, {created: L.PaperButton$created}, C.Type_NlB, H.NativeTypedArrayOfDouble, {"": H.NativeTypedArrayOfDouble$}, C.Type_QyU, W.WindowEventHandlers, {}, C.Type_ol5, B.PurityStopwatch, {created: B.PurityStopwatch$created}, C.Type_s8b, Y.AutoBindingElement, {created: Y.AutoBindingElement$created}, C.Type_wOW, H.NativeTypedArrayOfInt, {"": H.NativeTypedArrayOfInt$}];
 Isolate.$lazy($, "thisScript", "IsolateNatives_thisScript", "get$IsolateNatives_thisScript", function() {
   return H.IsolateNatives_computeThisScript();
 });
