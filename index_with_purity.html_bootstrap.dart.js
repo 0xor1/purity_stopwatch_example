@@ -66,7 +66,7 @@ $ = Isolate.$isolateProperties;
 var $$ = {};
 
 // Native classes
-init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handleTick$1: "_handleTick:1:0", _initialiseIndexes$2: "_initialiseIndexes:2:0", _invoke$1: "_invoke:1:0", addEventAction$2: "addEventAction:2:0", call$0: "call:0:0", call$1: "call:1:0", call$1$growable: "call:1:0:growable", call$1$skipChanges: "call:1:0:skipChanges", call$1$specification: "call:1:0:specification", call$2: "call:2:0", call$2$onError: "call:2:0:onError", call$2$runGuarded: "call:2:0:runGuarded", call$2$thisArg: "call:2:0:thisArg", call$3: "call:3:0", call$3$async: "call:3:0:async", call$3$attributeFilter$attributes: "call:3:0:attributeFilter:attributes", call$3$globals: "call:3:0:globals", call$3$onDone$onError: "call:3:0:onDone:onError", call$3$oneTime: "call:3:0:oneTime", call$3$treeSanitizer$validator: "call:3:0:treeSanitizer:validator", call$4: "call:4:0", call$4$cancelOnError$onDone$onError: "call:4:0:cancelOnError:onDone:onError", call$5: "call:5:0", call$6: "call:6:0", emitEvent$1: "emitEvent:1:0", get$_actionQueues: "_actionQueues", get$_core0$_this: "_core0$_this", get$_du: "_du", get$_duration: "_duration", get$_emitterIndexes: "_emitterIndexes", get$_emittingType: "_emittingType", get$_isRunning: "_isRunning", get$_model$_duration: "_model$_duration", get$_purityId: "_purityId", get$_timer: "_timer", get$_typeIndexes: "_typeIndexes", get$counter: "counter", get$data: "data", get$duration: "duration", get$emittingType: "emittingType", get$endPointName: "endPointName", get$isEmitting: "isEmitting", get$isEmpty: "isEmpty", get$isNotEmpty: "isNotEmpty", get$isProxyToSource: "isProxyToSource", get$keys: "keys", get$length: "length", get$message: "message", get$method: "method", get$namArgs: "namArgs", get$posArgs: "posArgs", get$proxies: "proxies", get$proxy: "proxy", get$proxyEndPoint: "proxyEndPoint", get$reset: "reset", get$src: "src", get$start: "start", get$stop: "stop", get$value: "value", get$values: "values", ignoreAllEvents$0: "ignoreAllEvents:0:0", ignoreAllEventsFrom$1: "ignoreAllEventsFrom:1:0", ignoreAllEventsOfType$1: "ignoreAllEventsOfType:1:0", ignoreSpecificEventBinding$2: "ignoreSpecificEventBinding:2:0", listen$1: "listen:1:0", listen$3: "listen:3:0", listen$3$onDone$onError: "listen:3:0:onDone:onError", registerCallback$1: "registerCallback:1:0", removeEventAction$2: "removeEventAction:2:0", reset$0: "reset:0:0", set$_actionQueues: "_actionQueues=", set$_core0$_this: "_core0$_this=", set$_du: "_du=", set$_emitterIndexes: "_emitterIndexes=", set$_emittingType: "_emittingType=", set$_model$_duration: "_model$_duration=", set$_purityId: "_purityId=", set$_timer: "_timer=", set$_typeIndexes: "_typeIndexes=", set$counter: "counter=", set$data: "data=", set$duration: "duration=", set$endPointName: "endPointName=", set$isProxyToSource: "isProxyToSource=", set$length: "length=", set$message: "message=", set$method: "method=", set$namArgs: "namArgs=", set$posArgs: "posArgs=", set$proxies: "proxies=", set$proxy: "proxy=", set$proxyEndPoint: "proxyEndPoint=", set$src: "src=", set$value: "value=", start$0: "start:0:0", stop$0: "stop:0:0"};
+init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handleTick$1: "_handleTick:1:0", _initialiseIndexes$2: "_initialiseIndexes:2:0", _invoke$1: "_invoke:1:0", addEventAction$2: "addEventAction:2:0", call$0: "call:0:0", call$1: "call:1:0", call$1$growable: "call:1:0:growable", call$1$skipChanges: "call:1:0:skipChanges", call$1$specification: "call:1:0:specification", call$2: "call:2:0", call$2$onError: "call:2:0:onError", call$2$runGuarded: "call:2:0:runGuarded", call$2$thisArg: "call:2:0:thisArg", call$3: "call:3:0", call$3$async: "call:3:0:async", call$3$attributeFilter$attributes: "call:3:0:attributeFilter:attributes", call$3$globals: "call:3:0:globals", call$3$onDone$onError: "call:3:0:onDone:onError", call$3$oneTime: "call:3:0:oneTime", call$3$treeSanitizer$validator: "call:3:0:treeSanitizer:validator", call$4: "call:4:0", call$4$cancelOnError$onDone$onError: "call:4:0:cancelOnError:onDone:onError", call$5: "call:5:0", call$6: "call:6:0", emitEvent$1: "emitEvent:1:0", get$_actionQueues: "_actionQueues", get$_core0$_this: "_core0$_this", get$_du: "_du", get$_duration: "_duration", get$_emitterIndexes: "_emitterIndexes", get$_emittingType: "_emittingType", get$_isRunning: "_isRunning", get$_model$_duration: "_model$_duration", get$_purityId: "_purityId", get$_timer: "_timer", get$_typeIndexes: "_typeIndexes", get$blurAction: "blurAction", get$contextMenuAction: "contextMenuAction", get$counter: "counter", get$data: "data", get$downAction: "downAction", get$duration: "duration", get$emittingType: "emittingType", get$endPointName: "endPointName", get$focusAction: "focusAction", get$icon: "icon", get$iconSrc: "iconSrc", get$isEmitting: "isEmitting", get$isEmpty: "isEmpty", get$isNotEmpty: "isNotEmpty", get$isProxyToSource: "isProxyToSource", get$keys: "keys", get$label: "label", get$length: "length", get$message: "message", get$method: "method", get$namArgs: "namArgs", get$posArgs: "posArgs", get$proxies: "proxies", get$proxy: "proxy", get$proxyEndPoint: "proxyEndPoint", get$raisedButton: "raisedButton", get$reset: "reset", get$src: "src", get$start: "start", get$stop: "stop", get$upAction: "upAction", get$value: "value", get$values: "values", get$z: "z", ignoreAllEvents$0: "ignoreAllEvents:0:0", ignoreAllEventsFrom$1: "ignoreAllEventsFrom:1:0", ignoreAllEventsOfType$1: "ignoreAllEventsOfType:1:0", ignoreSpecificEventBinding$2: "ignoreSpecificEventBinding:2:0", listen$1: "listen:1:0", listen$3: "listen:3:0", listen$3$onDone$onError: "listen:3:0:onDone:onError", registerCallback$1: "registerCallback:1:0", removeEventAction$2: "removeEventAction:2:0", reset$0: "reset:0:0", set$_actionQueues: "_actionQueues=", set$_core0$_this: "_core0$_this=", set$_du: "_du=", set$_emitterIndexes: "_emitterIndexes=", set$_emittingType: "_emittingType=", set$_model$_duration: "_model$_duration=", set$_purityId: "_purityId=", set$_timer: "_timer=", set$_typeIndexes: "_typeIndexes=", set$counter: "counter=", set$data: "data=", set$duration: "duration=", set$endPointName: "endPointName=", set$icon: "icon=", set$iconSrc: "iconSrc=", set$isProxyToSource: "isProxyToSource=", set$length: "length=", set$message: "message=", set$method: "method=", set$namArgs: "namArgs=", set$posArgs: "posArgs=", set$proxies: "proxies=", set$proxy: "proxy=", set$proxyEndPoint: "proxyEndPoint=", set$src: "src=", set$value: "value=", set$z: "z=", start$0: "start:0:0", stop$0: "stop:0:0"};
 (function(reflectionData) {
   "use strict";
   function map(x) {
@@ -282,26 +282,26 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     t1 = P.LinkedHashSet_LinkedHashSet(null, null, null, G.SourceEndPoint);
     t2 = new F.ObjectId(null);
     t2.ObjectId$1$clientMode(false);
-    host = new K.Host(new K.main_closure5(), new K.main_closure6(), 0, t1, true, null, t2, null, null, null, null);
+    host = new K.Host(new K.main_closure18(), new K.main_closure19(), 0, t1, true, null, t2, null, null, null, null);
     hostView = new L.LocalHostView(null, null, null, null, null, P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, M.Window), P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, K.ProxyEndPoint), host, null, null);
     hostView.Consumer$1(host);
     hostView.LocalHostView$1(host);
     if ($._consumerSettingsInitialised)
       H.throwExpression(G.ConsumerSettingsAlreadyInitialisedError$());
     $._consumerSettingsInitialised = true;
-    $._initConsumer = new K.main_closure7(hostView);
-    $._handleConnectionClose = new K.main_closure8();
+    $._initConsumer = new K.main_closure20(hostView);
+    $._handleConnectionClose = new K.main_closure21();
     document.body.appendChild(hostView._page.html);
   },
-  main_closure5: {
-    "^": "Closure:53;",
+  main_closure18: {
+    "^": "Closure:54;",
     call$1: function(_) {
       return P.Future_Future$delayed(P.Duration$(0, 0, 0, 0, 0, 0), new K.main__closure(), null);
     },
     $isFunction: true
   },
   main__closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1, t2;
       t1 = P.Duration$(0, 0, 0, 0, 0, 0);
@@ -312,20 +312,20 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     },
     $isFunction: true
   },
-  main_closure6: {
-    "^": "Closure:53;",
+  main_closure19: {
+    "^": "Closure:54;",
     call$1: function(_) {
       return P.Future_Future$delayed(P.Duration$(0, 0, 0, 0, 0, 0), new K.main__closure0(), null);
     },
     $isFunction: true
   },
   main__closure0: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
     },
     $isFunction: true
   },
-  main_closure7: {
+  main_closure20: {
     "^": "Closure:92;hostView_0",
     call$2: function(stopwatch, proxyEndPoint) {
       var t1, consumer, t2, t3, t4, t5, t6, t7;
@@ -355,8 +355,8 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     },
     $isFunction: true
   },
-  main_closure8: {
-    "^": "Closure:83;",
+  main_closure21: {
+    "^": "Closure:14;",
     call$0: function() {
     },
     $isFunction: true
@@ -1501,14 +1501,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     return x == null || typeof x === "string" || typeof x === "number" || typeof x === "boolean";
   },
   startRootIsolate_closure: {
-    "^": "Closure:83;box_0,entry_1",
+    "^": "Closure:14;box_0,entry_1",
     call$0: function() {
       this.entry_1.call$1(this.box_0.args_0);
     },
     $isFunction: true
   },
   startRootIsolate_closure0: {
-    "^": "Closure:83;box_0,entry_2",
+    "^": "Closure:14;box_0,entry_2",
     call$0: function() {
       this.entry_2.call$2(this.box_0.args_0, null);
     },
@@ -1870,7 +1870,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;"
   },
   IsolateNatives__processWorkerMessage_closure: {
-    "^": "Closure:83;entryPoint_0,args_1,message_2,isSpawnUri_3,startPaused_4,replyTo_5",
+    "^": "Closure:14;entryPoint_0,args_1,message_2,isSpawnUri_3,startPaused_4,replyTo_5",
     call$0: [function() {
       H.IsolateNatives__startIsolate(this.entryPoint_0, this.args_1, this.message_2, this.isSpawnUri_3, this.startPaused_4, this.replyTo_5);
     }, "call$0", null, 0, 0, null, "call"],
@@ -1942,7 +1942,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isCapability: true
   },
   _NativeJsSendPort_send_closure: {
-    "^": "Closure:83;box_0,this_1,shouldSerialize_2",
+    "^": "Closure:14;box_0,this_1,shouldSerialize_2",
     call$0: [function() {
       var t1, t2;
       t1 = this.this_1._receivePort;
@@ -2373,7 +2373,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   TimerImpl$periodic_closure: {
-    "^": "Closure:83;this_0,callback_1",
+    "^": "Closure:14;this_0,callback_1",
     call$0: [function() {
       this.callback_1.call$1(this.this_0);
     }, "call$0", null, 0, 0, null, "call"],
@@ -3724,7 +3724,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isEfficientLength: true
   },
   ConstantStringMap_values_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(key) {
       return this.this_0._fetch$1(key);
     }, "call$1", null, 2, 0, null, 94, [], "call"],
@@ -4136,7 +4136,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   unwrapException_saveStackTrace: {
-    "^": "Closure:53;ex_0",
+    "^": "Closure:54;ex_0",
     call$1: function(error) {
       if (!!J.getInterceptor(error).$isError)
         if (error.$thrownJsError == null)
@@ -4160,35 +4160,35 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   invokeClosure_closure: {
-    "^": "Closure:83;closure_0",
+    "^": "Closure:14;closure_0",
     call$0: function() {
       return this.closure_0.call$0();
     },
     $isFunction: true
   },
   invokeClosure_closure0: {
-    "^": "Closure:83;closure_1,arg1_2",
+    "^": "Closure:14;closure_1,arg1_2",
     call$0: function() {
       return this.closure_1.call$1(this.arg1_2);
     },
     $isFunction: true
   },
   invokeClosure_closure1: {
-    "^": "Closure:83;closure_3,arg1_4,arg2_5",
+    "^": "Closure:14;closure_3,arg1_4,arg2_5",
     call$0: function() {
       return this.closure_3.call$2(this.arg1_4, this.arg2_5);
     },
     $isFunction: true
   },
   invokeClosure_closure2: {
-    "^": "Closure:83;closure_6,arg1_7,arg2_8,arg3_9",
+    "^": "Closure:14;closure_6,arg1_7,arg2_8,arg3_9",
     call$0: function() {
       return this.closure_6.call$3(this.arg1_7, this.arg2_8, this.arg3_9);
     },
     $isFunction: true
   },
   invokeClosure_closure3: {
-    "^": "Closure:83;closure_10,arg1_11,arg2_12,arg3_13,arg4_14",
+    "^": "Closure:14;closure_10,arg1_11,arg2_12,arg3_13,arg4_14",
     call$0: function() {
       return this.closure_10.call$4(this.arg1_11, this.arg2_12, this.arg3_13, this.arg4_14);
     },
@@ -4454,7 +4454,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isType: true
   },
   initHooks_closure: {
-    "^": "Closure:53;getTag_0",
+    "^": "Closure:54;getTag_0",
     call$1: function(o) {
       return this.getTag_0(o);
     },
@@ -4685,55 +4685,146 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   "^": "",
   main0: [function() {
     var t1, t2, t3;
-    t1 = P.LinkedHashMap_LinkedHashMap$_literal([C.Symbol_counter, new E.main_closure(), C.Symbol_reset, new E.main_closure0(), C.Symbol_start, new E.main_closure1(), C.Symbol_stop, new E.main_closure2()], null, null);
-    t2 = P.LinkedHashMap_LinkedHashMap$_literal([C.Symbol_counter, new E.main_closure3()], null, null);
+    t1 = P.LinkedHashMap_LinkedHashMap$_literal([C.Symbol_blurAction, new E.main_closure(), C.Symbol_contextMenuAction, new E.main_closure0(), C.Symbol_counter, new E.main_closure1(), C.Symbol_downAction, new E.main_closure2(), C.Symbol_focusAction, new E.main_closure3(), C.Symbol_icon, new E.main_closure4(), C.Symbol_iconSrc, new E.main_closure5(), C.Symbol_label, new E.main_closure6(), C.Symbol_raisedButton, new E.main_closure7(), C.Symbol_reset, new E.main_closure8(), C.Symbol_start, new E.main_closure9(), C.Symbol_stop, new E.main_closure10(), C.Symbol_upAction, new E.main_closure11(), C.Symbol_z, new E.main_closure12()], null, null);
+    t2 = P.LinkedHashMap_LinkedHashMap$_literal([C.Symbol_counter, new E.main_closure13(), C.Symbol_icon, new E.main_closure14(), C.Symbol_iconSrc, new E.main_closure15(), C.Symbol_z, new E.main_closure16()], null, null);
     t3 = P.LinkedHashMap_LinkedHashMap$_literal([C.Type_ol5, C.Type_EOZ, C.Type_GNh, C.Type_I2I, C.Type_EOZ, C.Type_GNh], null, null);
-    t2 = O.StaticConfiguration$(false, P.LinkedHashMap_LinkedHashMap$_literal([C.Type_ol5, P.LinkedHashMap_LinkedHashMap$_literal([C.Symbol_counter, C.Declaration_W3w], null, null)], null, null), t1, P.LinkedHashMap_LinkedHashMap$_literal([C.Symbol_counter, "counter", C.Symbol_reset, "reset", C.Symbol_start, "start", C.Symbol_stop, "stop"], null, null), t3, t2, null);
+    t2 = O.StaticConfiguration$(false, P.LinkedHashMap_LinkedHashMap$_literal([C.Type_ol5, P.LinkedHashMap_LinkedHashMap$_literal([C.Symbol_counter, C.Declaration_W3w], null, null)], null, null), t1, P.LinkedHashMap_LinkedHashMap$_literal([C.Symbol_blurAction, "blurAction", C.Symbol_contextMenuAction, "contextMenuAction", C.Symbol_counter, "counter", C.Symbol_downAction, "downAction", C.Symbol_focusAction, "focusAction", C.Symbol_icon, "icon", C.Symbol_iconSrc, "iconSrc", C.Symbol_label, "label", C.Symbol_raisedButton, "raisedButton", C.Symbol_reset, "reset", C.Symbol_start, "start", C.Symbol_stop, "stop", C.Symbol_upAction, "upAction", C.Symbol_z, "z"], null, null), t3, t2, null);
     $.objectAccessor = new O.GeneratedObjectAccessorService(t2);
     $.typeInspector = new O.GeneratedTypeInspectorService(t2);
     $.symbolConverter = new O.GeneratedSymbolConverterService(t2);
     new F.LogInjector(null, null).injectLogsFromUrl$1("index_with_purity.html._buildLogs");
-    $.initializers = [new E.main_closure4()];
+    $.initializers = [S.upgradeCoreMeta$closure(), M.upgradeCoreIconset$closure(), L.upgradeCoreIcon$closure(), N.upgradePaperFocusable$closure(), F.upgradePaperRipple$closure(), V.upgradePaperShadow$closure(), G.upgradePaperButton$closure(), new E.main_closure17()];
     $.deployMode = true;
     K.main();
   }, "call$0", "main0$closure", 0, 0, 13],
   main_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(o) {
-      return J.get$counter$x(o);
-    }, "call$1", null, 2, 0, null, 66, [], "call"],
+      return o.get$blurAction();
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
     $isFunction: true
   },
   main_closure0: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(o) {
-      return J.get$reset$x(o);
-    }, "call$1", null, 2, 0, null, 66, [], "call"],
+      return o.get$contextMenuAction();
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
     $isFunction: true
   },
   main_closure1: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(o) {
-      return J.get$start$x(o);
-    }, "call$1", null, 2, 0, null, 66, [], "call"],
+      return J.get$counter$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
     $isFunction: true
   },
   main_closure2: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(o) {
-      return J.get$stop$x(o);
-    }, "call$1", null, 2, 0, null, 66, [], "call"],
+      return o.get$downAction();
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
     $isFunction: true
   },
   main_closure3: {
-    "^": "Closure:92;",
-    call$2: [function(o, v) {
-      J.set$counter$x(o, v);
-    }, "call$2", null, 4, 0, null, 66, [], 70, [], "call"],
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return o.get$focusAction();
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
     $isFunction: true
   },
   main_closure4: {
-    "^": "Closure:83;",
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return J.get$icon$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure5: {
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return J.get$iconSrc$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure6: {
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return J.get$label$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure7: {
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return J.get$raisedButton$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure8: {
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return J.get$reset$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure9: {
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return J.get$start$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure10: {
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return J.get$stop$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure11: {
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return o.get$upAction();
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure12: {
+    "^": "Closure:54;",
+    call$1: [function(o) {
+      return J.get$z$x(o);
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
+    $isFunction: true
+  },
+  main_closure13: {
+    "^": "Closure:92;",
+    call$2: [function(o, v) {
+      J.set$counter$x(o, v);
+    }, "call$2", null, 4, 0, null, 67, [], 71, [], "call"],
+    $isFunction: true
+  },
+  main_closure14: {
+    "^": "Closure:92;",
+    call$2: [function(o, v) {
+      J.set$icon$x(o, v);
+    }, "call$2", null, 4, 0, null, 67, [], 71, [], "call"],
+    $isFunction: true
+  },
+  main_closure15: {
+    "^": "Closure:92;",
+    call$2: [function(o, v) {
+      J.set$iconSrc$x(o, v);
+    }, "call$2", null, 4, 0, null, 67, [], 71, [], "call"],
+    $isFunction: true
+  },
+  main_closure16: {
+    "^": "Closure:92;",
+    call$2: [function(o, v) {
+      J.set$z$x(o, v);
+    }, "call$2", null, 4, 0, null, 67, [], 71, [], "call"],
+    $isFunction: true
+  },
+  main_closure17: {
+    "^": "Closure:14;",
     call$0: [function() {
       return A.Polymer_register("purity-stopwatch", C.Type_ol5);
     }, "call$0", null, 0, 0, null, "call"],
@@ -4957,7 +5048,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "CharMatcher;",
     match$1: [function(value) {
       return true;
-    }, "call$1", "get$match", 2, 0, 101, 18, []],
+    }, "call$1", "get$match", 2, 0, 101, 19, []],
     $not: function(_) {
       return C.C__NoneCharMatcher;
     },
@@ -4971,7 +5062,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       if (typeof value !== "number")
         return H.iae(value);
       return 48 <= value && value <= 57;
-    }, "call$1", "get$match", 2, 0, 101, 18, []]
+    }, "call$1", "get$match", 2, 0, 101, 19, []]
   },
   _DisjunctiveCharMatcher: {
     "^": "CharMatcher;_matchers",
@@ -4999,11 +5090,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     },
     match$1: [function(value) {
       return H.IterableMixinWorkaround_any(this._matchers, new L._DisjunctiveCharMatcher_match_closure(value));
-    }, "call$1", "get$match", 2, 0, 101, 18, []],
+    }, "call$1", "get$match", 2, 0, 101, 19, []],
     $is_DisjunctiveCharMatcher: true
   },
   _DisjunctiveCharMatcher_match_closure: {
-    "^": "Closure:53;value_0",
+    "^": "Closure:54;value_0",
     call$1: function(matcher) {
       return matcher.match$1(this.value_0);
     },
@@ -5016,13 +5107,13 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     },
     match$1: [function(value) {
       return !this._matcher.match$1(value);
-    }, "call$1", "get$match", 2, 0, 101, 18, []]
+    }, "call$1", "get$match", 2, 0, 101, 19, []]
   },
   _NoneCharMatcher: {
     "^": "CharMatcher;",
     match$1: [function(value) {
       return false;
-    }, "call$1", "get$match", 2, 0, 101, 18, []],
+    }, "call$1", "get$match", 2, 0, 101, 19, []],
     $not: function(_) {
       return C.C__AnyCharMatcher;
     },
@@ -5036,7 +5127,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       if (typeof value !== "number")
         return H.iae(value);
       return this._char_matcher$_start <= value && value <= this._stop;
-    }, "call$1", "get$match", 2, 0, 101, 18, []]
+    }, "call$1", "get$match", 2, 0, 101, 19, []]
   }
 }],
 ["code_transformers.messages", "package:code_transformers/messages/messages.dart", , Z, {
@@ -5142,7 +5233,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   LogEntryTable_LogEntryTable$fromJson_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(v) {
       var t1, spanData, t2, locData, t3, t4, t5, t6, start, end, span;
       t1 = J.getInterceptor$asx(v);
@@ -5169,7 +5260,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t2 = t1.$index(v, "message");
       t3 = J.getInterceptor$asx(t2);
       return new Z.BuildLogEntry(new Z.Message(Z.MessageId_MessageId$fromJson(t3.$index(t2, "id")), t3.$index(t2, "snippet")), t1.$index(v, "level"), span);
-    }, "call$1", null, 2, 0, null, 70, [], "call"],
+    }, "call$1", null, 2, 0, null, 71, [], "call"],
     $isFunction: true
   },
   LogEntryTable_toJson_closure: {
@@ -5180,21 +5271,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   LogEntryTable_toJson__closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(e) {
       return e.toJson$0();
     }, "call$1", null, 2, 0, null, 2, [], "call"],
     $isFunction: true
   },
   LogEntryTable_add_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       return [];
     },
     $isFunction: true
   },
   LogEntryTable_addAll_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       return [];
     },
@@ -5233,7 +5324,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Base_addClasses_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: function(cssClass) {
       this.this_0.addClass$1(cssClass);
     },
@@ -5281,14 +5372,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Control_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function($event) {
       return this.this_0.focus$0(0);
     }, "call$1", null, 2, 0, null, 102, [], "call"],
     $isFunction: true
   },
   Control_closure0: {
-    "^": "Closure:53;this_1",
+    "^": "Closure:54;this_1",
     call$1: [function($event) {
       return this.this_1.focus$0(0);
     }, "call$1", null, 2, 0, null, 102, [], "call"],
@@ -5565,21 +5656,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   TextArea_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       return this.this_0.blur$0(0);
     }, "call$1", null, 2, 0, null, 104, [], "call"],
     $isFunction: true
   },
   TextArea_closure0: {
-    "^": "Closure:53;this_1",
+    "^": "Closure:54;this_1",
     call$1: [function(_) {
       return this.this_1.focus$0(0);
     }, "call$1", null, 2, 0, null, 104, [], "call"],
     $isFunction: true
   },
   Window: {
-    "^": "Control;_topResizer,_leftResizer,_bottomResizer,_rightResizer,_topLeftResizer,_bottomRightResizer,_topRightResizer,_bottomLeftResizer,_header,_contentHolder,_windowStyleElement,content>,icon,name>,_currentMouseMoveSub,_top,_left,_width,_height,_id,_blurController,_focusController,html",
+    "^": "Control;_topResizer,_leftResizer,_bottomResizer,_rightResizer,_topLeftResizer,_bottomRightResizer,_topRightResizer,_bottomLeftResizer,_header,_contentHolder,_windowStyleElement,content>,icon>,name>,_currentMouseMoveSub,_top,_left,_width,_height,_id,_blurController,_focusController,html",
     set$top: function(_, t) {
       var t1, t2;
       t1 = J.getInterceptor$n(t);
@@ -5829,7 +5920,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   Window__hookUpEvents_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       var windows, insertIdx, t1;
       windows = J.get$children$x($.PagePanel__singleton._floatAnchor);
@@ -5887,7 +5978,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Window__hookUpEvents_closure2: {
-    "^": "Closure:53;this_7",
+    "^": "Closure:54;this_7",
     call$1: [function(_) {
       var t1, t2;
       t1 = this.this_7;
@@ -5903,7 +5994,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Window__hookUpEvents_closure3: {
-    "^": "Closure:53;this_8",
+    "^": "Closure:54;this_8",
     call$1: [function(_) {
       var t1, t2;
       t1 = this.this_8;
@@ -5919,7 +6010,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Window__hookUpEvents_closure4: {
-    "^": "Closure:53;this_9",
+    "^": "Closure:54;this_9",
     call$1: [function(_) {
       var t1, t2, startBottom, startRight;
       t1 = this.this_9;
@@ -5946,7 +6037,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Window__hookUpEvents_closure5: {
-    "^": "Closure:53;this_13",
+    "^": "Closure:54;this_13",
     call$1: [function(_) {
       var t1, t2;
       t1 = this.this_13;
@@ -5973,7 +6064,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Window__hookUpEvents_closure6: {
-    "^": "Closure:53;this_15",
+    "^": "Closure:54;this_15",
     call$1: [function(_) {
       var t1, t2, startBottom;
       t1 = this.this_15;
@@ -5999,7 +6090,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Window__hookUpEvents_closure7: {
-    "^": "Closure:53;this_18",
+    "^": "Closure:54;this_18",
     call$1: [function(_) {
       var t1, t2, startRight;
       t1 = this.this_18;
@@ -6055,7 +6146,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Window__attachWindowMouseUpEvent_closure: {
-    "^": "Closure:53;box_0,this_1",
+    "^": "Closure:54;box_0,this_1",
     call$1: [function(_) {
       var t1 = this.this_1;
       J.remove$0$ax(t1._windowStyleElement);
@@ -6118,7 +6209,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Panel_addAll_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(item) {
       return this.this_0.add$1(0, item);
     }, "call$1", null, 2, 0, null, 107, [], "call"],
@@ -6198,10 +6289,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   StackPanel_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(o) {
       return J.get$html$x(o);
-    }, "call$1", null, 2, 0, null, 66, [], "call"],
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
     $isFunction: true
   },
   Style: {
@@ -6395,7 +6486,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   CommandLineInputBinder__hookUpEvents__closure: {
-    "^": "Closure:53;cmd_1",
+    "^": "Closure:54;cmd_1",
     call$1: function(binding) {
       return J.$eq(binding.get$command(), this.cmd_1);
     },
@@ -6416,7 +6507,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   CommandLineInputBinder_addAll_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(cmdLnB) {
       return this.this_0.add$1(0, cmdLnB);
     }, "call$1", null, 2, 0, null, 110, [], "call"],
@@ -6504,7 +6595,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   CommandLineInputBinder__addDefaultBindings__closure: {
-    "^": "Closure:53;cmdLn_1",
+    "^": "Closure:54;cmdLn_1",
     call$1: function(binding) {
       var t1, t2, t3, t4, t5;
       t1 = binding.get$command();
@@ -6538,6 +6629,193 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     },
     $isVAlign: true,
     static: {"^": "VAlign_TOP,VAlign_BOTTOM,VAlign_CENTER,VAlign__V_CENTER"}
+  }
+}],
+["core_elements.core_icon", "package:core_elements/core_icon.dart", , L, {
+  "^": "",
+  upgradeCoreIcon: [function() {
+    return N.registerDartType("core-icon", C.Type_jWj, null);
+  }, "call$0", "upgradeCoreIcon$closure", 0, 0, 14],
+  CoreIcon: {
+    "^": "HtmlElement_DomProxyMixin;common$DomProxyMixin$_proxy",
+    get$src: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "src");
+    },
+    set$src: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "src", value);
+    },
+    get$icon: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "icon");
+    },
+    set$icon: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "icon", value);
+    },
+    set$alt: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "alt", value);
+    },
+    static: {CoreIcon$created: function(receiver) {
+        receiver.toString;
+        C.CoreIcon_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
+["core_elements.core_iconset", "package:core_elements/core_iconset.dart", , M, {
+  "^": "",
+  upgradeCoreIconset: [function() {
+    return N.registerDartType("core-iconset", C.Type_ACQ, null);
+  }, "call$0", "upgradeCoreIconset$closure", 0, 0, 14],
+  CoreIconset: {
+    "^": "CoreMeta;common$DomProxyMixin$_proxy",
+    get$src: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "src");
+    },
+    set$src: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "src", value);
+    },
+    set$width: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "width", value);
+    },
+    static: {CoreIconset$created: function(receiver) {
+        receiver.toString;
+        C.CoreIconset_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  }
+}],
+["core_elements.core_meta", "package:core_elements/core_meta.dart", , S, {
+  "^": "",
+  upgradeCoreMeta: [function() {
+    return N.registerDartType("core-meta", C.Type_aB0, null);
+  }, "call$0", "upgradeCoreMeta$closure", 0, 0, 14],
+  CoreMeta: {
+    "^": "HtmlElement_DomProxyMixin0;common$DomProxyMixin$_proxy",
+    get$label: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "label");
+    },
+    get$type: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "type");
+    },
+    static: {CoreMeta$created: function(receiver) {
+        receiver.toString;
+        C.CoreMeta_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin0: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
+["core_elements.paper_button", "package:paper_elements/paper_button.dart", , G, {
+  "^": "",
+  upgradePaperButton: [function() {
+    return N.registerDartType("paper-button", C.Type_MPa, null);
+  }, "call$0", "upgradePaperButton$closure", 0, 0, 14],
+  PaperButton: {
+    "^": "PaperFocusable;common$DomProxyMixin$_proxy",
+    get$label: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "label");
+    },
+    get$raisedButton: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "raisedButton");
+    },
+    get$iconSrc: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "iconSrc");
+    },
+    set$iconSrc: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "iconSrc", value);
+    },
+    get$icon: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "icon");
+    },
+    set$icon: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "icon", value);
+    },
+    static: {PaperButton$created: function(receiver) {
+        receiver.toString;
+        C.PaperButton_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  }
+}],
+["core_elements.paper_focusable", "package:paper_elements/paper_focusable.dart", , N, {
+  "^": "",
+  upgradePaperFocusable: [function() {
+    return N.registerDartType("paper-focusable", C.Type_K6o, null);
+  }, "call$0", "upgradePaperFocusable$closure", 0, 0, 14],
+  PaperFocusable: {
+    "^": "HtmlElement_DomProxyMixin1;common$DomProxyMixin$_proxy",
+    set$disabled: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "disabled", value);
+    },
+    static: {PaperFocusable$created: function(receiver) {
+        receiver.toString;
+        C.PaperFocusable_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin1: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
+["core_elements.paper_ripple", "package:paper_elements/paper_ripple.dart", , F, {
+  "^": "",
+  upgradePaperRipple: [function() {
+    return N.registerDartType("paper-ripple", C.Type_AyE, null);
+  }, "call$0", "upgradePaperRipple$closure", 0, 0, 14],
+  PaperRipple: {
+    "^": "HtmlElement_DomProxyMixin2;common$DomProxyMixin$_proxy",
+    static: {PaperRipple$created: function(receiver) {
+        receiver.toString;
+        C.PaperRipple_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin2: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
+["core_elements.paper_shadow", "package:paper_elements/paper_shadow.dart", , V, {
+  "^": "",
+  upgradePaperShadow: [function() {
+    return N.registerDartType("paper-shadow", C.Type_aRS, null);
+  }, "call$0", "upgradePaperShadow$closure", 0, 0, 14],
+  PaperShadow: {
+    "^": "HtmlElement_DomProxyMixin3;common$DomProxyMixin$_proxy",
+    get$target: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "target");
+    },
+    get$z: function(receiver) {
+      return J.$index$asx(this.get$jsElement(receiver), "z");
+    },
+    set$z: function(receiver, value) {
+      J.$indexSet$ax(this.get$jsElement(receiver), "z", value);
+    },
+    static: {PaperShadow$created: function(receiver) {
+        receiver.toString;
+        C.PaperShadow_methods.Element$created$0(receiver);
+        return receiver;
+      }}
+  },
+  HtmlElement_DomProxyMixin3: {
+    "^": "HtmlElement+DomProxyMixin;"
+  }
+}],
+["core_elements.src.common", "package:core_elements/src/common.dart", , N, {
+  "^": "",
+  DomProxyMixin: {
+    "^": "Object;",
+    get$jsElement: function(receiver) {
+      var t1 = receiver.common$DomProxyMixin$_proxy;
+      if (t1 == null) {
+        t1 = P.JsObject_JsObject$fromBrowserObject(receiver);
+        receiver.common$DomProxyMixin$_proxy = t1;
+      }
+      return t1;
+    }
   }
 }],
 ["dart._internal", "dart:_internal", , H, {
@@ -7561,7 +7839,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       return new H.JsClosureMirror(reflectee, 4);
     else
       return new H.JsInstanceMirror(reflectee, 4);
-  }, "call$1", "reflect$closure", 2, 0, 14, 15, []],
+  }, "call$1", "reflect$closure", 2, 0, 15, 16, []],
   reflectClassByMangledName: function(mangledName) {
     var unmangledName, t1;
     unmangledName = $.get$mangledGlobalNames().$index(0, mangledName);
@@ -7888,7 +8166,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   JsMirrorSystem_computeLibrariesByName_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       return H.setRuntimeTypeInfo([], [P.LibraryMirror]);
     },
@@ -8193,7 +8471,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   filterMembers_closure: {
-    "^": "Closure:83;method_0",
+    "^": "Closure:14;method_0",
     call$0: function() {
       return this.method_0;
     },
@@ -8460,7 +8738,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         t1.$indexSet(0, parameter, value);
       else
         throw H.wrapException(H.UnimplementedNoSuchMethodError$("Invoking noSuchMethod with named arguments not implemented"));
-    }, "call$2", null, 4, 0, null, 69, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 70, [], 19, [], "call"],
     $isFunction: true
   },
   JsTypeBoundClassMirror: {
@@ -8631,21 +8909,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   JsTypeBoundClassMirror_typeArguments_addTypeArgument_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(_) {
       return -1;
     },
     $isFunction: true
   },
   JsTypeBoundClassMirror_typeArguments_closure: {
-    "^": "Closure:53;addTypeArgument_1",
+    "^": "Closure:54;addTypeArgument_1",
     call$1: [function(t) {
       return this.addTypeArgument_1.call$1(t);
     }, "call$1", null, 2, 0, null, 114, [], "call"],
     $isFunction: true
   },
   JsTypeBoundClassMirror_declarations_closure: {
-    "^": "Closure:53;result_0",
+    "^": "Closure:54;result_0",
     call$1: [function(tv) {
       this.result_0.$indexSet(0, tv.get$simpleName(), tv);
       return tv;
@@ -8906,7 +9184,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   JsClassMirror_declarations_closure: {
-    "^": "Closure:53;result_1",
+    "^": "Closure:54;result_1",
     call$1: function(tv) {
       this.result_1.$indexSet(0, tv.get$simpleName(), tv);
       return tv;
@@ -9456,10 +9734,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   _AsyncRun__scheduleImmediateJsOverride: [function(callback) {
     ++init.globalState.topEventLoop._activeJsAsyncCount;
     self.scheduleImmediate(H.convertDartClosureToJS(new P._AsyncRun__scheduleImmediateJsOverride_internalCallback(callback), 0));
-  }, "call$1", "_AsyncRun__scheduleImmediateJsOverride$closure", 2, 0, 16],
+  }, "call$1", "_AsyncRun__scheduleImmediateJsOverride$closure", 2, 0, 17],
   _AsyncRun__scheduleImmediateWithTimer: [function(callback) {
     P.Timer__createTimer(C.Duration_0, callback);
-  }, "call$1", "_AsyncRun__scheduleImmediateWithTimer$closure", 2, 0, 16],
+  }, "call$1", "_AsyncRun__scheduleImmediateWithTimer$closure", 2, 0, 17],
   _registerErrorHandler: function(errorHandler, zone) {
     var t1 = H.getDynamicRuntimeType();
     t1 = H.buildFunctionType(t1, [t1, t1])._isTest$1(errorHandler);
@@ -9541,12 +9819,12 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
 
   },
   _nullDataHandler: [function(value) {
-  }, "call$1", "_nullDataHandler$closure", 2, 0, 17, 18, []],
+  }, "call$1", "_nullDataHandler$closure", 2, 0, 18, 19, []],
   _nullErrorHandler: [function(error, stackTrace) {
     $.Zone__current.handleUncaughtError$2(error, stackTrace);
   }, function(error) {
     return P._nullErrorHandler(error, null);
-  }, null, "call$2", "call$1", "_nullErrorHandler$closure", 2, 2, 19, 20, 21, [], 22, []],
+  }, null, "call$2", "call$1", "_nullErrorHandler$closure", 2, 2, 20, 21, 22, [], 23, []],
   _nullDoneHandler: [function() {
   }, "call$0", "_nullDoneHandler$closure", 0, 0, 13],
   _runUserCode: function(userCode, onSuccess, onError) {
@@ -9635,7 +9913,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
           $._lastCallback = entry;
       }
     }
-  }, "call$5", "_rootHandleUncaughtError$closure", 10, 0, 23, 24, [], 25, [], 26, [], 21, [], 22, []],
+  }, "call$5", "_rootHandleUncaughtError$closure", 10, 0, 24, 25, [], 26, [], 27, [], 22, [], 23, []],
   _rootRun: [function($self, $parent, zone, f) {
     var old, t1;
     if (J.$eq($.Zone__current, zone))
@@ -9647,7 +9925,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     } finally {
       $.Zone__current = old;
     }
-  }, "call$4", "_rootRun$closure", 8, 0, 27, 24, [], 25, [], 26, [], 28, []],
+  }, "call$4", "_rootRun$closure", 8, 0, 28, 25, [], 26, [], 27, [], 29, []],
   _rootRunUnary: [function($self, $parent, zone, f, arg) {
     var old, t1;
     if (J.$eq($.Zone__current, zone))
@@ -9659,7 +9937,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     } finally {
       $.Zone__current = old;
     }
-  }, "call$5", "_rootRunUnary$closure", 10, 0, 29, 24, [], 25, [], 26, [], 28, [], 30, []],
+  }, "call$5", "_rootRunUnary$closure", 10, 0, 30, 25, [], 26, [], 27, [], 29, [], 31, []],
   _rootRunBinary: [function($self, $parent, zone, f, arg1, arg2) {
     var old, t1;
     if (J.$eq($.Zone__current, zone))
@@ -9671,16 +9949,16 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     } finally {
       $.Zone__current = old;
     }
-  }, "call$6", "_rootRunBinary$closure", 12, 0, 31, 24, [], 25, [], 26, [], 28, [], 7, [], 8, []],
+  }, "call$6", "_rootRunBinary$closure", 12, 0, 32, 25, [], 26, [], 27, [], 29, [], 7, [], 8, []],
   _rootRegisterCallback: [function($self, $parent, zone, f) {
     return f;
-  }, "call$4", "_rootRegisterCallback$closure", 8, 0, 32, 24, [], 25, [], 26, [], 28, []],
+  }, "call$4", "_rootRegisterCallback$closure", 8, 0, 33, 25, [], 26, [], 27, [], 29, []],
   _rootRegisterUnaryCallback: [function($self, $parent, zone, f) {
     return f;
-  }, "call$4", "_rootRegisterUnaryCallback$closure", 8, 0, 33, 24, [], 25, [], 26, [], 28, []],
+  }, "call$4", "_rootRegisterUnaryCallback$closure", 8, 0, 34, 25, [], 26, [], 27, [], 29, []],
   _rootRegisterBinaryCallback: [function($self, $parent, zone, f) {
     return f;
-  }, "call$4", "_rootRegisterBinaryCallback$closure", 8, 0, 34, 24, [], 25, [], 26, [], 28, []],
+  }, "call$4", "_rootRegisterBinaryCallback$closure", 8, 0, 35, 25, [], 26, [], 27, [], 29, []],
   _rootScheduleMicrotask: [function($self, $parent, zone, f) {
     var t1, newEntry;
     if (C.C__RootZone !== zone)
@@ -9696,19 +9974,19 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       $._lastCallback.next = newEntry;
       $._lastCallback = newEntry;
     }
-  }, "call$4", "_rootScheduleMicrotask$closure", 8, 0, 35, 24, [], 25, [], 26, [], 28, []],
+  }, "call$4", "_rootScheduleMicrotask$closure", 8, 0, 36, 25, [], 26, [], 27, [], 29, []],
   _rootCreateTimer: [function($self, $parent, zone, duration, callback) {
     return P.Timer__createTimer(duration, C.C__RootZone !== zone ? zone.bindCallback$1(callback) : callback);
-  }, "call$5", "_rootCreateTimer$closure", 10, 0, 36, 24, [], 25, [], 26, [], 37, [], 38, []],
+  }, "call$5", "_rootCreateTimer$closure", 10, 0, 37, 25, [], 26, [], 27, [], 38, [], 39, []],
   _rootCreatePeriodicTimer: [function($self, $parent, zone, duration, callback) {
     return P.Timer__createPeriodicTimer(duration, C.C__RootZone !== zone ? zone.bindUnaryCallback$1(callback) : callback);
-  }, "call$5", "_rootCreatePeriodicTimer$closure", 10, 0, 39, 24, [], 25, [], 26, [], 37, [], 38, []],
+  }, "call$5", "_rootCreatePeriodicTimer$closure", 10, 0, 40, 25, [], 26, [], 27, [], 38, [], 39, []],
   _rootPrint: [function($self, $parent, zone, line) {
     H.printString(H.S(line));
-  }, "call$4", "_rootPrint$closure", 8, 0, 40, 24, [], 25, [], 26, [], 41, []],
+  }, "call$4", "_rootPrint$closure", 8, 0, 41, 25, [], 26, [], 27, [], 42, []],
   _printToZone: [function(line) {
     J.print$1$x($.Zone__current, line);
-  }, "call$1", "_printToZone$closure", 2, 0, 42],
+  }, "call$1", "_printToZone$closure", 2, 0, 43],
   _rootFork: [function($self, $parent, zone, specification, zoneValues) {
     var valueMap, t1;
     $.printToZone = P._printToZone$closure();
@@ -9725,9 +10003,9 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     t1 = new P._CustomZone(null, null, null, null, null, null, null, null, null, null, null, null, null, zone, valueMap);
     t1._CustomZone$3(zone, specification, valueMap);
     return t1;
-  }, "call$5", "_rootFork$closure", 10, 0, 43, 24, [], 25, [], 26, [], 44, [], 45, []],
+  }, "call$5", "_rootFork$closure", 10, 0, 44, 25, [], 26, [], 27, [], 45, [], 46, []],
   _AsyncRun__initializeScheduleImmediate_internalCallback: {
-    "^": "Closure:53;box_0",
+    "^": "Closure:54;box_0",
     call$1: [function(_) {
       var t1, f;
       H.leaveJsAsync();
@@ -9751,7 +10029,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _AsyncRun__scheduleImmediateJsOverride_internalCallback: {
-    "^": "Closure:83;callback_0",
+    "^": "Closure:14;callback_0",
     call$0: [function() {
       H.leaveJsAsync();
       this.callback_0.call$0();
@@ -9912,7 +10190,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       this._sendError$2(error, stackTrace);
     }, function(error) {
       return this.addError$2(error, null);
-    }, "addError$1", "call$2", "call$1", "get$addError", 2, 2, 122, 20, 21, [], 22, []],
+    }, "addError$1", "call$2", "call$1", "get$addError", 2, 2, 122, 21, 22, [], 23, []],
     close$0: function(_) {
       var t1, doneFuture;
       t1 = this._state;
@@ -10111,7 +10389,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }
     }, function(error) {
       return this.addError$2(error, null);
-    }, "addError$1", "call$2", "call$1", "get$addError", 2, 2, 122, 20, 21, [], 22, []],
+    }, "addError$1", "call$2", "call$1", "get$addError", 2, 2, 122, 21, 22, [], 23, []],
     close$0: [function(_) {
       var t1 = this._state;
       if ((t1 & 4) === 0 && (t1 & 2) !== 0) {
@@ -10135,7 +10413,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFuture: true
   },
   Future_Future$delayed_closure: {
-    "^": "Closure:53;computation_0",
+    "^": "Closure:54;computation_0",
     call$1: [function(ignored) {
       return this.computation_0.call$0();
     }, "call$1", null, 2, 0, null, 124, [], "call"],
@@ -10165,7 +10443,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t1._asyncCompleteError$2(error, stackTrace);
     }, function(error) {
       return this.completeError$2(error, null);
-    }, "completeError$1", "call$2", "call$1", "get$completeError", 2, 2, 122, 20, 21, [], 22, []]
+    }, "completeError$1", "call$2", "call$1", "get$completeError", 2, 2, 122, 21, 22, [], 23, []]
   },
   _SyncCompleter: {
     "^": "_Completer;future",
@@ -10176,7 +10454,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t1._complete$1(value);
     }, function($receiver) {
       return this.complete$1($receiver, null);
-    }, "complete$0", "call$1", "call$0", "get$complete", 0, 2, 125, 20, 18, []]
+    }, "complete$0", "call$1", "call$0", "get$complete", 0, 2, 125, 21, 19, []]
   },
   _Future: {
     "^": "Object;_state,_zone<,_resultOrListeners,_nextListener@,_onValueCallback?,_errorTestCallback?,_onErrorCallback?,_whenCompleteActionCallback?",
@@ -10282,7 +10560,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       P._Future__propagateToListeners(this, listeners);
     }, function(error) {
       return this._completeError$2(error, null);
-    }, "_completeError$1", "call$2", "call$1", "get$_completeError", 2, 2, 19, 20, 21, [], 22, []],
+    }, "_completeError$1", "call$2", "call$1", "get$_completeError", 2, 2, 20, 21, 22, [], 23, []],
     _asyncComplete$1: function(value) {
       var t1;
       if (value == null)
@@ -10431,17 +10709,17 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   _Future__addListener_closure: {
-    "^": "Closure:83;this_0,listener_1",
+    "^": "Closure:14;this_0,listener_1",
     call$0: [function() {
       P._Future__propagateToListeners(this.this_0, this.listener_1);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   _Future__chainForeignFuture_closure: {
-    "^": "Closure:53;target_0",
+    "^": "Closure:54;target_0",
     call$1: [function(value) {
       this.target_0._completeWithValue$1(value);
-    }, "call$1", null, 2, 0, null, 18, [], "call"],
+    }, "call$1", null, 2, 0, null, 19, [], "call"],
     $isFunction: true
   },
   _Future__chainForeignFuture_closure0: {
@@ -10450,25 +10728,25 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       this.target_1._completeError$2(error, stackTrace);
     }, function(error) {
       return this.call$2(error, null);
-    }, "call$1", "call$2", null, null, 2, 2, null, 20, 21, [], 22, [], "call"],
+    }, "call$1", "call$2", null, null, 2, 2, null, 21, 22, [], 23, [], "call"],
     $isFunction: true
   },
   _Future__asyncComplete_closure: {
-    "^": "Closure:83;this_0,coreFuture_1",
+    "^": "Closure:14;this_0,coreFuture_1",
     call$0: [function() {
       P._Future__chainCoreFuture(this.coreFuture_1, this.this_0);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   _Future__asyncComplete_closure0: {
-    "^": "Closure:83;this_2,value_3",
+    "^": "Closure:14;this_2,value_3",
     call$0: [function() {
       this.this_2._completeWithValue$1(this.value_3);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   _Future__asyncCompleteError_closure: {
-    "^": "Closure:83;this_0,error_1,stackTrace_2",
+    "^": "Closure:14;this_0,error_1,stackTrace_2",
     call$0: [function() {
       this.this_0._completeError$2(this.error_1, this.stackTrace_2);
     }, "call$0", null, 0, 0, null, "call"],
@@ -10587,7 +10865,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _Future__propagateToListeners_handleWhenCompleteCallback_closure: {
-    "^": "Closure:53;box_2,listener_11",
+    "^": "Closure:54;box_2,listener_11",
     call$1: [function(ignored) {
       P._Future__propagateToListeners(this.box_2.source_4, this.listener_11);
     }, "call$1", null, 2, 0, null, 124, [], "call"],
@@ -10606,7 +10884,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       P._Future__propagateToListeners(t1.completeResult_0, this.listener_12);
     }, function(error) {
       return this.call$2(error, null);
-    }, "call$1", "call$2", null, null, 2, 2, null, 20, 21, [], 22, [], "call"],
+    }, "call$1", "call$2", null, null, 2, 2, null, 21, 22, [], 23, [], "call"],
     $isFunction: true
   },
   _AsyncCallbackEntry: {
@@ -10748,7 +11026,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     call$1: [function(element) {
       var t1 = this.box_0;
       P._runUserCode(new P.Stream_fold__closure(t1, this.combine_2, element), new P.Stream_fold__closure0(t1), P._cancelAndErrorClosure(t1.subscription_1, this.result_3));
-    }, "call$1", null, 2, 0, null, 56, [], "call"],
+    }, "call$1", null, 2, 0, null, 57, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -10757,14 +11035,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_fold__closure: {
-    "^": "Closure:83;box_0,combine_4,element_5",
+    "^": "Closure:14;box_0,combine_4,element_5",
     call$0: function() {
       return this.combine_4.call$2(this.box_0.value_0, this.element_5);
     },
     $isFunction: true
   },
   Stream_fold__closure0: {
-    "^": "Closure:53;box_0",
+    "^": "Closure:54;box_0",
     call$1: function(newValue) {
       this.box_0.value_0 = newValue;
     },
@@ -10778,7 +11056,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Stream_fold_closure0: {
-    "^": "Closure:83;box_0,result_7",
+    "^": "Closure:14;box_0,result_7",
     call$0: [function() {
       this.result_7._complete$1(this.box_0.value_0);
     }, "call$0", null, 0, 0, null, "call"],
@@ -10801,7 +11079,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         P._cancelAndError(t1.subscription_0, this.result_3, e, s);
       }
 
-    }, "call$1", null, 2, 0, null, 56, [], "call"],
+    }, "call$1", null, 2, 0, null, 57, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -10810,14 +11088,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_join_closure1: {
-    "^": "Closure:53;result_5",
+    "^": "Closure:54;result_5",
     call$1: [function(e) {
       this.result_5._completeError$1(e);
     }, "call$1", null, 2, 0, null, 2, [], "call"],
     $isFunction: true
   },
   Stream_join_closure0: {
-    "^": "Closure:83;result_6,buffer_7",
+    "^": "Closure:14;result_6,buffer_7",
     call$0: [function() {
       this.result_6._complete$1(this.buffer_7._contents);
     }, "call$0", null, 0, 0, null, "call"],
@@ -10830,7 +11108,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t1 = this.box_0;
       t2 = this.future_3;
       P._runUserCode(new P.Stream_contains__closure(this.needle_2, element), new P.Stream_contains__closure0(t1, t2), P._cancelAndErrorClosure(t1.subscription_0, t2));
-    }, "call$1", null, 2, 0, null, 56, [], "call"],
+    }, "call$1", null, 2, 0, null, 57, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -10839,7 +11117,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_contains__closure: {
-    "^": "Closure:83;needle_4,element_5",
+    "^": "Closure:14;needle_4,element_5",
     call$0: function() {
       return J.$eq(this.element_5, this.needle_4);
     },
@@ -10854,7 +11132,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Stream_contains_closure0: {
-    "^": "Closure:83;future_7",
+    "^": "Closure:14;future_7",
     call$0: [function() {
       this.future_7._complete$1(false);
     }, "call$0", null, 0, 0, null, "call"],
@@ -10864,7 +11142,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure;box_0,this_1,action_2,future_3",
     call$1: [function(element) {
       P._runUserCode(new P.Stream_forEach__closure(this.action_2, element), new P.Stream_forEach__closure0(), P._cancelAndErrorClosure(this.box_0.subscription_0, this.future_3));
-    }, "call$1", null, 2, 0, null, 56, [], "call"],
+    }, "call$1", null, 2, 0, null, 57, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -10873,20 +11151,20 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_forEach__closure: {
-    "^": "Closure:83;action_4,element_5",
+    "^": "Closure:14;action_4,element_5",
     call$0: function() {
       return this.action_4.call$1(this.element_5);
     },
     $isFunction: true
   },
   Stream_forEach__closure0: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(_) {
     },
     $isFunction: true
   },
   Stream_forEach_closure0: {
-    "^": "Closure:83;future_6",
+    "^": "Closure:14;future_6",
     call$0: [function() {
       this.future_6._complete$1(null);
     }, "call$0", null, 0, 0, null, "call"],
@@ -10899,7 +11177,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t1 = this.box_0;
       t2 = this.future_3;
       P._runUserCode(new P.Stream_every__closure(this.test_2, element), new P.Stream_every__closure0(t1, t2), P._cancelAndErrorClosure(t1.subscription_0, t2));
-    }, "call$1", null, 2, 0, null, 56, [], "call"],
+    }, "call$1", null, 2, 0, null, 57, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -10908,7 +11186,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_every__closure: {
-    "^": "Closure:83;test_4,element_5",
+    "^": "Closure:14;test_4,element_5",
     call$0: function() {
       return this.test_4.call$1(this.element_5);
     },
@@ -10923,7 +11201,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Stream_every_closure0: {
-    "^": "Closure:83;future_7",
+    "^": "Closure:14;future_7",
     call$0: [function() {
       this.future_7._complete$1(true);
     }, "call$0", null, 0, 0, null, "call"],
@@ -10936,7 +11214,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t1 = this.box_0;
       t2 = this.future_3;
       P._runUserCode(new P.Stream_any__closure(this.test_2, element), new P.Stream_any__closure0(t1, t2), P._cancelAndErrorClosure(t1.subscription_0, t2));
-    }, "call$1", null, 2, 0, null, 56, [], "call"],
+    }, "call$1", null, 2, 0, null, 57, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -10945,7 +11223,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_any__closure: {
-    "^": "Closure:83;test_4,element_5",
+    "^": "Closure:14;test_4,element_5",
     call$0: function() {
       return this.test_4.call$1(this.element_5);
     },
@@ -10960,35 +11238,35 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Stream_any_closure0: {
-    "^": "Closure:83;future_7",
+    "^": "Closure:14;future_7",
     call$0: [function() {
       this.future_7._complete$1(false);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Stream_length_closure: {
-    "^": "Closure:53;box_0",
+    "^": "Closure:54;box_0",
     call$1: [function(_) {
       ++this.box_0.count_0;
     }, "call$1", null, 2, 0, null, 104, [], "call"],
     $isFunction: true
   },
   Stream_length_closure0: {
-    "^": "Closure:83;box_0,future_1",
+    "^": "Closure:14;box_0,future_1",
     call$0: [function() {
       this.future_1._complete$1(this.box_0.count_0);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Stream_isEmpty_closure: {
-    "^": "Closure:53;box_0,future_1",
+    "^": "Closure:54;box_0,future_1",
     call$1: [function(_) {
       P._cancelAndValue(this.box_0.subscription_0, this.future_1, false);
     }, "call$1", null, 2, 0, null, 104, [], "call"],
     $isFunction: true
   },
   Stream_isEmpty_closure0: {
-    "^": "Closure:83;future_2",
+    "^": "Closure:14;future_2",
     call$0: [function() {
       this.future_2._complete$1(true);
     }, "call$0", null, 0, 0, null, "call"],
@@ -11007,7 +11285,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_toList_closure0: {
-    "^": "Closure:83;result_2,future_3",
+    "^": "Closure:14;result_2,future_3",
     call$0: [function() {
       this.future_3._complete$1(this.result_2);
     }, "call$0", null, 0, 0, null, "call"],
@@ -11017,7 +11295,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure;box_0,this_1,future_2",
     call$1: [function(value) {
       P._cancelAndValue(this.box_0.subscription_0, this.future_2, value);
-    }, "call$1", null, 2, 0, null, 18, [], "call"],
+    }, "call$1", null, 2, 0, null, 19, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -11026,7 +11304,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_first_closure0: {
-    "^": "Closure:83;future_3",
+    "^": "Closure:14;future_3",
     call$0: [function() {
       var e, s, t1, exception;
       try {
@@ -11048,7 +11326,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       var t1 = this.box_0;
       t1.foundResult_1 = true;
       t1.result_0 = value;
-    }, "call$1", null, 2, 0, null, 18, [], "call"],
+    }, "call$1", null, 2, 0, null, 19, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -11057,7 +11335,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_last_closure0: {
-    "^": "Closure:83;box_0,future_2",
+    "^": "Closure:14;box_0,future_2",
     call$0: [function() {
       var e, s, t1, exception;
       t1 = this.box_0;
@@ -11085,7 +11363,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t1 = this.box_0;
       t2 = this.future_3;
       P._runUserCode(new P.Stream_firstWhere__closure(this.test_2, value), new P.Stream_firstWhere__closure0(t1, t2, value), P._cancelAndErrorClosure(t1.subscription_0, t2));
-    }, "call$1", null, 2, 0, null, 18, [], "call"],
+    }, "call$1", null, 2, 0, null, 19, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -11094,7 +11372,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_firstWhere__closure: {
-    "^": "Closure:83;test_4,value_5",
+    "^": "Closure:14;test_4,value_5",
     call$0: function() {
       return this.test_4.call$1(this.value_5);
     },
@@ -11109,7 +11387,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Stream_firstWhere_closure0: {
-    "^": "Closure:83;defaultValue_8,future_9",
+    "^": "Closure:14;defaultValue_8,future_9",
     call$0: [function() {
       var e, s, t1, exception;
       try {
@@ -11134,7 +11412,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return;
       }
       t1.index_0 = J.$sub$n(t1.index_0, 1);
-    }, "call$1", null, 2, 0, null, 18, [], "call"],
+    }, "call$1", null, 2, 0, null, 19, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(T) {
@@ -11143,7 +11421,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Stream_elementAt_closure0: {
-    "^": "Closure:83;box_0,future_3",
+    "^": "Closure:14;box_0,future_3",
     call$0: [function() {
       this.future_3._completeError$1(new P.RangeError("value " + H.S(this.box_0.index_0)));
     }, "call$0", null, 0, 0, null, "call"],
@@ -11300,7 +11578,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _StreamController__subscribe_closure: {
-    "^": "Closure:83;this_0",
+    "^": "Closure:14;this_0",
     call$0: function() {
       P._runGuarded(this.this_0.get$_onListen());
     },
@@ -11752,7 +12030,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _PendingEvents_schedule_closure: {
-    "^": "Closure:83;this_0,dispatch_1",
+    "^": "Closure:14;this_0,dispatch_1",
     call$0: [function() {
       var t1, oldState;
       t1 = this.this_0;
@@ -11949,7 +12227,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isStreamSubscription: true
   },
   _cancelAndError_closure: {
-    "^": "Closure:83;future_0,error_1,stackTrace_2",
+    "^": "Closure:14;future_0,error_1,stackTrace_2",
     call$0: [function() {
       return this.future_0._completeError$2(this.error_1, this.stackTrace_2);
     }, "call$0", null, 0, 0, null, "call"],
@@ -11963,7 +12241,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _cancelAndValue_closure: {
-    "^": "Closure:83;future_0,value_1",
+    "^": "Closure:14;future_0,value_1",
     call$0: [function() {
       return this.future_0._complete$1(this.value_1);
     }, "call$0", null, 0, 0, null, "call"],
@@ -12037,7 +12315,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }, 121, []],
     _handleError$2: [function(error, stackTrace) {
       this._addError$2(error, stackTrace);
-    }, "call$2", "get$_handleError", 4, 0, 131, 21, [], 22, []],
+    }, "call$2", "get$_handleError", 4, 0, 131, 22, [], 23, []],
     _handleDone$0: [function() {
       this._close$0();
     }, "call$0", "get$_handleDone", 0, 0, 13],
@@ -12384,31 +12662,31 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _CustomZone_bindCallback_closure: {
-    "^": "Closure:83;this_0,registered_1",
+    "^": "Closure:14;this_0,registered_1",
     call$0: [function() {
       return this.this_0.runGuarded$1(this.registered_1);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   _CustomZone_bindCallback_closure0: {
-    "^": "Closure:83;this_2,registered_3",
+    "^": "Closure:14;this_2,registered_3",
     call$0: [function() {
       return this.this_2.run$1(this.registered_3);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   _CustomZone_bindUnaryCallback_closure: {
-    "^": "Closure:53;this_0,registered_1",
+    "^": "Closure:54;this_0,registered_1",
     call$1: [function(arg) {
       return this.this_0.runUnaryGuarded$2(this.registered_1, arg);
-    }, "call$1", null, 2, 0, null, 30, [], "call"],
+    }, "call$1", null, 2, 0, null, 31, [], "call"],
     $isFunction: true
   },
   _CustomZone_bindUnaryCallback_closure0: {
-    "^": "Closure:53;this_2,registered_3",
+    "^": "Closure:54;this_2,registered_3",
     call$1: [function(arg) {
       return this.this_2.runUnary$2(this.registered_3, arg);
-    }, "call$1", null, 2, 0, null, 30, [], "call"],
+    }, "call$1", null, 2, 0, null, 31, [], "call"],
     $isFunction: true
   },
   _CustomZone_bindBinaryCallback_closure: {
@@ -12426,7 +12704,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _rootHandleUncaughtError_closure: {
-    "^": "Closure:83;error_0,stackTrace_1",
+    "^": "Closure:14;error_0,stackTrace_1",
     call$0: function() {
       throw H.wrapException(P._UncaughtAsyncError$(this.error_0, this.stackTrace_1));
     },
@@ -12613,31 +12891,31 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     static: {"^": "_RootZone__rootMap,_RootZone__rootDelegate"}
   },
   _RootZone_bindCallback_closure: {
-    "^": "Closure:83;this_0,f_1",
+    "^": "Closure:14;this_0,f_1",
     call$0: [function() {
       return this.this_0.runGuarded$1(this.f_1);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   _RootZone_bindCallback_closure0: {
-    "^": "Closure:83;this_2,f_3",
+    "^": "Closure:14;this_2,f_3",
     call$0: [function() {
       return this.this_2.run$1(this.f_3);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   _RootZone_bindUnaryCallback_closure: {
-    "^": "Closure:53;this_0,f_1",
+    "^": "Closure:54;this_0,f_1",
     call$1: [function(arg) {
       return this.this_0.runUnaryGuarded$2(this.f_1, arg);
-    }, "call$1", null, 2, 0, null, 30, [], "call"],
+    }, "call$1", null, 2, 0, null, 31, [], "call"],
     $isFunction: true
   },
   _RootZone_bindUnaryCallback_closure0: {
-    "^": "Closure:53;this_2,f_3",
+    "^": "Closure:54;this_2,f_3",
     call$1: [function(arg) {
       return this.this_2.runUnary$2(this.f_3, arg);
-    }, "call$1", null, 2, 0, null, 30, [], "call"],
+    }, "call$1", null, 2, 0, null, 31, [], "call"],
     $isFunction: true
   },
   _RootZone_bindBinaryCallback_closure: {
@@ -12665,10 +12943,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   },
   _defaultEquals: [function(a, b) {
     return J.$eq(a, b);
-  }, "call$2", "_defaultEquals$closure", 4, 0, 46, 47, [], 48, []],
+  }, "call$2", "_defaultEquals$closure", 4, 0, 47, 48, [], 49, []],
   _defaultHashCode: [function(a) {
     return J.get$hashCode$(a);
-  }, "call$1", "_defaultHashCode$closure", 2, 0, 49, 47, []],
+  }, "call$1", "_defaultHashCode$closure", 2, 0, 50, 48, []],
   HashMap_HashMap: function(equals, hashCode, isValidKey, $K, $V) {
     var t1;
     if (equals == null) {
@@ -13078,7 +13356,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   _HashMap_values_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(each) {
       return this.this_0.$index(0, each);
     }, "call$1", null, 2, 0, null, 132, [], "call"],
@@ -13088,7 +13366,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure;this_0",
     call$2: [function(key, value) {
       this.this_0.$indexSet(0, key, value);
-    }, "call$2", null, 4, 0, null, 94, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 94, [], 19, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(K, V) {
@@ -13165,7 +13443,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   _CustomHashMap_closure: {
-    "^": "Closure:53;K_0",
+    "^": "Closure:54;K_0",
     call$1: function(v) {
       var t1 = H.checkSubtypeOfRuntimeType(v, this.K_0);
       return t1;
@@ -13455,7 +13733,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   _LinkedHashMap_values_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(each) {
       return this.this_0.$index(0, each);
     }, "call$1", null, 2, 0, null, 132, [], "call"],
@@ -13465,7 +13743,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure;this_0",
     call$2: [function(key, value) {
       this.this_0.$indexSet(0, key, value);
-    }, "call$2", null, 4, 0, null, 94, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 94, [], 19, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(K, V) {
@@ -14641,7 +14919,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t1.write$1(k);
       t1.write$1(": ");
       t1.write$1(v);
-    }, "call$2", null, 4, 0, null, 133, [], 70, [], "call"],
+    }, "call$2", null, 4, 0, null, 133, [], 71, [], "call"],
     $isFunction: true
   },
   ListQueue: {
@@ -15314,7 +15592,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _JsonMap_values_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(each) {
       return this.this_0.$index(0, each);
     }, "call$1", null, 2, 0, null, 132, [], "call"],
@@ -15324,7 +15602,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure:92;this_0",
     call$2: [function(key, value) {
       this.this_0.$indexSet(0, key, value);
-    }, "call$2", null, 4, 0, null, 94, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 94, [], 19, [], "call"],
     $isFunction: true
   },
   Codec: {
@@ -15699,7 +15977,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   },
   Comparable_compare: [function(a, b) {
     return J.compareTo$1$ns(a, b);
-  }, "call$2", "Comparable_compare$closure", 4, 0, 50],
+  }, "call$2", "Comparable_compare$closure", 4, 0, 51],
   Error_safeToString: function(object) {
     var buffer, t1, i, t2, codeUnit;
     if (typeof object === "number" || typeof object === "boolean" || null == object)
@@ -15747,10 +16025,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   },
   identical: [function(a, b) {
     return a == null ? b == null : a === b;
-  }, "call$2", "identical$closure", 4, 0, 51],
+  }, "call$2", "identical$closure", 4, 0, 52],
   identityHashCode: [function(object) {
     return H.objectHashCode(object);
-  }, "call$1", "identityHashCode$closure", 2, 0, 52],
+  }, "call$1", "identityHashCode$closure", 2, 0, 53],
   List_List$filled: function($length, fill, $E) {
     var result, t1, i;
     result = J.JSArray_JSArray$fixed($length, $E);
@@ -15800,7 +16078,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   },
   num__returnNull: [function(_) {
     return;
-  }, "call$1", "num__returnNull$closure", 2, 0, 53],
+  }, "call$1", "num__returnNull$closure", 2, 0, 54],
   print: function(object) {
     var line, t1;
     line = H.S(object);
@@ -15830,7 +16108,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       t1.sb_0.write$1(": ");
       t1.sb_0.write$1(P.Error_safeToString(value));
       ++t1.i_1;
-    }, "call$2", null, 4, 0, null, 94, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 94, [], 19, [], "call"],
     $isFunction: true
   },
   Deprecated: {
@@ -16873,6 +17151,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$bindings: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("bindings", "get$bindings", 1, [], []));
     },
+    get$blurAction: function() {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("blurAction", "get$blurAction", 1, [], []));
+    },
+    "+blurAction": 2,
     get$className: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("className", "get$className", 1, [], []));
     },
@@ -16888,6 +17170,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$content: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("content", "get$content", 1, [], []));
     },
+    get$contextMenuAction: function() {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("contextMenuAction", "get$contextMenuAction", 1, [], []));
+    },
+    "+contextMenuAction": 2,
     get$counter: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("counter", "get$counter", 1, [], []));
     },
@@ -16905,6 +17191,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$defaultValue: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("defaultValue", "get$defaultValue", 1, [], []));
     },
+    get$downAction: function() {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("downAction", "get$downAction", 1, [], []));
+    },
+    "+downAction": 2,
     get$duration: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("duration", "get$duration", 1, [], []));
     },
@@ -16932,6 +17222,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$firstChild: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("firstChild", "get$firstChild", 1, [], []));
     },
+    get$focusAction: function() {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("focusAction", "get$focusAction", 1, [], []));
+    },
+    "+focusAction": 2,
     get$head: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("head", "get$head", 1, [], []));
     },
@@ -16944,6 +17238,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$html: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("html", "get$html", 1, [], []));
     },
+    get$icon: function($receiver) {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("icon", "get$icon", 1, [], []));
+    },
+    "+icon": 2,
+    get$iconSrc: function($receiver) {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("iconSrc", "get$iconSrc", 1, [], []));
+    },
+    "+iconSrc": 2,
     get$id: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("id", "get$id", 1, [], []));
     },
@@ -16985,6 +17287,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$kind: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("kind", "get$kind", 1, [], []));
     },
+    get$label: function($receiver) {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("label", "get$label", 1, [], []));
+    },
+    "+label": 2,
     get$last: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("last", "get$last", 1, [], []));
     },
@@ -17074,6 +17380,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       return this.noSuchMethod$1(this, H.createInvocationMirror("proxyEndPoint", "get$proxyEndPoint", 1, [], []));
     },
     "+proxyEndPoint": 2,
+    get$raisedButton: function($receiver) {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("raisedButton", "get$raisedButton", 1, [], []));
+    },
+    "+raisedButton": 2,
     get$reset: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("reset", "get$reset", 1, [], []));
     },
@@ -17120,6 +17430,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$type: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("type", "get$type", 1, [], []));
     },
+    get$upAction: function() {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("upAction", "get$upAction", 1, [], []));
+    },
+    "+upAction": 2,
     get$value: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("value", "get$value", 1, [], []));
     },
@@ -17137,6 +17451,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$y: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("y", "get$y", 1, [], []));
     },
+    get$z: function($receiver) {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("z", "get$z", 1, [], []));
+    },
+    "+z": 2,
     getBoundingClientRect$0: function($receiver) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("getBoundingClientRect", "getBoundingClientRect$0", 0, [], []));
     },
@@ -17382,6 +17700,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     set$href: function($receiver, $0) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("href=", "set$href", 2, [$0], []));
     },
+    set$icon: function($receiver, $0) {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("icon=", "set$icon", 2, [$0], []));
+    },
+    "+icon=": 2,
+    set$iconSrc: function($receiver, $0) {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("iconSrc=", "set$iconSrc", 2, [$0], []));
+    },
+    "+iconSrc=": 2,
     set$isProxyToSource: function($0) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("isProxyToSource=", "set$isProxyToSource", 2, [$0], []));
     },
@@ -17438,6 +17764,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     set$width: function($receiver, $0) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("width=", "set$width", 2, [$0], []));
     },
+    set$z: function($receiver, $0) {
+      return this.noSuchMethod$1(this, H.createInvocationMirror("z=", "set$z", 2, [$0], []));
+    },
+    "+z=": 2,
     setValueFrom$2: function($0, $1) {
       return this.noSuchMethod$1(this, H.createInvocationMirror("setValueFrom", "setValueFrom$2", 0, [$0, $1], []));
     },
@@ -18408,7 +18738,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return buffer.toString$0(0);
       }, Uri_decodeComponent: [function(encodedComponent) {
         return P.Uri__uriDecode(encodedComponent, C.Utf8Codec_false, false);
-      }, "call$1", "Uri_decodeComponent$closure", 2, 0, 12, 54, []], Uri_parseIPv4Address: function(host) {
+      }, "call$1", "Uri_decodeComponent$closure", 2, 0, 12, 55, []], Uri_parseIPv4Address: function(host) {
         var t1, bytes, t2;
         t1 = new P.Uri_parseIPv4Address_error();
         bytes = J.split$1$s(host, ".");
@@ -18683,7 +19013,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Uri__checkNonWindowsPathReservedCharacters_closure: {
-    "^": "Closure:53;argumentError_0",
+    "^": "Closure:54;argumentError_0",
     call$1: function(segment) {
       if (J.contains$1$asx(segment, "/") === true)
         if (this.argumentError_0)
@@ -18694,7 +19024,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Uri__makePath_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(s) {
       return P.Uri__uriEncode(C.List_qg40, s, C.Utf8Codec_false, false);
     },
@@ -18726,14 +19056,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Uri_parseIPv4Address_error: {
-    "^": "Closure:42;",
+    "^": "Closure:43;",
     call$1: function(msg) {
       throw H.wrapException(P.FormatException$("Illegal IPv4 address, " + msg, null, null));
     },
     $isFunction: true
   },
   Uri_parseIPv4Address_closure: {
-    "^": "Closure:53;error_0",
+    "^": "Closure:54;error_0",
     call$1: [function(byteString) {
       var $byte, t1;
       $byte = H.Primitives_parseInt(byteString, null, null);
@@ -18871,13 +19201,13 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   },
   _callAttached: [function(receiver) {
     return J.attached$0$x(receiver);
-  }, "call$1", "_callAttached$closure", 2, 0, 53, 59, []],
+  }, "call$1", "_callAttached$closure", 2, 0, 54, 60, []],
   _callDetached: [function(receiver) {
     return J.detached$0$x(receiver);
-  }, "call$1", "_callDetached$closure", 2, 0, 53, 59, []],
+  }, "call$1", "_callDetached$closure", 2, 0, 54, 60, []],
   _callAttributeChanged: [function(receiver, $name, oldValue, newValue) {
     return J.attributeChanged$3$x(receiver, $name, oldValue, newValue);
-  }, "call$4", "_callAttributeChanged$closure", 8, 0, 60, 59, [], 61, [], 62, [], 63, []],
+  }, "call$4", "_callAttributeChanged$closure", 8, 0, 61, 60, [], 62, [], 63, [], 64, []],
   _registerCustomElement: function(context, $document, tag, type, extendsTagName) {
     var interceptorClass, interceptor, $constructor, baseClassName, t1, baseConstructor, properties, proto, t2, options;
     interceptorClass = J.findInterceptorConstructorForType(type);
@@ -18941,7 +19271,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   },
   HtmlElement: {
     "^": "Element;",
-    "%": "HTMLAppletElement|HTMLBRElement|HTMLContentElement|HTMLDListElement|HTMLDataListElement|HTMLDirectoryElement|HTMLDivElement|HTMLFontElement|HTMLFrameElement|HTMLHRElement|HTMLHeadElement|HTMLHeadingElement|HTMLHtmlElement|HTMLLabelElement|HTMLLegendElement|HTMLMarqueeElement|HTMLMenuElement|HTMLModElement|HTMLParagraphElement|HTMLPreElement|HTMLQuoteElement|HTMLShadowElement|HTMLSpanElement|HTMLTableCaptionElement|HTMLTableCellElement|HTMLTableDataCellElement|HTMLTableElement|HTMLTableHeaderCellElement|HTMLTableRowElement|HTMLTableSectionElement|HTMLTitleElement|HTMLUListElement|HTMLUnknownElement;HTMLElement;HtmlElement_Polymer|HtmlElement_Polymer_ChangeNotifier|PolymerElement|PolymerElement_EventDetector|PolymerElement_EventDetector_ChangeNotifier|PurityStopwatch"
+    "%": "HTMLAppletElement|HTMLBRElement|HTMLContentElement|HTMLDListElement|HTMLDataListElement|HTMLDirectoryElement|HTMLDivElement|HTMLFontElement|HTMLFrameElement|HTMLHRElement|HTMLHeadElement|HTMLHeadingElement|HTMLHtmlElement|HTMLLabelElement|HTMLLegendElement|HTMLMarqueeElement|HTMLMenuElement|HTMLModElement|HTMLParagraphElement|HTMLPreElement|HTMLQuoteElement|HTMLShadowElement|HTMLSpanElement|HTMLTableCaptionElement|HTMLTableCellElement|HTMLTableDataCellElement|HTMLTableElement|HTMLTableHeaderCellElement|HTMLTableRowElement|HTMLTableSectionElement|HTMLTitleElement|HTMLUListElement|HTMLUnknownElement;HTMLElement;HtmlElement_DomProxyMixin|CoreIcon|HtmlElement_DomProxyMixin0|CoreMeta|CoreIconset|HtmlElement_DomProxyMixin1|PaperFocusable|PaperButton|HtmlElement_DomProxyMixin2|PaperRipple|HtmlElement_DomProxyMixin3|PaperShadow|HtmlElement_Polymer|HtmlElement_Polymer_ChangeNotifier|PolymerElement|PolymerElement_EventDetector|PolymerElement_EventDetector_ChangeNotifier|PurityStopwatch"
   },
   _EntryArray: {
     "^": "Interceptor;",
@@ -19059,7 +19389,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "CSS2Properties|CSSStyleDeclaration|MSStyleCSSProperties"
   },
   CustomEvent: {
-    "^": "Event0;_dartDetail}",
+    "^": "Event;_dartDetail}",
     get$detail: function(receiver) {
       var t1 = receiver._dartDetail;
       if (t1 != null)
@@ -19320,10 +19650,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "HTMLEmbedElement"
   },
   ErrorEvent: {
-    "^": "Event0;error=,message=",
+    "^": "Event;error=,message=",
     "%": "ErrorEvent"
   },
-  Event0: {
+  Event: {
     "^": "Interceptor;_selector},type=",
     get$currentTarget: function(receiver) {
       return W._convertNativeToDart_EventTarget(receiver.currentTarget);
@@ -19331,7 +19661,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     get$target: function(receiver) {
       return W._convertNativeToDart_EventTarget(receiver.target);
     },
-    $isEvent0: true,
+    $isEvent: true,
     "%": "AudioProcessingEvent|AutocompleteErrorEvent|BeforeLoadEvent|BeforeUnloadEvent|CSSFontFaceLoadEvent|CloseEvent|DeviceMotionEvent|DeviceOrientationEvent|HashChangeEvent|IDBVersionChangeEvent|InstallEvent|InstallPhaseEvent|MediaKeyNeededEvent|MediaStreamEvent|MediaStreamTrackEvent|MutationEvent|OfflineAudioCompletionEvent|OverflowEvent|PageTransitionEvent|PopStateEvent|RTCDTMFToneChangeEvent|RTCDataChannelEvent|RTCIceCandidateEvent|SecurityPolicyViolationEvent|SpeechInputEvent|SpeechRecognitionEvent|TrackEvent|TransitionEvent|WebGLContextEvent|WebKitAnimationEvent|WebKitTransitionEvent;ClipboardEvent|Event|InputEvent"
   },
   EventTarget: {
@@ -19505,22 +19835,22 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "HTMLAudioElement;HTMLMediaElement"
   },
   MediaKeyEvent: {
-    "^": "Event0;message=",
+    "^": "Event;message=",
     "%": "MediaKeyEvent"
   },
   MediaKeyMessageEvent: {
-    "^": "Event0;message=",
+    "^": "Event;message=",
     "%": "MediaKeyMessageEvent"
   },
   MediaStream: {
-    "^": "EventTarget;id=",
+    "^": "EventTarget;id=,label=",
     stop$0: [function(receiver) {
       return receiver.stop();
     }, "call$0", "get$stop", 0, 0, 13],
     "%": "MediaStream"
   },
   MessageEvent: {
-    "^": "Event0;",
+    "^": "Event;",
     get$data: function(receiver) {
       return P.convertNativeToDart_AcceptStructuredClone(receiver.data, true);
     },
@@ -19535,11 +19865,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "HTMLMeterElement"
   },
   MidiConnectionEvent: {
-    "^": "Event0;port=",
+    "^": "Event;port=",
     "%": "MIDIConnectionEvent"
   },
   MidiMessageEvent: {
-    "^": "Event0;data=",
+    "^": "Event;data=",
     "%": "MIDIMessageEvent"
   },
   MidiOutput: {
@@ -19706,11 +20036,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "HTMLObjectElement"
   },
   OptGroupElement: {
-    "^": "HtmlElement;disabled}",
+    "^": "HtmlElement;disabled},label=",
     "%": "HTMLOptGroupElement"
   },
   OptionElement: {
-    "^": "HtmlElement;disabled},index=,value%",
+    "^": "HtmlElement;disabled},index=,label=,value%",
     "%": "HTMLOptionElement"
   },
   OutputElement: {
@@ -19734,7 +20064,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "HTMLProgressElement"
   },
   ProgressEvent: {
-    "^": "Event0;",
+    "^": "Event;",
     $isProgressEvent: true,
     "%": "ProgressEvent|ResourceProgressEvent|XMLHttpRequestProgressEvent"
   },
@@ -19769,15 +20099,15 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "HTMLSourceElement"
   },
   SpeechRecognitionError: {
-    "^": "Event0;error=,message=",
+    "^": "Event;error=,message=",
     "%": "SpeechRecognitionError"
   },
   SpeechSynthesisEvent: {
-    "^": "Event0;name=",
+    "^": "Event;name=",
     "%": "SpeechSynthesisEvent"
   },
   StorageEvent: {
-    "^": "Event0;key=",
+    "^": "Event;key=",
     "%": "StorageEvent"
   },
   StyleElement: {
@@ -19811,11 +20141,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "TouchEvent"
   },
   TrackElement: {
-    "^": "HtmlElement;defaultValue:default=,kind=,src%",
+    "^": "HtmlElement;defaultValue:default=,kind=,label=,src%",
     "%": "HTMLTrackElement"
   },
   UIEvent: {
-    "^": "Event0;",
+    "^": "Event;",
     "%": "FocusEvent|SVGZoomEvent;UIEvent"
   },
   VideoElement: {
@@ -20183,14 +20513,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   _FrozenElementList$_wrap_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(e) {
       return !!J.getInterceptor(e).$isElement;
     },
     $isFunction: true
   },
   Element_Element$html_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(e) {
       return !!J.getInterceptor(e).$isElement;
     },
@@ -20224,7 +20554,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   HttpRequest_getString_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(xhr) {
       return J.get$responseText$x(xhr);
     }, "call$1", null, 2, 0, null, 151, [], "call"],
@@ -20238,7 +20568,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   HttpRequest_request_closure: {
-    "^": "Closure:53;completer_1,xhr_2",
+    "^": "Closure:54;completer_1,xhr_2",
     call$1: [function(e) {
       var t1, t2, t3;
       t1 = this.xhr_2;
@@ -20464,7 +20794,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure:92;this_0",
     call$2: [function(k, v) {
       this.this_0.$indexSet(0, k, v);
-    }, "call$2", null, 4, 0, null, 133, [], 70, [], "call"],
+    }, "call$2", null, 4, 0, null, 133, [], 71, [], "call"],
     $isFunction: true
   },
   _ElementAttributeMap: {
@@ -20596,7 +20926,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     call$2: [function(k, v) {
       var t1 = this.this_0;
       t1._attributes._element.setAttribute("data-" + t1._toHyphenedName$1(k), v);
-    }, "call$2", null, 4, 0, null, 133, [], 70, [], "call"],
+    }, "call$2", null, 4, 0, null, 133, [], 71, [], "call"],
     $isFunction: true
   },
   _DataAttributeMap_forEach_closure: {
@@ -20663,35 +20993,35 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   _MultiElementCssClassSet_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(e) {
       return new W._ElementCssClassSet(e);
     }, "call$1", null, 2, 0, null, 2, [], "call"],
     $isFunction: true
   },
   _MultiElementCssClassSet_readClasses_closure: {
-    "^": "Closure:53;s_0",
+    "^": "Closure:54;s_0",
     call$1: function(e) {
       return this.s_0.addAll$1(0, e.readClasses$0());
     },
     $isFunction: true
   },
   _MultiElementCssClassSet_modify_closure: {
-    "^": "Closure:53;f_0",
+    "^": "Closure:54;f_0",
     call$1: function(e) {
       return e.modify$1(this.f_0);
     },
     $isFunction: true
   },
   _MultiElementCssClassSet_toggle_closure: {
-    "^": "Closure:53;value_0,shouldAdd_1",
+    "^": "Closure:54;value_0,shouldAdd_1",
     call$1: function(e) {
       return e.toggle$2(this.value_0, this.shouldAdd_1);
     },
     $isFunction: true
   },
   _MultiElementCssClassSet_remove_closure: {
-    "^": "Closure:53;value_0",
+    "^": "Closure:54;value_0",
     call$1: function(e) {
       return J.remove$1$ax(e, this.value_0);
     },
@@ -20748,14 +21078,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isStream: true
   },
   _ElementEventStreamImpl_matches_closure: {
-    "^": "Closure:53;selector_0",
+    "^": "Closure:54;selector_0",
     call$1: function($event) {
       return J.matchesWithAncestors$1$x(J.get$target$x($event), this.selector_0);
     },
     $isFunction: true
   },
   _ElementEventStreamImpl_matches_closure0: {
-    "^": "Closure:53;selector_1",
+    "^": "Closure:54;selector_1",
     call$1: [function(e) {
       J.set$_selector$x(e, this.selector_1);
       return e;
@@ -20790,14 +21120,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isStream: true
   },
   _ElementListEventStreamImpl_matches_closure: {
-    "^": "Closure:53;selector_0",
+    "^": "Closure:54;selector_0",
     call$1: function($event) {
       return J.matchesWithAncestors$1$x(J.get$target$x($event), this.selector_0);
     },
     $isFunction: true
   },
   _ElementListEventStreamImpl_matches_closure0: {
-    "^": "Closure:53;selector_1",
+    "^": "Closure:54;selector_1",
     call$1: [function(e) {
       J.set$_selector$x(e, this.selector_1);
       return e;
@@ -20872,7 +21202,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _StreamPool_add_closure: {
-    "^": "Closure:83;this_0,stream_1",
+    "^": "Closure:14;this_0,stream_1",
     call$0: [function() {
       return this.this_0.remove$1(0, this.stream_1);
     }, "call$0", null, 0, 0, null, "call"],
@@ -20912,9 +21242,9 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return t1;
       }, _Html5NodeValidator__standardAttributeValidator: [function(element, attributeName, value, context) {
         return true;
-      }, "call$4", "_Html5NodeValidator__standardAttributeValidator$closure", 8, 0, 55, 56, [], 57, [], 18, [], 58, []], _Html5NodeValidator__uriAttributeValidator: [function(element, attributeName, value, context) {
+      }, "call$4", "_Html5NodeValidator__standardAttributeValidator$closure", 8, 0, 56, 57, [], 58, [], 19, [], 59, []], _Html5NodeValidator__uriAttributeValidator: [function(element, attributeName, value, context) {
         return context.get$uriPolicy().allowsUri$1(value);
-      }, "call$4", "_Html5NodeValidator__uriAttributeValidator$closure", 8, 0, 55, 56, [], 57, [], 18, [], 58, []]}
+      }, "call$4", "_Html5NodeValidator__uriAttributeValidator$closure", 8, 0, 56, 57, [], 58, [], 19, [], 59, []]}
   },
   ImmutableListMixin: {
     "^": "Object;",
@@ -20953,14 +21283,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isNodeValidator: true
   },
   NodeValidatorBuilder_allowsElement_closure: {
-    "^": "Closure:53;element_0",
+    "^": "Closure:54;element_0",
     call$1: function(v) {
       return v.allowsElement$1(this.element_0);
     },
     $isFunction: true
   },
   NodeValidatorBuilder_allowsAttribute_closure: {
-    "^": "Closure:53;element_0,attributeName_1,value_2",
+    "^": "Closure:54;element_0,attributeName_1,value_2",
     call$1: function(v) {
       return v.allowsAttribute$3(this.element_0, this.attributeName_1, this.value_2);
     },
@@ -21033,7 +21363,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   _TemplatingNodeValidator_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(attr) {
       return "TEMPLATE::" + H.S(attr);
     }, "call$1", null, 2, 0, null, 152, [], "call"],
@@ -21059,14 +21389,35 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _callConstructor_closure: {
-    "^": "Closure:53;constructor_0,interceptor_1",
+    "^": "Closure:54;constructor_0,interceptor_1",
     call$1: [function(receiver) {
       var t1 = H.makeLeafDispatchRecord(this.interceptor_1);
       Object.defineProperty(receiver, init.dispatchPropertyName, {value: t1, enumerable: false, writable: true, configurable: true});
       receiver.constructor = receiver.__proto__.constructor;
       return this.constructor_0(receiver);
-    }, "call$1", null, 2, 0, null, 59, [], "call"],
+    }, "call$1", null, 2, 0, null, 60, [], "call"],
     $isFunction: true
+  },
+  _JSElementUpgrader: {
+    "^": "Object;_interceptor,_constructor,_nativeType",
+    _JSElementUpgrader$3: function($document, type, extendsTag) {
+      var interceptorClass, t1, baseClassName;
+      interceptorClass = J.findInterceptorConstructorForType(type);
+      if (interceptorClass == null)
+        throw H.wrapException(P.ArgumentError$(type));
+      t1 = J.findConstructorForNativeSubclassType(type, "created");
+      this._constructor = t1;
+      if (t1 == null)
+        throw H.wrapException(P.ArgumentError$(H.S(type) + " has no constructor called 'created'"));
+      J.getNativeInterceptor(W._ElementFactoryProvider_createElement_tag("article", null));
+      baseClassName = interceptorClass.$nativeSuperclassTag;
+      if (baseClassName == null)
+        throw H.wrapException(P.ArgumentError$(type));
+      if (!J.$eq(baseClassName, "HTMLElement"))
+        throw H.wrapException(P.UnsupportedError$("Class must provide extendsTag if base native class is not HtmlElement"));
+      this._nativeType = C.Type_fPs;
+      this._interceptor = interceptorClass.prototype;
+    }
   },
   _DOMWindowCrossFrame: {
     "^": "Object;_window",
@@ -21265,7 +21616,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "SVGFEOffsetElement"
   },
   FEPointLightElement: {
-    "^": "SvgElement;x=,y=",
+    "^": "SvgElement;x=,y=,z=",
     "%": "SVGFEPointLightElement"
   },
   FESpecularLightingElement: {
@@ -21273,7 +21624,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "%": "SVGFESpecularLightingElement"
   },
   FESpotLightElement: {
-    "^": "SvgElement;x=,y=",
+    "^": "SvgElement;x=,y=,z=",
     "%": "SVGFESpotLightElement"
   },
   FETileElement: {
@@ -21440,7 +21791,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       $arguments = arguments0;
     }
     return P._convertToJS(H.Primitives_applyFunction(callback, P.List_List$from(J.map$1$ax($arguments, P._convertToDart$closure()), true, null), P.Function__toMangledNames(null)));
-  }, "call$4", "_callDartFunction$closure", 8, 0, null, 38, [], 64, [], 24, [], 65, []],
+  }, "call$4", "_callDartFunction$closure", 8, 0, null, 39, [], 65, [], 25, [], 66, []],
   _defineProperty: function(o, $name, value) {
     var exception;
     if (Object.isExtensible(o))
@@ -21464,7 +21815,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       return o;
     else {
       t1 = J.getInterceptor(o);
-      if (!!t1.$isBlob || !!t1.$isEvent0 || !!t1.$isKeyRange || !!t1.$isImageData || !!t1.$isNode || !!t1.$isTypedData || !!t1.$isWindow0)
+      if (!!t1.$isBlob || !!t1.$isEvent || !!t1.$isKeyRange || !!t1.$isImageData || !!t1.$isNode || !!t1.$isTypedData || !!t1.$isWindow0)
         return o;
       else if (!!t1.$isDateTime)
         return H.Primitives_lazyAsJsDate(o);
@@ -21475,7 +21826,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       else
         return P._getJsProxy(o, "_$dart_jsObject", new P._convertToJS_closure0($.get$_dartProxyCtor()));
     }
-  }, "call$1", "_convertToJS$closure", 2, 0, 53, 66, []],
+  }, "call$1", "_convertToJS$closure", 2, 0, 54, 67, []],
   _getJsProxy: function(o, propertyName, createProxy) {
     var jsProxy = P._getOwnProperty(o, propertyName);
     if (jsProxy == null) {
@@ -21491,7 +21842,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     else {
       if (o instanceof Object) {
         t1 = J.getInterceptor(o);
-        t1 = !!t1.$isBlob || !!t1.$isEvent0 || !!t1.$isKeyRange || !!t1.$isImageData || !!t1.$isNode || !!t1.$isTypedData || !!t1.$isWindow0;
+        t1 = !!t1.$isBlob || !!t1.$isEvent || !!t1.$isKeyRange || !!t1.$isImageData || !!t1.$isNode || !!t1.$isTypedData || !!t1.$isWindow0;
       } else
         t1 = false;
       if (t1)
@@ -21503,7 +21854,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       else
         return P._wrapToDart(o);
     }
-  }, "call$1", "_convertToDart$closure", 2, 0, 67, 66, []],
+  }, "call$1", "_convertToDart$closure", 2, 0, 68, 67, []],
   _wrapToDart: function(o) {
     if (typeof o == "function")
       return P._getDartProxy(o, $.get$_DART_CLOSURE_PROPERTY_NAME(), new P._wrapToDart_closure());
@@ -21580,7 +21931,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   JsObject__convertDataTree__convert: {
-    "^": "Closure:53;_convertedObjects_0",
+    "^": "Closure:54;_convertedObjects_0",
     call$1: [function(o) {
       var t1, t2, convertedMap, key, convertedList;
       t1 = this._convertedObjects_0;
@@ -21602,7 +21953,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return convertedList;
       } else
         return P._convertToJS(o);
-    }, "call$1", null, 2, 0, null, 66, [], "call"],
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
     $isFunction: true
   },
   JsFunction: {
@@ -21689,7 +22040,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $asIterable: null
   },
   _convertToJS_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(o) {
       var jsFunction = P._convertDartFunction(o, false);
       P._defineProperty(jsFunction, $.get$_DART_CLOSURE_PROPERTY_NAME(), o);
@@ -21698,28 +22049,28 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _convertToJS_closure0: {
-    "^": "Closure:53;ctor_0",
+    "^": "Closure:54;ctor_0",
     call$1: function(o) {
       return new this.ctor_0(o);
     },
     $isFunction: true
   },
   _wrapToDart_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(o) {
       return new P.JsFunction(o);
     },
     $isFunction: true
   },
   _wrapToDart_closure0: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(o) {
       return H.setRuntimeTypeInfo(new P.JsArray(o), [null]);
     },
     $isFunction: true
   },
   _wrapToDart_closure1: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(o) {
       return new P.JsObject(o);
     },
@@ -22519,9 +22870,9 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return new X.EmitTimeQueueChangeError(type, emitter, action);
       }}
   },
-  Event: {
+  Event0: {
     "^": "Object;emitter<,data>,_finished",
-    $isEvent: true
+    $isEvent0: true
   },
   EventDetector: {
     "^": "Object;_typeIndexes:eventable$EventDetector$_typeIndexes%-154,_emitterIndexes:eventable$EventDetector$_emitterIndexes%-155",
@@ -22529,18 +22880,18 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       var t1, t2;
       t1 = receiver.eventable$EventDetector$_typeIndexes;
       if (t1 == null) {
-        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, X.EventEmitter, [P.Map, P.Type, {func: "void__Event", void: true, args: [X.Event]}]);
+        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, X.EventEmitter, [P.Map, P.Type, {func: "void__Event", void: true, args: [X.Event0]}]);
         receiver.eventable$EventDetector$_typeIndexes = t1;
       }
       if (J.$index$asx(t1, emitter) == null)
-        J.$indexSet$ax(receiver.eventable$EventDetector$_typeIndexes, emitter, P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, {func: "void__Event", void: true, args: [X.Event]}));
+        J.$indexSet$ax(receiver.eventable$EventDetector$_typeIndexes, emitter, P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, {func: "void__Event", void: true, args: [X.Event0]}));
       t1 = receiver.eventable$EventDetector$_emitterIndexes;
       if (t1 == null) {
-        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, [P.Map, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event]}]);
+        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, [P.Map, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event0]}]);
         receiver.eventable$EventDetector$_emitterIndexes = t1;
       }
       if (J.$index$asx(t1, type) == null)
-        J.$indexSet$ax(receiver.eventable$EventDetector$_emitterIndexes, type, P.LinkedHashMap_LinkedHashMap(null, null, null, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event]}));
+        J.$indexSet$ax(receiver.eventable$EventDetector$_emitterIndexes, type, P.LinkedHashMap_LinkedHashMap(null, null, null, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event0]}));
       t1 = J.$index$asx(J.$index$asx(receiver.eventable$EventDetector$_typeIndexes, emitter), type);
       t2 = receiver.eventable$EventDetector$_typeIndexes;
       if (t1 != null)
@@ -22555,18 +22906,18 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     _initialiseIndexes$2: [function(receiver, emitter, type) {
       var t1 = receiver.eventable$EventDetector$_typeIndexes;
       if (t1 == null) {
-        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, X.EventEmitter, [P.Map, P.Type, {func: "void__Event", void: true, args: [X.Event]}]);
+        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, X.EventEmitter, [P.Map, P.Type, {func: "void__Event", void: true, args: [X.Event0]}]);
         receiver.eventable$EventDetector$_typeIndexes = t1;
       }
       if (J.$index$asx(t1, emitter) == null)
-        J.$indexSet$ax(receiver.eventable$EventDetector$_typeIndexes, emitter, P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, {func: "void__Event", void: true, args: [X.Event]}));
+        J.$indexSet$ax(receiver.eventable$EventDetector$_typeIndexes, emitter, P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, {func: "void__Event", void: true, args: [X.Event0]}));
       t1 = receiver.eventable$EventDetector$_emitterIndexes;
       if (t1 == null) {
-        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, [P.Map, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event]}]);
+        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, [P.Map, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event0]}]);
         receiver.eventable$EventDetector$_emitterIndexes = t1;
       }
       if (J.$index$asx(t1, type) == null)
-        J.$indexSet$ax(receiver.eventable$EventDetector$_emitterIndexes, type, P.LinkedHashMap_LinkedHashMap(null, null, null, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event]}));
+        J.$indexSet$ax(receiver.eventable$EventDetector$_emitterIndexes, type, P.LinkedHashMap_LinkedHashMap(null, null, null, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event0]}));
     }, "call$2", "get$_initialiseIndexes", 4, 0, 160, 157, [], 158, [], "_initialiseIndexes"],
     ignoreSpecificEventBinding$2: [function(receiver, emitter, type) {
       var t1, action;
@@ -22621,11 +22972,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }
       t1 = this.eventable$EventEmitter$_actionQueues;
       if (t1 == null) {
-        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, [P.List, {func: "void__Event", void: true, args: [X.Event]}]);
+        t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, [P.List, {func: "void__Event", void: true, args: [X.Event0]}]);
         this.eventable$EventEmitter$_actionQueues = t1;
       }
       if (J.$index$asx(t1, type) == null)
-        J.$indexSet$ax(this.eventable$EventEmitter$_actionQueues, type, H.setRuntimeTypeInfo([], [{func: "void__Event", void: true, args: [X.Event]}]));
+        J.$indexSet$ax(this.eventable$EventEmitter$_actionQueues, type, H.setRuntimeTypeInfo([], [{func: "void__Event", void: true, args: [X.Event0]}]));
       J.add$1$ax(J.$index$asx(this.eventable$EventEmitter$_actionQueues, type), action);
     }, "call$2", "get$addEventAction", 4, 0, 165, 158, [], 159, [], "addEventAction"],
     removeEventAction$2: [function(type, action) {
@@ -22647,16 +22998,16 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     emitEvent$1: function(data) {
       var t1, $event, finished;
       t1 = {};
-      $event = H.setRuntimeTypeInfo(new X.Event(this, data, null), [null]);
+      $event = H.setRuntimeTypeInfo(new X.Event0(this, data, null), [null]);
       t1.finished_0 = null;
-      finished = P.Future_Future$delayed(P.Duration$(0, 0, 0, 0, 0, 0), new X.EventEmitter_emitEvent_closure(t1, this, data, $event), X.Event);
+      finished = P.Future_Future$delayed(P.Duration$(0, 0, 0, 0, 0, 0), new X.EventEmitter_emitEvent_closure(t1, this, data, $event), X.Event0);
       t1.finished_0 = finished;
       return finished;
     },
     $isEventEmitter: true
   },
   EventEmitter_emitEvent_closure: {
-    "^": "Closure:83;box_0,this_1,data_2,event_3",
+    "^": "Closure:14;box_0,this_1,data_2,event_3",
     call$0: function() {
       var t1, t2, t3, t4;
       t1 = this.event_3;
@@ -22752,7 +23103,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     return t1;
   },
   _convertDartToNative_PrepareForStructuredClone_findSlot: {
-    "^": "Closure:49;values_1,copies_2",
+    "^": "Closure:50;values_1,copies_2",
     call$1: function(value) {
       var t1, $length, i;
       t1 = this.values_1;
@@ -22787,13 +23138,13 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _convertDartToNative_PrepareForStructuredClone_cleanupSlots: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
     },
     $isFunction: true
   },
   _convertDartToNative_PrepareForStructuredClone_walk: {
-    "^": "Closure:53;findSlot_5,readSlot_6,writeSlot_7",
+    "^": "Closure:54;findSlot_5,readSlot_6,writeSlot_7",
     call$1: function(e) {
       var t1, t2, slot, copy, $length, i;
       t1 = {};
@@ -22864,11 +23215,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure:92;box_0,walk_8",
     call$2: [function(key, value) {
       this.box_0.copy_0[key] = this.walk_8.call$1(value);
-    }, "call$2", null, 4, 0, null, 94, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 94, [], 19, [], "call"],
     $isFunction: true
   },
   convertNativeToDart_AcceptStructuredClone_findSlot: {
-    "^": "Closure:49;values_0,copies_1",
+    "^": "Closure:50;values_0,copies_1",
     call$1: function(value) {
       var t1, $length, i, t2;
       t1 = this.values_0;
@@ -22905,7 +23256,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   convertNativeToDart_AcceptStructuredClone_walk: {
-    "^": "Closure:53;mustCopy_4,findSlot_5,readSlot_6,writeSlot_7",
+    "^": "Closure:54;mustCopy_4,findSlot_5,readSlot_6,writeSlot_7",
     call$1: function(e) {
       var slot, copy, t1, key, $length, t2, i;
       if (e == null)
@@ -23086,21 +23437,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   CssClassSetImpl_add_closure: {
-    "^": "Closure:53;value_0",
+    "^": "Closure:54;value_0",
     call$1: [function(s) {
       return J.add$1$ax(s, this.value_0);
     }, "call$1", null, 2, 0, null, 85, [], "call"],
     $isFunction: true
   },
   CssClassSetImpl_addAll_closure: {
-    "^": "Closure:53;iterable_0",
+    "^": "Closure:54;iterable_0",
     call$1: [function(s) {
       return J.addAll$1$ax(s, this.iterable_0);
     }, "call$1", null, 2, 0, null, 85, [], "call"],
     $isFunction: true
   },
   CssClassSetImpl_clear_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(s) {
       return J.clear$0$ax(s);
     }, "call$1", null, 2, 0, null, 85, [], "call"],
@@ -23200,14 +23551,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   FilteredElementList__filtered_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(n) {
       return !!J.getInterceptor(n).$isElement;
     },
     $isFunction: true
   },
   FilteredElementList_removeRange_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(el) {
       return J.remove$0$ax(el);
     },
@@ -23334,7 +23685,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   Logger_Logger_closure: {
-    "^": "Closure:83;name_0",
+    "^": "Closure:14;name_0",
     call$0: function() {
       var thisName, dot, $parent, t1, t2;
       thisName = this.name_0;
@@ -23585,7 +23936,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   dirtyCheckZoneSpec_enqueueDirtyCheck_closure: {
-    "^": "Closure:83;box_0",
+    "^": "Closure:14;box_0",
     call$0: [function() {
       this.box_0.pending_0 = false;
       O.dirtyCheckObservables();
@@ -23593,16 +23944,16 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   dirtyCheckZoneSpec_wrapCallback: {
-    "^": "Closure:27;enqueueDirtyCheck_1",
+    "^": "Closure:28;enqueueDirtyCheck_1",
     call$4: [function($self, $parent, zone, f) {
       if (f == null)
         return f;
       return new O.dirtyCheckZoneSpec_wrapCallback_closure(this.enqueueDirtyCheck_1, $parent, zone, f);
-    }, "call$4", null, 8, 0, null, 24, [], 25, [], 26, [], 28, [], "call"],
+    }, "call$4", null, 8, 0, null, 25, [], 26, [], 27, [], 29, [], "call"],
     $isFunction: true
   },
   dirtyCheckZoneSpec_wrapCallback_closure: {
-    "^": "Closure:83;enqueueDirtyCheck_2,parent_3,zone_4,f_5",
+    "^": "Closure:14;enqueueDirtyCheck_2,parent_3,zone_4,f_5",
     call$0: [function() {
       this.enqueueDirtyCheck_2.call$2(this.parent_3, this.zone_4);
       return this.f_5.call$0();
@@ -23615,11 +23966,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       if (f == null)
         return f;
       return new O.dirtyCheckZoneSpec_wrapUnaryCallback_closure(this.enqueueDirtyCheck_6, $parent, zone, f);
-    }, "call$4", null, 8, 0, null, 24, [], 25, [], 26, [], 28, [], "call"],
+    }, "call$4", null, 8, 0, null, 25, [], 26, [], 27, [], 29, [], "call"],
     $isFunction: true
   },
   dirtyCheckZoneSpec_wrapUnaryCallback_closure: {
-    "^": "Closure:53;enqueueDirtyCheck_7,parent_8,zone_9,f_10",
+    "^": "Closure:54;enqueueDirtyCheck_7,parent_8,zone_9,f_10",
     call$1: [function(x) {
       this.enqueueDirtyCheck_7.call$2(this.parent_8, this.zone_9);
       return this.f_10.call$1(x);
@@ -24216,7 +24567,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure;this_0",
     call$2: [function(key, value) {
       this.this_0.$indexSet(0, key, value);
-    }, "call$2", null, 4, 0, null, 94, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 94, [], 19, [], "call"],
     $isFunction: true,
     $signature: function() {
       return H.computeSignature(function(K, V) {
@@ -24256,7 +24607,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return;
       this._observer_transform$_value = value;
       return this._observer_transform$_notifyCallback$1(value);
-    }, "call$1", "get$_observedCallback", 2, 0, 53, 63, []],
+    }, "call$1", "get$_observedCallback", 2, 0, 54, 64, []],
     close$0: function(_) {
       var t1 = this._bindable;
       if (t1 != null)
@@ -24593,7 +24944,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     static: {"^": "_InvalidPropertyPath__instance"}
   },
   closure7: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       return new H.JSSyntaxRegExp("^[$_a-zA-Z]+[$_a-zA-Z0-9]*$", H.JSSyntaxRegExp_makeNative("^[$_a-zA-Z]+[$_a-zA-Z0-9]*$", false, true, false), null, null);
     },
@@ -24734,7 +25085,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _PathParser_push_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(_) {
       return;
     },
@@ -24870,7 +25221,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isBindable: true
   },
   CompoundObserver_addObserver_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       var t1 = this.this_0;
       if (t1._path_observer$_state === $._Observer__OPENED)
@@ -24880,7 +25231,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   CompoundObserver__check_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       var t1 = this.this_0;
       if (t1._path_observer$_state === $._Observer__OPENED)
@@ -25023,7 +25374,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         if (observer.get$_isOpen() === true)
           observer._check$0();
       }
-    }, "call$1", "get$_path_observer$_callback", 2, 0, 17, 174, []],
+    }, "call$1", "get$_path_observer$_callback", 2, 0, 18, 174, []],
     static: {"^": "_ObservedSet__lastSet", _ObservedSet__ObservedSet: function(observer, rootObject) {
         var t1, t2;
         t1 = $._ObservedSet__lastSet;
@@ -25268,31 +25619,31 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Context_join_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(part) {
       return part != null;
     },
     $isFunction: true
   },
   Context_joinAll_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(part) {
       return !J.$eq(part, "");
     },
     $isFunction: true
   },
   Context_split_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(part) {
       return J.get$isEmpty$asx(part) !== true;
     },
     $isFunction: true
   },
   _validateArgList_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(arg) {
       return arg == null ? "null" : "\"" + H.S(arg) + "\"";
-    }, "call$1", null, 2, 0, null, 30, [], "call"],
+    }, "call$1", null, 2, 0, null, 31, [], "call"],
     $isFunction: true
   }
 }],
@@ -25424,7 +25775,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   ParsedPath_normalize_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: function(_) {
       return this.this_0.style.get$separator();
     },
@@ -25744,7 +26095,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       return false;
     t1 = J.getInterceptor$s($name);
     return t1.endsWith$1($name, "Changed") === true && !t1.$eq($name, "attributeChanged");
-  }, "call$1", "_isObserverMethod$closure", 2, 0, 68, 69, []],
+  }, "call$1", "_isObserverMethod$closure", 2, 0, 69, 70, []],
   Polymer_register: function($name, type) {
     $.get$_typesByName().$indexSet(0, $name, type);
     H.interceptedTypeCast(J.$index$asx($.get$context(), "Polymer"), "$isJsFunction").apply$1([$name]);
@@ -25793,7 +26144,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     poly.setAttribute("name", "auto-binding-dart");
     poly.setAttribute("extends", "template");
     J.$index$asx($.get$_polymerElementProto(), "init").apply$2$thisArg([], poly);
-    for (t1 = H.setRuntimeTypeInfo(new H.ListIterator(initializers, 1, 0, null), [H.getTypeArgumentByIndex(initializers, 0)]); t1.moveNext$0();)
+    for (t1 = H.setRuntimeTypeInfo(new H.ListIterator(initializers, 8, 0, null), [H.getTypeArgumentByIndex(initializers, 0)]); t1.moveNext$0();)
       t1._current.call$0();
   },
   _hookJsPolymer: function() {
@@ -26059,17 +26410,17 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     static: {"^": "PolymerDeclaration__polymerSyntax"}
   },
   PolymerDeclaration__getPublishedProperties_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(a) {
       return !!J.getInterceptor(a).$isPublishedProperty;
-    }, "call$1", null, 2, 0, null, 47, [], "call"],
+    }, "call$1", null, 2, 0, null, 48, [], "call"],
     $isFunction: true
   },
   PolymerDeclaration__getPublishedProperties_closure0: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(a) {
       return a.get$reflect();
-    }, "call$1", null, 2, 0, null, 47, [], "call"],
+    }, "call$1", null, 2, 0, null, 48, [], "call"],
     $isFunction: true
   },
   PolymerDeclaration_accumulateInstanceAttributes_closure: {
@@ -26077,7 +26428,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     call$2: [function($name, value) {
       if (C.Map_EJj5B.containsKey$1($name) !== true && J.startsWith$1$s($name, "on-") !== true)
         this.this_0._instanceAttributes.$indexSet(0, $name, value);
-    }, "call$2", null, 4, 0, null, 61, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 62, [], 19, [], "call"],
     $isFunction: true
   },
   PolymerDeclaration_addAttributeDelegates_closure: {
@@ -26093,25 +26444,25 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         if (t3.$ge(start, 0) === true && J.$ge$n(end, 0) === true)
           this.delegates_0.$indexSet(0, t1.substring$1($name, 3), J.trim$0$s(t2.substring$2(value, t3.$add(start, 2), end)));
       }
-    }, "call$2", null, 4, 0, null, 61, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 62, [], 19, [], "call"],
     $isFunction: true
   },
   PolymerDeclaration_installLocalSheets_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(s) {
       return J.get$attributes$x(s).containsKey$1("polymer-scope") !== true;
     }, "call$1", null, 2, 0, null, 85, [], "call"],
     $isFunction: true
   },
   PolymerDeclaration_cssTextForScope_matcher: {
-    "^": "Closure:53;selector_0",
+    "^": "Closure:54;selector_0",
     call$1: [function(s) {
       return J.matches$1$x(s, this.selector_0);
     }, "call$1", null, 2, 0, null, 85, [], "call"],
     $isFunction: true
   },
   PolymerDeclaration_explodeObservers_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       return [];
     },
@@ -26125,7 +26476,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   PolymerDeclaration_createPropertyAccessors_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(e) {
       return false;
     }, "call$1", null, 2, 0, null, 2, [], "call"],
@@ -26182,7 +26533,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   PolymerEventBindings_getEventHandler_closure: {
-    "^": "Closure:53;box_0,this_1,target_2,method_3",
+    "^": "Closure:54;box_0,this_1,target_2,method_3",
     call$1: [function(e) {
       var t1, t2, controller, detail;
       t1 = this.box_0;
@@ -26731,14 +27082,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isNode: true
   },
   Polymer_makeElementReady_closure: {
-    "^": "Closure:83;this_0",
+    "^": "Closure:14;this_0",
     call$0: [function() {
       return "[" + J.toString$0(this.this_0) + "]: ready";
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_attached_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       return;
     }, "call$1", null, 2, 0, null, 104, [], "call"],
@@ -26748,32 +27099,32 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure:92;this_0",
     call$2: [function($name, value) {
       J.get$attributes$x(this.this_0).putIfAbsent$2($name, new A.Polymer_copyInstanceAttributes__closure(value));
-    }, "call$2", null, 4, 0, null, 61, [], 18, [], "call"],
+    }, "call$2", null, 4, 0, null, 62, [], 19, [], "call"],
     $isFunction: true
   },
   Polymer_copyInstanceAttributes__closure: {
-    "^": "Closure:83;value_1",
+    "^": "Closure:14;value_1",
     call$0: function() {
       return this.value_1;
     },
     $isFunction: true
   },
   Polymer_asyncUnbindAll_closure: {
-    "^": "Closure:83;this_0",
+    "^": "Closure:14;this_0",
     call$0: [function() {
       return "[" + H.S(J.get$_polymer$_name$x(this.this_0)) + "] asyncUnbindAll";
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_cancelUnbindAll_closure: {
-    "^": "Closure:83;this_0",
+    "^": "Closure:14;this_0",
     call$0: [function() {
       return "[" + H.S(J.get$_polymer$_name$x(this.this_0)) + "] already unbound, cannot cancel unbindAll";
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_cancelUnbindAll_closure0: {
-    "^": "Closure:83;this_1",
+    "^": "Closure:14;this_1",
     call$0: [function() {
       return "[" + H.S(J.get$_polymer$_name$x(this.this_1)) + "] cancelUnbindAll";
     }, "call$0", null, 0, 0, null, "call"],
@@ -26802,32 +27153,32 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         t5.observeArrayValue$3(t4, path, newValue, oldValue);
         $.get$objectAccessor().invoke$5$adjust$namedArgs(t4, method, [oldValue, newValue, t1, t6, t2], true, null);
       }
-    }, "call$2", null, 4, 0, null, 118, [], 62, [], "call"],
+    }, "call$2", null, 4, 0, null, 118, [], 63, [], "call"],
     $isFunction: true
   },
   Polymer__propertyChange_closure: {
-    "^": "Closure:83;this_0,nameSymbol_1,newValue_2,oldValue_3",
+    "^": "Closure:14;this_0,nameSymbol_1,newValue_2,oldValue_3",
     call$0: [function() {
       return "[" + J.toString$0(this.this_0) + "]: " + H.S(this.nameSymbol_1) + " changed from: " + H.S(this.oldValue_3) + " to: " + H.S(this.newValue_2);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_observeArrayValue_closure: {
-    "^": "Closure:83;this_0,name_1",
+    "^": "Closure:14;this_0,name_1",
     call$0: [function() {
       return "[" + H.S(J.get$_polymer$_name$x(this.this_0)) + "] observeArrayValue: unregister " + H.S(this.name_1);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_observeArrayValue_closure0: {
-    "^": "Closure:83;this_2,name_3",
+    "^": "Closure:14;this_2,name_3",
     call$0: [function() {
       return "[" + H.S(J.get$_polymer$_name$x(this.this_2)) + "] observeArrayValue: register " + H.S(this.name_3);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_observeArrayValue_closure1: {
-    "^": "Closure:53;this_4,callbacks_5",
+    "^": "Closure:54;this_4,callbacks_5",
     call$1: function(changes) {
       var t1, t2, callback;
       for (t1 = J.get$iterator$ax(this.callbacks_5), t2 = this.this_4; t1.moveNext$0() === true;) {
@@ -26838,21 +27189,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Polymer_bindProperty_closure: {
-    "^": "Closure:83;this_0,name_1,bindableOrValue_2",
+    "^": "Closure:14;this_0,name_1,bindableOrValue_2",
     call$0: [function() {
       return "bindProperty: [" + H.S(this.bindableOrValue_2) + "] to [" + H.S(J.get$_polymer$_name$x(this.this_0)) + "].[" + H.S(this.name_1) + "]";
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_bindProperty_closure0: {
-    "^": "Closure:83;this_3,name_4,bindableOrValue_5",
+    "^": "Closure:14;this_3,name_4,bindableOrValue_5",
     call$0: [function() {
       return "bindProperty: expected non-bindable value n a one-time binding to [" + H.S(J.get$_polymer$_name$x(this.this_3)) + "].[" + H.S(this.name_4) + "], but found " + H.Primitives_objectToString(this.bindableOrValue_5) + ".";
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_addHostListeners_closure: {
-    "^": "Closure:83;this_0,events_1",
+    "^": "Closure:14;this_0,events_1",
     call$0: [function() {
       return "[" + H.S(J.get$_polymer$_name$x(this.this_0)) + "] addHostListeners: " + H.S(this.events_1);
     }, "call$0", null, 0, 0, null, "call"],
@@ -26867,14 +27218,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Polymer_dispatchMethod_closure: {
-    "^": "Closure:83;this_0,callbackOrMethod_1",
+    "^": "Closure:14;this_0,callbackOrMethod_1",
     call$0: [function() {
       return ">>> [" + H.S(J.get$_polymer$_name$x(this.this_0)) + "]: dispatch " + H.S(this.callbackOrMethod_1);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Polymer_dispatchMethod_closure0: {
-    "^": "Closure:83;this_2,callbackOrMethod_3",
+    "^": "Closure:14;this_2,callbackOrMethod_3",
     call$0: [function() {
       return "<<< [" + H.S(J.get$_polymer$_name$x(this.this_2)) + "]: dispatch " + H.S(this.callbackOrMethod_3);
     }, "call$0", null, 0, 0, null, "call"],
@@ -26885,7 +27236,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     _updateNode$1: [function(newValue) {
       this._lastValue = newValue;
       $.get$objectAccessor().write$3(this._polymer$_target, this._property, newValue);
-    }, "call$1", "get$_updateNode", 2, 0, 17, 63, []],
+    }, "call$1", "get$_updateNode", 2, 0, 18, 64, []],
     _propertyValueChanged$1: [function(records) {
       var t1, t2, record, getter, newValue;
       for (t1 = J.get$iterator$ax(records), t2 = this._property; t1.moveNext$0() === true;) {
@@ -26960,7 +27311,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         this._polymer$_timer = P.Timer_Timer(wait, this.get$complete(this));
     }, function($receiver, callback) {
       return this.start$2($receiver, callback, null);
-    }, "start$1", "call$2", "call$1", "get$start", 2, 2, 184, 20, 38, [], 185, []],
+    }, "start$1", "call$2", "call$1", "get$start", 2, 2, 184, 21, 39, [], 185, []],
     stop$0: [function(_) {
       var t1, t2;
       t1 = this._polymer$_id;
@@ -26984,7 +27335,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }, "call$0", "get$complete", 0, 0, 13]
   },
   PolymerJob_start_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       var t1 = this.this_0;
       if (t1._polymer$_timer != null || t1._polymer$_id != null) {
@@ -26998,15 +27349,18 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   CustomTag: {
     "^": "Object;tagName>"
   },
+  InitMethodAnnotation: {
+    "^": "Object;"
+  },
   initPolymer_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: [function() {
       return A.startPolymer($.initializers, $.deployMode);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   _hookJsPolymer_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: [function() {
       var t1 = $.get$Polymer__onReady().future;
       if (t1._state !== 0)
@@ -27023,11 +27377,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       if (type != null)
         return this.zone_0.run$1(new A._hookJsPolymer_registerDart_closure(jsElem, $name, type, $.get$_declarations().$index(0, extendee)));
       return this.originalRegister_1.apply$2$thisArg([$name, extendee], jsElem);
-    }, "call$3", null, 6, 0, null, 186, [], 61, [], 187, [], "call"],
+    }, "call$3", null, 6, 0, null, 186, [], 62, [], 187, [], "call"],
     $isFunction: true
   },
   _hookJsPolymer_registerDart_closure: {
-    "^": "Closure:83;jsElem_2,name_3,type_4,extendsDecl_5",
+    "^": "Closure:14;jsElem_2,name_3,type_4,extendsDecl_5",
     call$0: [function() {
       var t1, t2, t3, t4, t5, t6, t7, t8, t9, assetPath;
       t1 = this.jsElem_2;
@@ -27071,7 +27425,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var proto = J.$index$asx(P.JsObject_JsObject$fromBrowserObject(document.createElement("polymer-element", null)), "__proto__");
       return !!J.getInterceptor(proto).$isNode ? P.JsObject_JsObject$fromBrowserObject(proto) : proto;
@@ -27079,28 +27433,28 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _initializeLogging_closure: {
-    "^": "Closure:53;box_0",
+    "^": "Closure:54;box_0",
     call$1: function(logger) {
       return J.$eq(J.$index$asx(this.box_0.logFlags_0, J.get$name$x(logger)), true);
     },
     $isFunction: true
   },
   _initializeLogging_closure0: {
-    "^": "Closure:53;box_0",
+    "^": "Closure:54;box_0",
     call$1: function(logger) {
       return !J.$eq(J.$index$asx(this.box_0.logFlags_0, J.get$name$x(logger)), true);
     },
     $isFunction: true
   },
   _initializeLogging_closure1: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(logger) {
       logger.set$level(C.Level_OFF_2000);
     },
     $isFunction: true
   },
   _initializeLogging_closure2: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(rec) {
       P.print(rec);
     }, "call$1", null, 2, 0, null, 189, [], "call"],
@@ -27120,7 +27474,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       return H.computeSignature(function(T) {
         return {func: "void__T2", void: true, args: [T]};
       }, this.$receiver, "_PropertyAccessor");
-    }, 63, []],
+    }, 64, []],
     get$value: function(_) {
       var t1 = this.bindable;
       if (t1 != null)
@@ -27210,7 +27564,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isObservable: true
   },
   AutoBindingElement$created_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       var t1 = this.this_0;
       t1.setAttribute("bind", "");
@@ -27219,7 +27573,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   AutoBindingElement$created__closure: {
-    "^": "Closure:53;this_1",
+    "^": "Closure:54;this_1",
     call$1: [function(_) {
       var t1, t2;
       t1 = this.this_1;
@@ -27265,21 +27619,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   LogInjector_injectLogsFromUrl_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(data) {
       return this.this_0.injectLogs$1(data);
     }, "call$1", null, 2, 0, null, 121, [], "call"],
     $isFunction: true
   },
   LogInjector_injectLogs_closure: {
-    "^": "Closure:53;logsByLevel_0",
+    "^": "Closure:54;logsByLevel_0",
     call$1: function(list) {
       return J.forEach$1$ax(list, new F.LogInjector_injectLogs__closure2(this.logsByLevel_0));
     },
     $isFunction: true
   },
   LogInjector_injectLogs__closure2: {
-    "^": "Closure:53;logsByLevel_1",
+    "^": "Closure:54;logsByLevel_1",
     call$1: [function(log) {
       var t1 = this.logsByLevel_1;
       t1.putIfAbsent$2(log.get$level(), new F.LogInjector_injectLogs___closure());
@@ -27288,7 +27642,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   LogInjector_injectLogs___closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       return [];
     },
@@ -27352,7 +27706,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   LogInjector_injectLogs__closure: {
-    "^": "Closure:53;this_5,menuItem_6,contentItem_7",
+    "^": "Closure:54;this_5,menuItem_6,contentItem_7",
     call$1: [function(_) {
       var t1, t2, t3;
       t1 = this.this_5;
@@ -27375,14 +27729,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   LogInjector_injectLogs__closure0: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(m) {
       return "<a href=\"" + H.S(m.group$1(0)) + "\" target=\"blank\">" + H.S(m.group$1(0)) + "</a>";
     }, "call$1", null, 2, 0, null, 89, [], "call"],
     $isFunction: true
   },
   LogInjector_injectLogs__closure1: {
-    "^": "Closure:53;messageElement_8",
+    "^": "Closure:54;messageElement_8",
     call$1: [function(e) {
       var t1 = this.messageElement_8;
       if (J.$eq(J.get$target$x(e), t1))
@@ -27457,7 +27811,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _closure0: {
-    "^": "Closure:53;def_0",
+    "^": "Closure:54;def_0",
     call$1: function(_) {
       return this.def_0;
     },
@@ -27471,7 +27825,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _closure: {
-    "^": "Closure:53;def_1",
+    "^": "Closure:54;def_1",
     call$1: function(_) {
       return this.def_1;
     },
@@ -27487,7 +27841,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     else
       t1 = !!t1.$isIterable ? t1.join$1(v, " ") : v;
     return t1;
-  }, "call$1", "_classAttributeConverter$closure", 2, 0, 67, 70, []],
+  }, "call$1", "_classAttributeConverter$closure", 2, 0, 68, 71, []],
   _styleAttributeConverter: [function(v) {
     var t1 = J.getInterceptor(v);
     if (!!t1.$isMap)
@@ -27495,16 +27849,16 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     else
       t1 = !!t1.$isIterable ? t1.join$1(v, ";") : v;
     return t1;
-  }, "call$1", "_styleAttributeConverter$closure", 2, 0, 67, 70, []],
+  }, "call$1", "_styleAttributeConverter$closure", 2, 0, 68, 71, []],
   _classAttributeConverter_closure: {
-    "^": "Closure:53;v_0",
+    "^": "Closure:54;v_0",
     call$1: [function(k) {
       return J.$eq(this.v_0.$index(0, k), true);
     }, "call$1", null, 2, 0, null, 133, [], "call"],
     $isFunction: true
   },
   _styleAttributeConverter_closure: {
-    "^": "Closure:53;v_0",
+    "^": "Closure:54;v_0",
     call$1: [function(k) {
       return H.S(k) + ": " + H.S(this.v_0.$index(0, k));
     }, "call$1", null, 2, 0, null, 133, [], "call"],
@@ -27608,7 +27962,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return new T.PolymerExpressions0(scopeFactory, t3, t1, t2, null);
       }, PolymerExpressions_getExpression: [function(exprString) {
         return T.Parser$(exprString, null).parse$0();
-      }, "call$1", "PolymerExpressions_getExpression$closure", 2, 0, 71], PolymerExpressions_getBinding: [function(expr, model, globals, oneTime) {
+      }, "call$1", "PolymerExpressions_getExpression$closure", 2, 0, 72], PolymerExpressions_getBinding: [function(expr, model, globals, oneTime) {
         var scope;
         if (globals == null) {
           globals = P.LinkedHashMap_LinkedHashMap(null, null, null, null, null);
@@ -27622,7 +27976,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return T.PolymerExpressions_getBinding(expr, model, null, oneTime);
       }, null, function(expr, model, globals) {
         return T.PolymerExpressions_getBinding(expr, model, globals, false);
-      }, null, "call$4$globals$oneTime", "call$2", "call$3$oneTime", "call$3$globals", "PolymerExpressions_getBinding$closure", 4, 5, 72, 20, 73]}
+      }, null, "call$4$globals$oneTime", "call$2", "call$3$oneTime", "call$3$globals", "PolymerExpressions_getBinding$closure", 4, 5, 73, 21, 74]}
   },
   PolymerExpressions_prepareBinding_closure: {
     "^": "Closure:191;this_1,identifier_2,bindExpr_3",
@@ -27660,7 +28014,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   PolymerExpressions_prepareInstanceModel_closure: {
-    "^": "Closure:53;this_0,template_1",
+    "^": "Closure:54;this_0,template_1",
     call$1: [function(model) {
       var t1, t2, existingScope;
       t1 = this.this_0;
@@ -27676,7 +28030,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   PolymerExpressions_prepareInstanceModel_closure0: {
-    "^": "Closure:53;this_2,template_3,ident_4",
+    "^": "Closure:54;this_2,template_3,ident_4",
     call$1: [function(model) {
       var t1, t2, existingScope, t3;
       t1 = this.this_2;
@@ -27710,7 +28064,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       return false;
     }, function(newValue) {
       return this._convertAndCheck$2$skipChanges(newValue, false);
-    }, "_convertAndCheck$1", "call$2$skipChanges", "call$1", "get$_convertAndCheck", 2, 3, 192, 73, 63, [], 193, []],
+    }, "_convertAndCheck$1", "call$2$skipChanges", "call$1", "get$_convertAndCheck", 2, 3, 192, 74, 64, [], 193, []],
     get$value: function(_) {
       if (this._polymer_expressions$_callback != null) {
         this._polymer_expressions$_check$1$skipChanges(true);
@@ -28035,21 +28389,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   closure10: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(a) {
       return a;
     },
     $isFunction: true
   },
   closure11: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(a) {
       return J.$negate$n(a);
     },
     $isFunction: true
   },
   closure12: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(a) {
       return a !== true;
     },
@@ -28390,16 +28744,16 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   ObserverBuilder_visitInvoke_closure: {
-    "^": "Closure:53;invoke_0",
+    "^": "Closure:54;invoke_0",
     call$1: [function(a) {
       var t1 = this.invoke_0;
       a.set$_parent(t1);
       return t1;
-    }, "call$1", null, 2, 0, null, 47, [], "call"],
+    }, "call$1", null, 2, 0, null, 48, [], "call"],
     $isFunction: true
   },
   ObserverBuilder_visitListLiteral_closure: {
-    "^": "Closure:53;list_0",
+    "^": "Closure:54;list_0",
     call$1: function(e) {
       var t1 = this.list_0;
       e.set$_parent(t1);
@@ -28408,7 +28762,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   ObserverBuilder_visitMapLiteral_closure: {
-    "^": "Closure:53;map_0",
+    "^": "Closure:54;map_0",
     call$1: function(e) {
       var t1 = this.map_0;
       e.set$_parent(t1);
@@ -28467,7 +28821,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isExpression: true
   },
   ListLiteralObserver__updateSelf_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(i) {
       return i.get$_eval$_value();
     }, "call$1", null, 2, 0, null, 118, [], "call"],
@@ -28537,7 +28891,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isExpression: true
   },
   IdentifierObserver__updateSelf_closure: {
-    "^": "Closure:53;this_0,scope_1,symbol_2",
+    "^": "Closure:54;this_0,scope_1,symbol_2",
     call$1: [function(changes) {
       if (J.any$1$ax(changes, new K.IdentifierObserver__updateSelf__closure(this.symbol_2)) === true)
         this.this_0._invalidate$1(this.scope_1);
@@ -28545,7 +28899,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   IdentifierObserver__updateSelf__closure: {
-    "^": "Closure:53;symbol_3",
+    "^": "Closure:54;symbol_3",
     call$1: [function(c) {
       return !!J.getInterceptor(c).$isPropertyChangeRecord && J.$eq(c.name, this.symbol_3);
     }, "call$1", null, 2, 0, null, 195, [], "call"],
@@ -28617,7 +28971,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isExpression: true
   },
   BinaryObserver__updateSelf_closure: {
-    "^": "Closure:53;this_0,scope_1",
+    "^": "Closure:54;this_0,scope_1",
     call$1: function(_) {
       return this.this_0._invalidate$1(this.scope_1);
     },
@@ -28669,7 +29023,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isExpression: true
   },
   GetterObserver__updateSelf_closure: {
-    "^": "Closure:53;this_0,scope_1,symbol_2",
+    "^": "Closure:54;this_0,scope_1,symbol_2",
     call$1: [function(changes) {
       if (J.any$1$ax(changes, new K.GetterObserver__updateSelf__closure(this.symbol_2)) === true)
         this.this_0._invalidate$1(this.scope_1);
@@ -28677,7 +29031,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   GetterObserver__updateSelf__closure: {
-    "^": "Closure:53;symbol_3",
+    "^": "Closure:54;symbol_3",
     call$1: [function(c) {
       return !!J.getInterceptor(c).$isPropertyChangeRecord && J.$eq(c.name, this.symbol_3);
     }, "call$1", null, 2, 0, null, 195, [], "call"],
@@ -28708,21 +29062,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isExpression: true
   },
   IndexObserver__updateSelf_closure0: {
-    "^": "Closure:53;this_0,scope_1,key_2",
+    "^": "Closure:54;this_0,scope_1,key_2",
     call$1: function(changes) {
       changes.any$1(0, new K.IndexObserver__updateSelf__closure0(this.key_2));
     },
     $isFunction: true
   },
   IndexObserver__updateSelf__closure0: {
-    "^": "Closure:53;key_3",
+    "^": "Closure:54;key_3",
     call$1: [function(c) {
       return c.indexChanged$1(this.key_3);
     }, "call$1", null, 2, 0, null, 195, [], "call"],
     $isFunction: true
   },
   IndexObserver__updateSelf_closure: {
-    "^": "Closure:53;this_4,scope_5,key_6",
+    "^": "Closure:54;this_4,scope_5,key_6",
     call$1: [function(changes) {
       if (J.any$1$ax(changes, new K.IndexObserver__updateSelf__closure(this.key_6)) === true)
         this.this_4._invalidate$1(this.scope_5);
@@ -28730,7 +29084,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   IndexObserver__updateSelf__closure: {
-    "^": "Closure:53;key_7",
+    "^": "Closure:54;key_7",
     call$1: [function(c) {
       return !!J.getInterceptor(c).$isMapChangeRecord && J.$eq(c.key, this.key_7);
     }, "call$1", null, 2, 0, null, 195, [], "call"],
@@ -28773,10 +29127,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isExpression: true
   },
   InvokeObserver__updateSelf_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(a) {
       return a.get$_eval$_value();
-    }, "call$1", null, 2, 0, null, 47, [], "call"],
+    }, "call$1", null, 2, 0, null, 48, [], "call"],
     $isFunction: true
   },
   InvokeObserver__updateSelf_closure0: {
@@ -28788,7 +29142,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   InvokeObserver__updateSelf__closure: {
-    "^": "Closure:53;symbol_3",
+    "^": "Closure:54;symbol_3",
     call$1: [function(c) {
       return !!J.getInterceptor(c).$isPropertyChangeRecord && J.$eq(c.name, this.symbol_3);
     }, "call$1", null, 2, 0, null, 195, [], "call"],
@@ -28851,7 +29205,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;",
     index$2: [function(_, e, a) {
       return new U.Index(e, a);
-    }, "call$2", "get$index", 4, 0, 197, 2, [], 47, []],
+    }, "call$2", "get$index", 4, 0, 197, 2, [], 48, []],
     invoke$3: function(e, m, a) {
       return new U.Invoke(e, m, a);
     }
@@ -29533,7 +29887,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
   "^": "",
   enumerate: [function(iterable) {
     return H.setRuntimeTypeInfo(new K.EnumerateIterable(iterable), [null]);
-  }, "call$1", "enumerate$closure", 2, 0, 74, 75, []],
+  }, "call$1", "enumerate$closure", 2, 0, 75, 76, []],
   IndexedValue: {
     "^": "Object;index>,value>",
     $eq: function(_, o) {
@@ -30026,7 +30380,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     B.registerTranTypes("purity.core", "pc", new G._registerPurityCoreTranTypes_closure());
   },
   _registerPurityCoreTranTypes_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       B._registerTranCodec(C.Type_Eg9, false, new G._registerPurityCoreTranTypes__closure(), new G._registerPurityCoreTranTypes__closure0());
       B.registerTranSubtype(C.Type_GkY, new G._registerPurityCoreTranTypes__closure1());
@@ -30059,7 +30413,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerPurityCoreTranTypes__closure1: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -30068,7 +30422,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerPurityCoreTranTypes__closure2: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -30077,7 +30431,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerPurityCoreTranTypes__closure3: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -30086,7 +30440,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerPurityCoreTranTypes__closure4: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -30095,7 +30449,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerPurityCoreTranTypes__closure5: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -30104,7 +30458,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerPurityCoreTranTypes__closure6: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -30113,7 +30467,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerPurityCoreTranTypes__closure7: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -30166,10 +30520,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _EndPoint_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(error) {
       return this.this_0.shutdown$0();
-    }, "call$1", null, 2, 0, null, 21, [], "call"],
+    }, "call$1", null, 2, 0, null, 22, [], "call"],
     $isFunction: true
   },
   EndPointConnection: {
@@ -30247,21 +30601,21 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   Host_createSourceEndPoint_closure: {
-    "^": "Closure:53;this_0,name_1",
+    "^": "Closure:54;this_0,name_1",
     call$1: [function(str) {
       this.this_0._emitEndPointMessageEvent$3(this.name_1, true, str);
     }, "call$1", null, 2, 0, null, 203, [], "call"],
     $isFunction: true
   },
   Host_createSourceEndPoint_closure0: {
-    "^": "Closure:83;this_2,name_3",
+    "^": "Closure:14;this_2,name_3",
     call$0: [function() {
       this.this_2._emitEndPointMessageEvent$3(this.name_3, true, "End-point connection closed onDone");
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   Host_createSourceEndPoint_closure1: {
-    "^": "Closure:53;this_4,name_5",
+    "^": "Closure:54;this_4,name_5",
     call$1: [function(_) {
       this.this_4._emitEndPointMessageEvent$3(this.name_5, true, "End-point connection closed onError");
     }, "call$1", null, 2, 0, null, 104, [], "call"],
@@ -30276,7 +30630,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Host_createSourceEndPoint_closure3: {
-    "^": "Closure:53;this_9,name_10",
+    "^": "Closure:54;this_9,name_10",
     call$1: [function($event) {
       var t1 = this.this_9;
       t1._emitEndPointMessageEvent$3(this.name_10, false, "Source end-point shutdown");
@@ -30286,7 +30640,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Host_createSourceEndPoint__closure: {
-    "^": "Closure:83;this_11,event_12",
+    "^": "Closure:14;this_11,event_12",
     call$0: [function() {
       var t1 = this.this_11;
       t1.ignoreAllEventsFrom$1(t1, this.event_12.get$emitter());
@@ -30294,7 +30648,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   Host_shutdown_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(srcEndPoint) {
       srcEndPoint.shutdown$0();
     },
@@ -30349,7 +30703,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         t1 = P.reflect0(tran);
         throw H.wrapException(G.UnsupportedMessageTypeError$(t1.get$type(t1).get$reflectedType()));
       }
-    }, "call$1", "get$_receiveString", 2, 0, 42, 203, []],
+    }, "call$1", "get$_receiveString", 2, 0, 43, 203, []],
     _postprocessTran$1: [function(v) {
       var t1, t2;
       if (!!J.getInterceptor(v).$is_Proxy) {
@@ -30362,7 +30716,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
           return t1.$index(0, t2);
       }
       return v;
-    }, "call$1", "get$_postprocessTran", 2, 0, 53, 70, []],
+    }, "call$1", "get$_postprocessTran", 2, 0, 54, 71, []],
     _sendTran$1: [function(tran) {
       this._connection.send$1(0, tran.toTranString$0());
     }, "call$1", "get$_sendTran", 2, 0, 205],
@@ -30383,7 +30737,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }, "call$0", "get$_runGarbageCollectionSequence", 0, 0, 13]
   },
   ProxyEndPoint__receiveString_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       this.this_0._proxyEventInProgress = false;
     }, "call$1", null, 2, 0, null, 104, [], "call"],
@@ -30398,7 +30752,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   ProxyEndPoint__runGarbageCollectionSequence_closure0: {
-    "^": "Closure:53;this_1",
+    "^": "Closure:54;this_1",
     call$1: function(proxy) {
       this.this_1._proxies.remove$1(0, proxy.get$_purityId());
     },
@@ -30451,7 +30805,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return t1;
       }
       return v;
-    }, "call$1", "get$_preprocessTran", 2, 0, 53, 70, []],
+    }, "call$1", "get$_preprocessTran", 2, 0, 54, 71, []],
     _receiveString$1: [function(str) {
       var tran, t1;
       tran = B.Transmittable_Transmittable$fromTranString(str, null);
@@ -30464,7 +30818,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         t1 = P.reflect0(tran);
         throw H.wrapException(G.UnsupportedMessageTypeError$(t1.get$type(t1).get$reflectedType()));
       }
-    }, "call$1", "get$_receiveString", 2, 0, 42, 203, []],
+    }, "call$1", "get$_receiveString", 2, 0, 43, 203, []],
     _setGarbageCollectionTimer$0: function() {
       var t1 = this._garbageCollectionTimer;
       if (t1 != null)
@@ -30501,7 +30855,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   SourceEndPoint_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(src) {
       var t1, t2;
       t1 = this.this_0;
@@ -30514,7 +30868,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   SourceEndPoint_shutdown_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(_) {
       G._EndPoint.prototype.shutdown$0.call(this.this_0);
     }, "call$1", null, 2, 0, null, 104, [], "call"],
@@ -30537,7 +30891,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   SourceEndPoint__setGarbageCollectionTimer_closure: {
-    "^": "Closure:83;this_0",
+    "^": "Closure:14;this_0",
     call$0: [function() {
       var t1, t2;
       t1 = this.this_0;
@@ -30549,7 +30903,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   SourceEndPoint__runGarbageCollectionSequence_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(proxy) {
       var t1 = this.this_0;
       t1.ignoreAllEventsFrom$1(t1, t1._srcs.remove$1(0, proxy.get$_purityId()));
@@ -30563,7 +30917,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;endPointName@-212,isProxyToSource@-213,message*-212",
     static: {IEndPointMessage$: [function() {
         return new G.IEndPointMessage(null, null, null);
-      }, null, null, 0, 0, 76, "new IEndPointMessage"]}
+      }, null, null, 0, 0, 77, "new IEndPointMessage"]}
   },
   "+IEndPointMessage": [214],
   _GarbageCollectionReport: {
@@ -30574,7 +30928,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;proxies@-215",
     static: {_IGarbageCollectionReport$: [function() {
         return new G._IGarbageCollectionReport(null);
-      }, null, null, 0, 0, 77, "new _IGarbageCollectionReport"]}
+      }, null, null, 0, 0, 78, "new _IGarbageCollectionReport"]}
   },
   "+_IGarbageCollectionReport": [214],
   _GarbageCollectionStart: {
@@ -30589,7 +30943,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;src*-216,method*-217,posArgs@-218,namArgs@-219",
     static: {_IProxyInvocation$: [function() {
         return new G._IProxyInvocation(null, null, null, null);
-      }, null, null, 0, 0, 78, "new _IProxyInvocation"]}
+      }, null, null, 0, 0, 79, "new _IProxyInvocation"]}
   },
   "+_IProxyInvocation": [214],
   Shutdown: {
@@ -30603,7 +30957,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;proxy@-220,data*-221",
     static: {_ISourceEvent$: [function() {
         return new G._ISourceEvent(null, null);
-      }, null, null, 0, 0, 79, "new _ISourceEvent"]}
+      }, null, null, 0, 0, 80, "new _ISourceEvent"]}
   },
   "+_ISourceEvent": [214],
   _SourceReady: {
@@ -30614,7 +30968,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;src*-216",
     static: {_ISourceReady$: [function() {
         return new G._ISourceReady(null);
-      }, null, null, 0, 0, 80, "new _ISourceReady"]}
+      }, null, null, 0, 0, 81, "new _ISourceReady"]}
   },
   "+_ISourceReady": [214],
   _Transmission: {
@@ -30698,7 +31052,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;proxyEndPoint@-222",
     static: {IProxyEndPointCreated$: [function() {
         return new K.IProxyEndPointCreated(null);
-      }, null, null, 0, 0, 81, "new IProxyEndPointCreated"]}
+      }, null, null, 0, 0, 82, "new IProxyEndPointCreated"]}
   },
   "+IProxyEndPointCreated": [214]
 }],
@@ -30915,11 +31269,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Closure:92;this_0",
     call$2: [function(k, v) {
       this.this_0._symbols.$indexSet(0, v, k);
-    }, "call$2", null, 4, 0, null, 133, [], 70, [], "call"],
+    }, "call$2", null, 4, 0, null, 133, [], 71, [], "call"],
     $isFunction: true
   },
   StaticConfiguration__nestedAddAll_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       return P.LinkedHashMap_LinkedHashMap$_empty(null, null);
     },
@@ -31218,7 +31572,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       return buffer._contents;
     }, function($receiver, message) {
       return this.message$2$color($receiver, message, null);
-    }, "message$1", "call$2$color", "call$1", "get$message", 2, 3, 223, 20],
+    }, "message$1", "call$2$color", "call$1", "get$message", 2, 3, 223, 21],
     $eq: function(_, other) {
       if (other == null)
         return false;
@@ -31258,7 +31612,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     B.registerTranTypes("stopwatch.interface", "si", new N.registerStopwatchTranTypes_closure());
   },
   registerStopwatchTranTypes_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       B.registerTranSubtype(C.Type_OqP, new N.registerStopwatchTranTypes__closure());
       B.registerTranSubtype(C.Type_4y3, new N.registerStopwatchTranTypes__closure0());
@@ -31267,7 +31621,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   registerStopwatchTranTypes__closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -31276,7 +31630,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   registerStopwatchTranTypes__closure0: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -31285,7 +31639,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   registerStopwatchTranTypes__closure1: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -31300,7 +31654,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;duration*-224",
     static: {IDurationChange$: [function() {
         return new N.IDurationChange(null);
-      }, null, null, 0, 0, 82, "new IDurationChange"]}
+      }, null, null, 0, 0, 83, "new IDurationChange"]}
   },
   "+IDurationChange": [214],
   Start: {
@@ -31361,7 +31715,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         t2.ObjectId$1$clientMode(false);
         N.registerStopwatchTranTypes();
         return new F.Stopwatch(null, t1, null, t2, null, null, null, null);
-      }, null, null, 0, 0, 83, "new Stopwatch"]}
+      }, null, null, 0, 0, 14, "new Stopwatch"]}
   },
   "+Stopwatch": [230, 231]
 }],
@@ -31818,7 +32172,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       old = M.jsObjectToBindable(J.$index$asx(t2, M._dartToJsName(t1, $name)));
       t2.deleteProperty$1($name);
       return old;
-    }, "call$1", "get$remove", 2, 0, 236, 61, []],
+    }, "call$1", "get$remove", 2, 0, 236, 62, []],
     clear$0: function(_) {
       J.forEach$1$ax(this.get$keys(), this.get$remove(this));
     },
@@ -31830,10 +32184,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   },
   _NodeBindingsMap_keys_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function($name) {
       return !!J.getInterceptor(this.this_0._template_binding$_node).$isText && J.$eq($name, "textContent") ? "text" : $name;
-    }, "call$1", null, 2, 0, null, 61, [], "call"],
+    }, "call$1", null, 2, 0, null, 62, [], "call"],
     $isFunction: true
   },
   _JsBindable: {
@@ -31856,49 +32210,49 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $is_JsBindable: true
   },
   bindableToJsObject_inZone: {
-    "^": "Closure:53;zone_0",
+    "^": "Closure:54;zone_0",
     call$1: function(f) {
       return this.zone_0.bindCallback$2$runGuarded(f, false);
     },
     $isFunction: true
   },
   bindableToJsObject_inZoneUnary: {
-    "^": "Closure:53;zone_1",
+    "^": "Closure:54;zone_1",
     call$1: function(f) {
       return this.zone_1.bindUnaryCallback$2$runGuarded(f, false);
     },
     $isFunction: true
   },
   bindableToJsObject_closure: {
-    "^": "Closure:53;bindable_2",
+    "^": "Closure:54;bindable_2",
     call$1: [function(callback) {
       return J.open$1$x(this.bindable_2, new M.bindableToJsObject__closure(callback));
-    }, "call$1", null, 2, 0, null, 38, [], "call"],
+    }, "call$1", null, 2, 0, null, 39, [], "call"],
     $isFunction: true
   },
   bindableToJsObject__closure: {
-    "^": "Closure:53;callback_3",
+    "^": "Closure:54;callback_3",
     call$1: [function(x) {
       return this.callback_3.apply$1([x]);
     }, "call$1", null, 2, 0, null, 170, [], "call"],
     $isFunction: true
   },
   bindableToJsObject_closure0: {
-    "^": "Closure:83;bindable_4",
+    "^": "Closure:14;bindable_4",
     call$0: [function() {
       return J.close$0$x(this.bindable_4);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   bindableToJsObject_closure1: {
-    "^": "Closure:83;bindable_5",
+    "^": "Closure:14;bindable_5",
     call$0: [function() {
       return J.get$value$x(this.bindable_5);
     }, "call$0", null, 0, 0, null, "call"],
     $isFunction: true
   },
   bindableToJsObject_closure2: {
-    "^": "Closure:53;bindable_6",
+    "^": "Closure:54;bindable_6",
     call$1: [function(x) {
       J.set$value$x(this.bindable_6, x);
       return x;
@@ -31906,7 +32260,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   bindableToJsObject_closure3: {
-    "^": "Closure:83;bindable_7",
+    "^": "Closure:14;bindable_7",
     call$0: [function() {
       return this.bindable_7.deliver$0();
     }, "call$0", null, 0, 0, null, "call"],
@@ -32224,7 +32578,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       }}
   },
   TemplateBindExtension_bind_closure: {
-    "^": "Closure:53;this_0",
+    "^": "Closure:54;this_0",
     call$1: [function(ref) {
       var t1 = this.this_0;
       J.$indexSet$ax(J.get$attributes$x(t1._template_binding$_node), "ref", ref);
@@ -32233,7 +32587,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   TemplateBindExtension_bootstrap__bootstrap: {
-    "^": "Closure:17;",
+    "^": "Closure:18;",
     call$1: [function(template) {
       if (M.nodeBindFallback(template)._decorate$1(null) !== true)
         M.TemplateBindExtension_bootstrap(J.get$content$x(!!J.getInterceptor(template).$isNodeBindExtension ? template : M.nodeBindFallback(template)));
@@ -32241,7 +32595,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   closure6: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(k) {
       return H.S(k) + "[template]";
     }, "call$1", null, 2, 0, null, 133, [], "call"],
@@ -32257,7 +32611,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   closure9: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var empty = document.createDocumentFragment();
       $.get$_instanceExtension().$indexSet(0, empty, new M._InstanceExtension([], null, null, null));
@@ -32269,7 +32623,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     "^": "Object;_template_binding$_bindings<,_terminator<,_templateCreator<,_protoContent<"
   },
   _getDelegateFactory_closure: {
-    "^": "Closure:53;name_0,node_1,delegate_2",
+    "^": "Closure:54;name_0,node_1,delegate_2",
     call$1: function(pathString) {
       return this.delegate_2.prepareBinding$3(pathString, this.name_0, this.node_1);
     },
@@ -32390,7 +32744,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         return;
       }
       this._updateValue$1(this._getUpdatedValue$0());
-    }, "call$1", "get$_updateIfValue", 2, 0, 17, 239, []],
+    }, "call$1", "get$_updateIfValue", 2, 0, 18, 239, []],
     _updateIteratedValue$1: [function(value) {
       var ifValue;
       if (this._hasIf === true) {
@@ -32405,7 +32759,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         }
       }
       this._updateValue$1(value);
-    }, "call$1", "get$_updateIteratedValue", 2, 0, 17, 18, []],
+    }, "call$1", "get$_updateIteratedValue", 2, 0, 18, 19, []],
     _updateValue$1: function(value) {
       this._valueChanged$1(this._hasRepeat !== true ? [value] : value);
     },
@@ -32672,7 +33026,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       if (t4 >= t3)
         return H.ioore(t1, t4);
       return t2 + H.S(t1[t4]);
-    }, "call$1", "get$_singleCombinator", 2, 0, 241, 18, []],
+    }, "call$1", "get$_singleCombinator", 2, 0, 241, 19, []],
     _listCombinator$1: [function(values) {
       var t1, newValue, len, t2, i, value, t3, str;
       t1 = this._mustache_tokens$_tokens;
@@ -33019,7 +33373,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     return map;
   },
   _resolveInternalPointers_closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(col) {
       var t1, i, t2, internalPointers;
       t1 = J.getInterceptor(col);
@@ -33048,7 +33402,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _resolveInternalPointers__closure: {
-    "^": "Closure:53;internalPointers_0",
+    "^": "Closure:54;internalPointers_0",
     call$1: function(o) {
       if (!!J.getInterceptor(o).$is_InternalPointer)
         this.internalPointers_0.push(o);
@@ -33071,11 +33425,11 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
         this.keysToReplace_0.add$1(0, k);
       if (!!J.getInterceptor(v).$is_InternalPointer)
         this.keysToReplaceValuesFor_1.add$1(0, k);
-    }, "call$2", null, 4, 0, null, 133, [], 70, [], "call"],
+    }, "call$2", null, 4, 0, null, 133, [], 71, [], "call"],
     $isFunction: true
   },
   _resolveInternalPointersInMap_closure0: {
-    "^": "Closure:53;m_2",
+    "^": "Closure:54;m_2",
     call$1: function(k) {
       var t1, t2, t3;
       t1 = this.m_2;
@@ -33090,7 +33444,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _resolveInternalPointersInMap_closure1: {
-    "^": "Closure:53;m_3",
+    "^": "Closure:54;m_3",
     call$1: function(k) {
       var t1 = this.m_3;
       t1.$indexSet(0, k.resolve$0(), t1.remove$1(0, k));
@@ -33209,7 +33563,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerTranTranTypes_closure: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       B._registerTranCodec(null, false, new B._registerTranTranTypes__closure(), new B._registerTranTranTypes__closure0());
       B._registerTranCodec(C.Type_ki2, false, new B._registerTranTranTypes__closure1(), new B._registerTranTranTypes__closure2());
@@ -33231,14 +33585,14 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerTranTranTypes__closure: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: function(o) {
       return "";
     },
     $isFunction: true
   },
   _registerTranTranTypes__closure0: {
-    "^": "Closure:53;",
+    "^": "Closure:54;",
     call$1: [function(s) {
       return;
     }, "call$1", null, 2, 0, null, 85, [], "call"],
@@ -33399,7 +33753,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _registerTranTranTypes__closure23: {
-    "^": "Closure:83;",
+    "^": "Closure:14;",
     call$0: function() {
       var t1 = P.LinkedHashMap_LinkedHashMap(null, null, null, P.String, null);
       B._registerTranTranTypes();
@@ -33408,10 +33762,10 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     $isFunction: true
   },
   _processIterableToString_closure: {
-    "^": "Closure:53;strB_0",
+    "^": "Closure:54;strB_0",
     call$1: [function(o) {
       return this.strB_0.write$1(B._getTranSectionFromValue(o));
-    }, "call$1", null, 2, 0, null, 66, [], "call"],
+    }, "call$1", null, 2, 0, null, 67, [], "call"],
     $isFunction: true
   },
   _processMapToString_closure: {
@@ -33420,7 +33774,7 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
       var t1 = this.strB_0;
       t1.write$1(B._getTranSectionFromValue(k));
       t1.write$1(B._getTranSectionFromValue(v));
-    }, "call$2", null, 4, 0, null, 133, [], 70, [], "call"],
+    }, "call$2", null, 4, 0, null, 133, [], 71, [], "call"],
     $isFunction: true
   },
   _TranCodec: {
@@ -33674,6 +34028,34 @@ init.mangledNames = {__js_mirrors$_invoke$2: "__js_mirrors$_invoke:2:0", _handle
     }
   }
 }],
+["web_components.interop", "package:web_components/interop.dart", , N, {
+  "^": "",
+  registerDartType: function(tagName, dartType, extendsTag) {
+    var t1, upgrader;
+    t1 = $.get$_doc();
+    if (t1.hasProperty$1("_registerDartTypeUpgrader") !== true)
+      throw H.wrapException(P.UnsupportedError$("Couldn't find `document._registerDartTypeUpgrader`. Please make sure that `packages/web_components/dart_support.js` is loaded and available before calling this function."));
+    upgrader = new W._JSElementUpgrader(null, null, null);
+    upgrader._JSElementUpgrader$3(document, dartType, extendsTag);
+    t1.callMethod$2("_registerDartTypeUpgrader", [tagName, new N.registerDartType_upgradeElement(dartType, upgrader)]);
+  },
+  registerDartType_upgradeElement: {
+    "^": "Closure:54;dartType_0,upgrader_1",
+    call$1: [function(e) {
+      var t1, t2;
+      t1 = J.getInterceptor(e);
+      if (!t1.get$runtimeType(e).$eq(0, this.dartType_0)) {
+        t2 = this.upgrader_1;
+        if (!t1.get$runtimeType(e).$eq(0, t2._nativeType))
+          H.throwExpression(P.ArgumentError$("element is not subclass of " + H.S(t2._nativeType)));
+        t1 = H.makeLeafDispatchRecord(t2._interceptor);
+        Object.defineProperty(e, init.dispatchPropertyName, {value: t1, enumerable: false, writable: true, configurable: true});
+        t2._constructor(e);
+      }
+    }, "call$1", null, 2, 0, null, 2, [], "call"],
+    $isFunction: true
+  }
+}],
 ]);
 Isolate.$finishClasses($$, $, null);
 $$ = null;
@@ -33792,7 +34174,7 @@ $$ = null;
   _.$isObject = TRUE;
   _ = W.MouseEvent;
   _.$isMouseEvent = TRUE;
-  _.$isEvent0 = TRUE;
+  _.$isEvent = TRUE;
   _.$isObject = TRUE;
   _ = P.bool;
   _.$isbool = TRUE;
@@ -33806,8 +34188,8 @@ $$ = null;
   _ = P.Type;
   _.$isType = TRUE;
   _.$isObject = TRUE;
-  _ = X.Event;
-  _.$isEvent = TRUE;
+  _ = X.Event0;
+  _.$isEvent0 = TRUE;
   _.$isObject = TRUE;
   B._TranCodec.$isObject = TRUE;
   _ = P.Symbol0;
@@ -33870,10 +34252,10 @@ $$ = null;
   _.$isObject = TRUE;
   _ = W.KeyboardEvent;
   _.$isKeyboardEvent = TRUE;
-  _.$isEvent0 = TRUE;
+  _.$isEvent = TRUE;
   _.$isObject = TRUE;
-  _ = W.Event0;
-  _.$isEvent0 = TRUE;
+  _ = W.Event;
+  _.$isEvent = TRUE;
   _.$isObject = TRUE;
   F.Observable.$isObject = TRUE;
   N.Logger.$isObject = TRUE;
@@ -33885,7 +34267,7 @@ $$ = null;
   N.LogRecord.$isObject = TRUE;
   W.HttpRequest.$isObject = TRUE;
   _ = W.ProgressEvent;
-  _.$isEvent0 = TRUE;
+  _.$isEvent = TRUE;
   _.$isObject = TRUE;
   _ = W.NodeValidator;
   _.$isNodeValidator = TRUE;
@@ -33943,14 +34325,14 @@ $$ = null;
   _ = P.Zone;
   _.$isZone = TRUE;
   _.$isObject = TRUE;
+  _ = P.Comparable;
+  _.$isComparable = TRUE;
+  _.$isObject = TRUE;
   _ = P.Iterable;
   _.$isIterable = TRUE;
   _.$isObject = TRUE;
   _ = P.RegExp;
   _.$isRegExp = TRUE;
-  _.$isObject = TRUE;
-  _ = P.Comparable;
-  _.$isComparable = TRUE;
   _.$isObject = TRUE;
   _ = P.InstanceMirror;
   _.$isInstanceMirror = TRUE;
@@ -34383,6 +34765,12 @@ J.get$head$x = function(receiver) {
 J.get$html$x = function(receiver) {
   return J.getInterceptor$x(receiver).get$html(receiver);
 };
+J.get$icon$x = function(receiver) {
+  return J.getInterceptor$x(receiver).get$icon(receiver);
+};
+J.get$iconSrc$x = function(receiver) {
+  return J.getInterceptor$x(receiver).get$iconSrc(receiver);
+};
 J.get$id$x = function(receiver) {
   return J.getInterceptor$x(receiver).get$id(receiver);
 };
@@ -34409,6 +34797,9 @@ J.get$keyCode$x = function(receiver) {
 };
 J.get$kind$x = function(receiver) {
   return J.getInterceptor$x(receiver).get$kind(receiver);
+};
+J.get$label$x = function(receiver) {
+  return J.getInterceptor$x(receiver).get$label(receiver);
 };
 J.get$last$ax = function(receiver) {
   return J.getInterceptor$ax(receiver).get$last(receiver);
@@ -34451,6 +34842,9 @@ J.get$parentNode$x = function(receiver) {
 };
 J.get$pattern$x = function(receiver) {
   return J.getInterceptor$x(receiver).get$pattern(receiver);
+};
+J.get$raisedButton$x = function(receiver) {
+  return J.getInterceptor$x(receiver).get$raisedButton(receiver);
 };
 J.get$reset$x = function(receiver) {
   return J.getInterceptor$x(receiver).get$reset(receiver);
@@ -34502,6 +34896,9 @@ J.get$x$x = function(receiver) {
 };
 J.get$y$x = function(receiver) {
   return J.getInterceptor$x(receiver).get$y(receiver);
+};
+J.get$z$x = function(receiver) {
+  return J.getInterceptor$x(receiver).get$z(receiver);
 };
 J.getBoundingClientRect$0$x = function(receiver) {
   return J.getInterceptor$x(receiver).getBoundingClientRect$0(receiver);
@@ -34617,6 +35014,12 @@ J.set$height$x = function(receiver, value) {
 J.set$href$x = function(receiver, value) {
   return J.getInterceptor$x(receiver).set$href(receiver, value);
 };
+J.set$icon$x = function(receiver, value) {
+  return J.getInterceptor$x(receiver).set$icon(receiver, value);
+};
+J.set$iconSrc$x = function(receiver, value) {
+  return J.getInterceptor$x(receiver).set$iconSrc(receiver, value);
+};
 J.set$left$x = function(receiver, value) {
   return J.getInterceptor$x(receiver).set$left(receiver, value);
 };
@@ -34655,6 +35058,9 @@ J.set$value$x = function(receiver, value) {
 };
 J.set$width$x = function(receiver, value) {
   return J.getInterceptor$x(receiver).set$width(receiver, value);
+};
+J.set$z$x = function(receiver, value) {
+  return J.getInterceptor$x(receiver).set$z(receiver, value);
 };
 J.split$1$s = function(receiver, a0) {
   return J.getInterceptor$s(receiver).split$1(receiver, a0);
@@ -34705,6 +35111,9 @@ J.where$1$ax = function(receiver, a0) {
   return J.getInterceptor$ax(receiver).where$1(receiver, a0);
 };
 C.AutoBindingElement_methods = Y.AutoBindingElement.prototype;
+C.CoreIcon_methods = L.CoreIcon.prototype;
+C.CoreIconset_methods = M.CoreIconset.prototype;
+C.CoreMeta_methods = S.CoreMeta.prototype;
 C.HttpRequest_methods = W.HttpRequest.prototype;
 C.JSArray_methods = J.JSArray.prototype;
 C.JSDouble_methods = J.JSDouble.prototype;
@@ -34713,6 +35122,10 @@ C.JSNull_methods = J.JSNull.prototype;
 C.JSNumber_methods = J.JSNumber.prototype;
 C.JSString_methods = J.JSString.prototype;
 C.NodeList_methods = W.NodeList.prototype;
+C.PaperButton_methods = G.PaperButton.prototype;
+C.PaperFocusable_methods = N.PaperFocusable.prototype;
+C.PaperRipple_methods = F.PaperRipple.prototype;
+C.PaperShadow_methods = V.PaperShadow.prototype;
 C.PlainJavaScriptObject_methods = J.PlainJavaScriptObject.prototype;
 C.PolymerElement_methods = A.PolymerElement.prototype;
 C.PurityStopwatch_methods = B.PurityStopwatch.prototype;
@@ -34750,11 +35163,11 @@ C.Duration_0 = new P.Duration(0);
 C.Duration_1000000 = new P.Duration(1000000);
 C.Endianness_false = new P.Endianness(false);
 C.Endianness_true = new P.Endianness(true);
-C.EventStreamProvider_blur = H.setRuntimeTypeInfo(new W.EventStreamProvider("blur"), [W.Event0]);
+C.EventStreamProvider_blur = H.setRuntimeTypeInfo(new W.EventStreamProvider("blur"), [W.Event]);
 C.EventStreamProvider_click = H.setRuntimeTypeInfo(new W.EventStreamProvider("click"), [W.MouseEvent]);
 C.EventStreamProvider_error = H.setRuntimeTypeInfo(new W.EventStreamProvider("error"), [W.ProgressEvent]);
-C.EventStreamProvider_error0 = H.setRuntimeTypeInfo(new W.EventStreamProvider("error"), [W.Event0]);
-C.EventStreamProvider_focus = H.setRuntimeTypeInfo(new W.EventStreamProvider("focus"), [W.Event0]);
+C.EventStreamProvider_error0 = H.setRuntimeTypeInfo(new W.EventStreamProvider("error"), [W.Event]);
+C.EventStreamProvider_focus = H.setRuntimeTypeInfo(new W.EventStreamProvider("focus"), [W.Event]);
 C.EventStreamProvider_keydown = H.setRuntimeTypeInfo(new W.EventStreamProvider("keydown"), [W.KeyboardEvent]);
 C.EventStreamProvider_keyup = H.setRuntimeTypeInfo(new W.EventStreamProvider("keyup"), [W.KeyboardEvent]);
 C.EventStreamProvider_load = H.setRuntimeTypeInfo(new W.EventStreamProvider("load"), [W.ProgressEvent]);
@@ -34960,29 +35373,41 @@ C.Type_oqK = H.createRuntimeType('ObserveProperty');
 C.List_M2f = Isolate.makeConstantList([C.Type_oqK]);
 C.QueryOptions_xw8 = new A.QueryOptions(false, false, true, C.Type_fPs, false, true, C.List_M2f, null);
 C.Symbol_addEventAction = new H.Symbol("addEventAction");
+C.Symbol_blurAction = new H.Symbol("blurAction");
 C.Symbol_call = new H.Symbol("call");
+C.Symbol_contextMenuAction = new H.Symbol("contextMenuAction");
+C.Symbol_downAction = new H.Symbol("downAction");
 C.Symbol_dynamic = new H.Symbol("dynamic");
 C.Symbol_emitEvent = new H.Symbol("emitEvent");
+C.Symbol_focusAction = new H.Symbol("focusAction");
+C.Symbol_icon = new H.Symbol("icon");
+C.Symbol_iconSrc = new H.Symbol("iconSrc");
 C.Symbol_ignoreAllEvents = new H.Symbol("ignoreAllEvents");
 C.Symbol_ignoreAllEventsFrom = new H.Symbol("ignoreAllEventsFrom");
 C.Symbol_ignoreAllEventsOfType = new H.Symbol("ignoreAllEventsOfType");
 C.Symbol_ignoreSpecificEventBinding = new H.Symbol("ignoreSpecificEventBinding");
+C.Symbol_label = new H.Symbol("label");
 C.Symbol_listen = new H.Symbol("listen");
 C.Symbol_noSuchMethod = new H.Symbol("noSuchMethod");
+C.Symbol_raisedButton = new H.Symbol("raisedButton");
 C.Symbol_registerCallback = new H.Symbol("registerCallback");
 C.Symbol_removeEventAction = new H.Symbol("removeEventAction");
 C.Symbol_reset = new H.Symbol("reset");
 C.Symbol_start = new H.Symbol("start");
 C.Symbol_stop = new H.Symbol("stop");
+C.Symbol_upAction = new H.Symbol("upAction");
 C.Symbol_value = new H.Symbol("value");
 C.Symbol_void = new H.Symbol("void");
+C.Symbol_z = new H.Symbol("z");
 C.Type_46y = H.createRuntimeType('Map');
 C.Type_4y3 = H.createRuntimeType('Start');
 C.Type_6L0 = H.createRuntimeType('Uint8List');
+C.Type_ACQ = H.createRuntimeType('CoreIconset');
 C.Type_AGr = H.createRuntimeType('JsTypeVariableMirror');
 C.Type_AHF = H.createRuntimeType('NativeTypedArray');
 C.Type_Art = H.createRuntimeType('Float32List');
 C.Type_AuK = H.createRuntimeType('Stop');
+C.Type_AyE = H.createRuntimeType('PaperRipple');
 C.Type_CAk = H.createRuntimeType('Uint16List');
 C.Type_EOZ = H.createRuntimeType('_M1');
 C.Type_EQs = H.createRuntimeType('GlobalEventHandlers');
@@ -34994,6 +35419,8 @@ C.Type_GkY = H.createRuntimeType('_ProxyInvocation');
 C.Type_HqF = H.createRuntimeType('Object');
 C.Type_I2I = H.createRuntimeType('PolymerElement');
 C.Type_I5O = H.createRuntimeType('Symbol0');
+C.Type_K6o = H.createRuntimeType('PaperFocusable');
+C.Type_MPa = H.createRuntimeType('PaperButton');
 C.Type_NlB = H.createRuntimeType('NativeTypedArrayOfDouble');
 C.Type_Nm5 = H.createRuntimeType('_SourceEvent');
 C.Type_OqP = H.createRuntimeType('DurationChange');
@@ -35007,6 +35434,8 @@ C.Type_UWS = H.createRuntimeType('List');
 C.Type_UoK = H.createRuntimeType('Int16List');
 C.Type_XXD = H.createRuntimeType('JSObject');
 C.Type_YHO = H.createRuntimeType('_GarbageCollectionReport');
+C.Type_aB0 = H.createRuntimeType('CoreMeta');
+C.Type_aRS = H.createRuntimeType('PaperShadow');
 C.Type_ckn = H.createRuntimeType('Float64List');
 C.Type_dOE = H.createRuntimeType('RegExp');
 C.Type_dTZ = H.createRuntimeType('Int32List');
@@ -35016,6 +35445,7 @@ C.Type_eZO = H.createRuntimeType('Null');
 C.Type_ebu = H.createRuntimeType('EndPointMessage');
 C.Type_irB = H.createRuntimeType('Uint32List');
 C.Type_j0s = H.createRuntimeType('Shutdown');
+C.Type_jWj = H.createRuntimeType('CoreIcon');
 C.Type_ki2 = H.createRuntimeType('_InternalPointer');
 C.Type_mp3 = H.createRuntimeType('Int8List');
 C.Type_oGP = H.createRuntimeType('ByteData');
@@ -35108,8 +35538,8 @@ $.TemplateBindExtension__initBaseUriWorkaround = null;
 $._currentNamespace = null;
 $._currentNamespaceKeyCount = 0;
 $._tranTranTypesRegistered = false;
-$.interceptedNames = ["$add", "$and", "$div", "$eq", "$ge", "$gt", "$index", "$indexSet", "$le", "$lt", "$mod", "$mul", "$negate", "$not", "$or", "$shl", "$shr", "$sub", "$tdiv", "$xor", "AutoBindingElement$created$0", "Element$created$0", "PolymerElement$created$0", "__isolate_helper$_add$1", "_add$1", "_async$_add$1", "_checkIndex$2", "_checkSublistArguments$3", "_clearChildren$0", "_ensureRequestAnimationFrame$0", "_eval$_observe$2", "_getBindingForComputedProperty$1", "_getPropertyValueHelper$1", "_handleDurationChange$1", "_initCustomEvent$4", "_initSourceBinding$0", "_initialiseIndexes$2", "_invalidIndex$2", "_observable$_observed$0", "_propertyChange$3", "_propertyChangeWorkaround$1", "_rangeCheck$2", "_replaceChild$2", "_requestAnimationFrame$1", "_setPropertyHelper$3", "_setRangeFast$4", "_shlPositive$1", "_shrOtherPositive$1", "_tdivFast$1", "_unobserved$0", "abs$0", "accept$1", "add$1", "addAll$1", "addEventListener$3", "addHostListeners$0", "allMatches$1", "allMatches$2", "any$1", "append$1", "async$1", "asyncUnbindAll$0", "attached$0", "attributeChanged$3", "attributeToProperty$2", "bind$3$oneTime", "bindFinished$0", "bindProperty$3$oneTime", "bindToAccessor$2", "bindToAccessor$3$resolveBindingValue", "blur$0", "cancelUnbindAll$0", "clear$0", "close$0", "closeNamedObservers$0", "closeObservers$0", "codeUnitAt$1", "compareTo$1", "complete$0", "complete$1", "contains$1", "contains$2", "copyInstanceAttributes$0", "createComputedProperties$0", "createDocumentFragment$0", "createElement$1", "createElement$2", "createFragment$3$treeSanitizer$validator", "createHtmlDocument$1", "createInstance$2", "createPropertyObserver$0", "createShadowRoot$0", "defaultValue$1", "deliverChanges$0", "detached$0", "dispatchEvent$1", "dispatchMethod$3", "elementAt$1", "emitPropertyChangeRecord$3", "endsWith$1", "every$1", "fire$1", "fire$5$canBubble$cancelable$detail$onNode", "firstWhere$1", "firstWhere$2$defaultValue", "firstWhere$2$orElse", "focus$0", "fold$2", "forEach$1", "get$$$", "get$__js_helper$_name", "get$_children", "get$_collection$_element", "get$_dartDetail", "get$_emitterIndexes", "get$_jsElem", "get$_name", "get$_observable$_changes", "get$_observe", "get$_polymer$_name", "get$_records", "get$_selector", "get$_self", "get$_typeIndexes", "get$_values", "get$alt", "get$attributes", "get$baseUri", "get$bindingDelegate", "get$bindings", "get$bottom", "get$changes", "get$children", "get$className", "get$classes", "get$clear", "get$client", "get$codeUnits", "get$cols", "get$consumer", "get$content", "get$counter", "get$ctrlKey", "get$currentTarget", "get$data", "get$defaultValue", "get$detail", "get$disabled", "get$duration", "get$element", "get$entries", "get$error", "get$first", "get$firstChild", "get$hasObservers", "get$hashCode", "get$head", "get$height", "get$host", "get$hostname", "get$href", "get$html", "get$id", "get$implementation", "get$index", "get$isEmpty", "get$isNaN", "get$isNegative", "get$isNotEmpty", "get$iterator", "get$key", "get$keyCode", "get$kind", "get$last", "get$lastChild", "get$left", "get$length", "get$localName", "get$message", "get$method", "get$model", "get$name", "get$namespaceUri", "get$nextElementSibling", "get$nextNode", "get$nodes", "get$offset", "get$onBlur", "get$onClick", "get$onError", "get$onFocus", "get$onKeyDown", "get$onKeyUp", "get$onMouseDown", "get$operator", "get$ownerDocument", "get$parent", "get$parentNode", "get$pattern", "get$placeholder", "get$port", "get$protocol", "get$responseText", "get$right", "get$rows", "get$runtimeType", "get$single", "get$span", "get$src", "get$start", "get$syntax", "get$tagName", "get$target", "get$templateInstance", "get$text", "get$top", "get$topLeft", "get$type", "get$value", "get$values", "get$width", "get$window", "get$x", "get$y", "getBoundingClientRect$0", "getElementById$1", "getPropertyValue$1", "getRange$2", "ignoreAllEvents$0", "ignoreAllEventsFrom$1", "ignoreAllEventsOfType$1", "ignoreSpecificEventBinding$2", "importNode$2", "index$2", "indexOf$1", "indexOf$2", "insert$0", "insert$2", "insertBefore$2", "join$1", "join$8", "lastIndexOf$1", "lastIndexOf$2", "listen$1", "listen$3", "listen$3$onDone$onError", "listen$4$cancelOnError$onDone$onError", "makeElementReady$0", "map$1", "marshalNodeReferences$1", "matchAsPrefix$2", "matches$1", "matchesWithAncestors$1", "message$1", "message$2$color", "noSuchMethod$1", "notifyChange$1", "notifyPropertyChange$3", "notifyPropertyChanges$3", "observe$2", "observe$3$attributeFilter$attributes", "observe$8$attributeFilter$attributeOldValue$attributes$characterData$characterDataOldValue$childList$subtree", "observeArrayValue$3", "observed$0", "onError$1", "open$1", "open$3$async", "open$5$async$password$user", "parseDeclaration$1", "parseDeclarations$1", "pause$0", "pause$1", "polymerCreated$0", "prepareElement$0", "print$1", "propertyForAttribute$1", "query$2", "querySelector$1", "querySelectorAll$1", "reflectPropertyToAttribute$1", "remainder$1", "remove$0", "remove$1", "removeAt$1", "removeEventListener$3", "removeLast$0", "removeRange$2", "replaceAll$2", "replaceAllMapped$2", "replaceFirst$2", "replaceWith$1", "reset$0", "reset$1", "reset$3", "round$0", "roundToDouble$0", "send$1", "send$2", "serializeValue$1", "set$$$", "set$__js_helper$_name", "set$_children", "set$_collection$_element", "set$_dartDetail", "set$_emitterIndexes", "set$_jsElem", "set$_name", "set$_observable$_changes", "set$_observe", "set$_records", "set$_selector", "set$_self", "set$_typeIndexes", "set$_values", "set$alt", "set$baseUri", "set$bindingDelegate", "set$bindings", "set$border", "set$bottom", "set$className", "set$cols", "set$consumer", "set$content", "set$counter", "set$ctrlKey", "set$data", "set$defaultValue", "set$disabled", "set$duration", "set$element", "set$entries", "set$error", "set$firstChild", "set$height", "set$hostname", "set$href", "set$html", "set$id", "set$implementation", "set$index", "set$key", "set$kind", "set$lastChild", "set$left", "set$length", "set$margin", "set$message", "set$method", "set$model", "set$name", "set$nextElementSibling", "set$nextNode", "set$offset", "set$operator", "set$overflow", "set$ownerDocument", "set$padding", "set$parent", "set$parentNode", "set$pattern", "set$placeholder", "set$port", "set$position", "set$protocol", "set$responseText", "set$right", "set$rows", "set$span", "set$src", "set$start", "set$syntax", "set$tagName", "set$target", "set$text", "set$top", "set$type", "set$value", "set$values", "set$width", "set$x", "set$y", "setProperty$3", "setRange$4", "shadowFromTemplate$1", "show$0", "skip$1", "split$1", "start$0", "start$1", "start$2", "start$3", "startsWith$1", "startsWith$2", "stop$0", "stop$3", "sublist$1", "sublist$2", "substring$1", "substring$2", "take$1", "takeAttributes$0", "toInt$0", "toList$0", "toList$1$growable", "toLowerCase$0", "toRadixString$1", "toString$0", "toUpperCase$0", "trim$0", "unbindAll$0", "unobserved$0", "where$1"];
-$.mapTypeToInterceptor = [C.Type_fPs, W.HtmlElement, {}, C.Type_AHF, H.NativeTypedArray, {"": H.NativeTypedArray$}, C.Type_EQs, W.GlobalEventHandlers, {}, C.Type_I2I, A.PolymerElement, {created: A.PolymerElement$created}, C.Type_NlB, H.NativeTypedArrayOfDouble, {"": H.NativeTypedArrayOfDouble$}, C.Type_QyU, W.WindowEventHandlers, {}, C.Type_ol5, B.PurityStopwatch, {created: B.PurityStopwatch$created}, C.Type_s8b, Y.AutoBindingElement, {created: Y.AutoBindingElement$created}, C.Type_wOW, H.NativeTypedArrayOfInt, {"": H.NativeTypedArrayOfInt$}];
+$.interceptedNames = ["$add", "$and", "$div", "$eq", "$ge", "$gt", "$index", "$indexSet", "$le", "$lt", "$mod", "$mul", "$negate", "$not", "$or", "$shl", "$shr", "$sub", "$tdiv", "$xor", "AutoBindingElement$created$0", "Element$created$0", "PolymerElement$created$0", "__isolate_helper$_add$1", "_add$1", "_async$_add$1", "_checkIndex$2", "_checkSublistArguments$3", "_clearChildren$0", "_ensureRequestAnimationFrame$0", "_eval$_observe$2", "_getBindingForComputedProperty$1", "_getPropertyValueHelper$1", "_handleDurationChange$1", "_initCustomEvent$4", "_initSourceBinding$0", "_initialiseIndexes$2", "_invalidIndex$2", "_observable$_observed$0", "_propertyChange$3", "_propertyChangeWorkaround$1", "_rangeCheck$2", "_replaceChild$2", "_requestAnimationFrame$1", "_setPropertyHelper$3", "_setRangeFast$4", "_shlPositive$1", "_shrOtherPositive$1", "_tdivFast$1", "_unobserved$0", "abs$0", "accept$1", "add$1", "addAll$1", "addEventListener$3", "addHostListeners$0", "allMatches$1", "allMatches$2", "any$1", "append$1", "async$1", "asyncUnbindAll$0", "attached$0", "attributeChanged$3", "attributeToProperty$2", "bind$3$oneTime", "bindFinished$0", "bindProperty$3$oneTime", "bindToAccessor$2", "bindToAccessor$3$resolveBindingValue", "blur$0", "cancelUnbindAll$0", "clear$0", "close$0", "closeNamedObservers$0", "closeObservers$0", "codeUnitAt$1", "compareTo$1", "complete$0", "complete$1", "contains$1", "contains$2", "copyInstanceAttributes$0", "createComputedProperties$0", "createDocumentFragment$0", "createElement$1", "createElement$2", "createFragment$3$treeSanitizer$validator", "createHtmlDocument$1", "createInstance$2", "createPropertyObserver$0", "createShadowRoot$0", "defaultValue$1", "deliverChanges$0", "detached$0", "dispatchEvent$1", "dispatchMethod$3", "elementAt$1", "emitPropertyChangeRecord$3", "endsWith$1", "every$1", "fire$1", "fire$5$canBubble$cancelable$detail$onNode", "firstWhere$1", "firstWhere$2$defaultValue", "firstWhere$2$orElse", "focus$0", "fold$2", "forEach$1", "get$$$", "get$__js_helper$_name", "get$_children", "get$_collection$_element", "get$_dartDetail", "get$_emitterIndexes", "get$_jsElem", "get$_name", "get$_observable$_changes", "get$_observe", "get$_polymer$_name", "get$_records", "get$_selector", "get$_self", "get$_typeIndexes", "get$_values", "get$alt", "get$attributes", "get$baseUri", "get$bindingDelegate", "get$bindings", "get$bottom", "get$changes", "get$children", "get$className", "get$classes", "get$clear", "get$client", "get$codeUnits", "get$cols", "get$consumer", "get$content", "get$counter", "get$ctrlKey", "get$currentTarget", "get$data", "get$defaultValue", "get$detail", "get$disabled", "get$duration", "get$element", "get$entries", "get$error", "get$first", "get$firstChild", "get$hasObservers", "get$hashCode", "get$head", "get$height", "get$host", "get$hostname", "get$href", "get$html", "get$icon", "get$iconSrc", "get$id", "get$implementation", "get$index", "get$isEmpty", "get$isNaN", "get$isNegative", "get$isNotEmpty", "get$iterator", "get$jsElement", "get$key", "get$keyCode", "get$kind", "get$label", "get$last", "get$lastChild", "get$left", "get$length", "get$localName", "get$message", "get$method", "get$model", "get$name", "get$namespaceUri", "get$nextElementSibling", "get$nextNode", "get$nodes", "get$offset", "get$onBlur", "get$onClick", "get$onError", "get$onFocus", "get$onKeyDown", "get$onKeyUp", "get$onMouseDown", "get$operator", "get$ownerDocument", "get$parent", "get$parentNode", "get$pattern", "get$placeholder", "get$port", "get$protocol", "get$raisedButton", "get$responseText", "get$right", "get$rows", "get$runtimeType", "get$single", "get$span", "get$src", "get$start", "get$syntax", "get$tagName", "get$target", "get$templateInstance", "get$text", "get$top", "get$topLeft", "get$type", "get$value", "get$values", "get$width", "get$window", "get$x", "get$y", "get$z", "getBoundingClientRect$0", "getElementById$1", "getPropertyValue$1", "getRange$2", "ignoreAllEvents$0", "ignoreAllEventsFrom$1", "ignoreAllEventsOfType$1", "ignoreSpecificEventBinding$2", "importNode$2", "index$2", "indexOf$1", "indexOf$2", "insert$0", "insert$2", "insertBefore$2", "join$1", "join$8", "lastIndexOf$1", "lastIndexOf$2", "listen$1", "listen$3", "listen$3$onDone$onError", "listen$4$cancelOnError$onDone$onError", "makeElementReady$0", "map$1", "marshalNodeReferences$1", "matchAsPrefix$2", "matches$1", "matchesWithAncestors$1", "message$1", "message$2$color", "noSuchMethod$1", "notifyChange$1", "notifyPropertyChange$3", "notifyPropertyChanges$3", "observe$2", "observe$3$attributeFilter$attributes", "observe$8$attributeFilter$attributeOldValue$attributes$characterData$characterDataOldValue$childList$subtree", "observeArrayValue$3", "observed$0", "onError$1", "open$1", "open$3$async", "open$5$async$password$user", "parseDeclaration$1", "parseDeclarations$1", "pause$0", "pause$1", "polymerCreated$0", "prepareElement$0", "print$1", "propertyForAttribute$1", "query$2", "querySelector$1", "querySelectorAll$1", "reflectPropertyToAttribute$1", "remainder$1", "remove$0", "remove$1", "removeAt$1", "removeEventListener$3", "removeLast$0", "removeRange$2", "replaceAll$2", "replaceAllMapped$2", "replaceFirst$2", "replaceWith$1", "reset$0", "reset$1", "reset$3", "round$0", "roundToDouble$0", "send$1", "send$2", "serializeValue$1", "set$$$", "set$__js_helper$_name", "set$_children", "set$_collection$_element", "set$_dartDetail", "set$_emitterIndexes", "set$_jsElem", "set$_name", "set$_observable$_changes", "set$_observe", "set$_records", "set$_selector", "set$_self", "set$_typeIndexes", "set$_values", "set$alt", "set$baseUri", "set$bindingDelegate", "set$bindings", "set$border", "set$bottom", "set$className", "set$cols", "set$consumer", "set$content", "set$counter", "set$ctrlKey", "set$data", "set$defaultValue", "set$disabled", "set$duration", "set$element", "set$entries", "set$error", "set$firstChild", "set$height", "set$hostname", "set$href", "set$html", "set$icon", "set$iconSrc", "set$id", "set$implementation", "set$index", "set$key", "set$kind", "set$label", "set$lastChild", "set$left", "set$length", "set$margin", "set$message", "set$method", "set$model", "set$name", "set$nextElementSibling", "set$nextNode", "set$offset", "set$operator", "set$overflow", "set$ownerDocument", "set$padding", "set$parent", "set$parentNode", "set$pattern", "set$placeholder", "set$port", "set$position", "set$protocol", "set$responseText", "set$right", "set$rows", "set$span", "set$src", "set$start", "set$syntax", "set$tagName", "set$target", "set$text", "set$top", "set$type", "set$value", "set$values", "set$width", "set$x", "set$y", "set$z", "setProperty$3", "setRange$4", "shadowFromTemplate$1", "show$0", "skip$1", "split$1", "start$0", "start$1", "start$2", "start$3", "startsWith$1", "startsWith$2", "stop$0", "stop$3", "sublist$1", "sublist$2", "substring$1", "substring$2", "take$1", "takeAttributes$0", "toInt$0", "toList$0", "toList$1$growable", "toLowerCase$0", "toRadixString$1", "toString$0", "toUpperCase$0", "trim$0", "unbindAll$0", "unobserved$0", "where$1"];
+$.mapTypeToInterceptor = [C.Type_fPs, W.HtmlElement, {}, C.Type_ACQ, M.CoreIconset, {created: M.CoreIconset$created}, C.Type_AHF, H.NativeTypedArray, {"": H.NativeTypedArray$}, C.Type_AyE, F.PaperRipple, {created: F.PaperRipple$created}, C.Type_EQs, W.GlobalEventHandlers, {}, C.Type_I2I, A.PolymerElement, {created: A.PolymerElement$created}, C.Type_K6o, N.PaperFocusable, {created: N.PaperFocusable$created}, C.Type_MPa, G.PaperButton, {created: G.PaperButton$created}, C.Type_NlB, H.NativeTypedArrayOfDouble, {"": H.NativeTypedArrayOfDouble$}, C.Type_QyU, W.WindowEventHandlers, {}, C.Type_aB0, S.CoreMeta, {created: S.CoreMeta$created}, C.Type_aRS, V.PaperShadow, {created: V.PaperShadow$created}, C.Type_jWj, L.CoreIcon, {created: L.CoreIcon$created}, C.Type_ol5, B.PurityStopwatch, {created: B.PurityStopwatch$created}, C.Type_s8b, Y.AutoBindingElement, {created: Y.AutoBindingElement$created}, C.Type_wOW, H.NativeTypedArrayOfInt, {"": H.NativeTypedArrayOfInt$}];
 Isolate.$lazy($, "thisScript", "IsolateNatives_thisScript", "get$IsolateNatives_thisScript", function() {
   return H.IsolateNatives_computeThisScript();
 });
@@ -35478,6 +35908,9 @@ Isolate.$lazy($, "_tranCodecsByKey", "_tranCodecsByKey", "get$_tranCodecsByKey",
 Isolate.$lazy($, "_tranCodecsByType", "_tranCodecsByType", "get$_tranCodecsByType", function() {
   return P.LinkedHashMap_LinkedHashMap(null, null, null, P.Type, B._TranCodec);
 });
+Isolate.$lazy($, "_doc", "_doc", "get$_doc", function() {
+  return P.JsObject_JsObject$fromBrowserObject(document);
+});
 // Native classes
 
 init.metadata = ["object",
@@ -35494,6 +35927,7 @@ init.metadata = ["object",
 {func: "String__Match", ret: P.String, args: [P.Match]},
 {func: "String__String", ret: P.String, args: [P.String]},
 {func: "void_", void: true},
+{func: "args0"},
 {func: "InstanceMirror__Object", ret: P.InstanceMirror, args: [P.Object]},
 "reflectee",
 {func: "void__void_", void: true, args: [{func: "void_", void: true}]},
@@ -35563,7 +35997,6 @@ false,
 {func: "_ISourceReady_", ret: G._ISourceReady},
 {func: "IProxyEndPointCreated_", ret: K.IProxyEndPointCreated},
 {func: "IDurationChange_", ret: N.IDurationChange},
-{func: "args0"},
 {func: "Map__String", ret: P.Map, args: [P.String]},
 "s",
 {func: "RegExp__String", ret: P.RegExp, args: [P.String]},
@@ -35634,19 +36067,19 @@ H.TearOffClosure,
 "xhr",
 "attr",
 {func: "void__Node", void: true, args: [W.Node]},
-[P.Map, X.EventEmitter, [P.Map, P.Type, {func: "void__Event", void: true, args: [X.Event]}]],
-[P.Map, P.Type, [P.Map, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event]}]],
-{func: "void__EventEmitter_Type_EventAction", void: true, args: [X.EventEmitter, P.Type, {func: "void__Event", void: true, args: [X.Event]}]},
+[P.Map, X.EventEmitter, [P.Map, P.Type, {func: "void__Event", void: true, args: [X.Event0]}]],
+[P.Map, P.Type, [P.Map, X.EventEmitter, {func: "void__Event", void: true, args: [X.Event0]}]],
+{func: "void__EventEmitter_Type_EventAction", void: true, args: [X.EventEmitter, P.Type, {func: "void__Event", void: true, args: [X.Event0]}]},
 "emitter",
 "type",
 "action",
 {func: "void__EventEmitter_Type", void: true, args: [X.EventEmitter, P.Type]},
 {func: "void__Type", void: true, args: [P.Type]},
 {func: "void__EventEmitter", void: true, args: [X.EventEmitter]},
-[P.Map, P.Type, [P.List, {func: "void__Event", void: true, args: [X.Event]}]],
+[P.Map, P.Type, [P.List, {func: "void__Event", void: true, args: [X.Event0]}]],
 P.Type,
-{func: "void__Type_EventAction", void: true, args: [P.Type, {func: "void__Event", void: true, args: [X.Event]}]},
-{func: "dynamic__EventAction", args: [{func: "void__Event", void: true, args: [X.Event]}]},
+{func: "void__Type_EventAction", void: true, args: [P.Type, {func: "void__Event", void: true, args: [X.Event0]}]},
+{func: "dynamic__EventAction", args: [{func: "void__Event", void: true, args: [X.Event0]}]},
 {func: "dynamic__int_dynamic", args: [P.$int, null]},
 {func: "dynamic__ZoneDelegate_Zone", args: [P.ZoneDelegate, P.Zone]},
 {func: "dynamic__Zone_ZoneDelegate_Zone_args1", args: [P.Zone, P.ZoneDelegate, P.Zone, {func: "args1", args: [null]}]},
@@ -35680,7 +36113,7 @@ P.Type,
 {func: "Index__Expression_Expression", ret: U.Index, args: [U.Expression, U.Expression]},
 "h",
 {func: "dynamic__Expression", args: [U.Expression]},
-{func: "dynamic__Event", args: [[X.Event, G.EndPointMessage]]},
+{func: "dynamic__Event", args: [[X.Event0, G.EndPointMessage]]},
 {func: "dynamic___Proxy", args: [G._Proxy]},
 F.ObjectId,
 "str",
@@ -35688,9 +36121,9 @@ F.ObjectId,
 {func: "void__Transmittable", void: true, args: [B.Transmittable]},
 P.InstanceMirror,
 {func: "void___ProxyInvocation", void: true, args: [G._ProxyInvocation]},
-{func: "Future__Transmittable", ret: [P.Future, [X.Event, B.Transmittable]], args: [B.Transmittable]},
+{func: "Future__Transmittable", ret: [P.Future, [X.Event0, B.Transmittable]], args: [B.Transmittable]},
 "src",
-{func: "dynamic__Event0", args: [[X.Event, B.Transmittable]]},
+{func: "dynamic__Event0", args: [[X.Event0, B.Transmittable]]},
 "proxy",
 P.String,
 P.bool,
@@ -35712,10 +36145,10 @@ P.Timer,
 "timer",
 G.Source,
 N.IStopwatch,
-{func: "void__Event_dynamic_Node", void: true, args: [W.Event0, null, W.Node]},
+{func: "void__Event_dynamic_Node", void: true, args: [W.Event, null, W.Node]},
 "detail",
 "target",
-{func: "void__Event0", void: true, args: [[X.Event, N.DurationChange]]},
+{func: "void__Event0", void: true, args: [[X.Event0, N.DurationChange]]},
 {func: "Bindable__String", ret: A.Bindable, args: [P.String]},
 "ref",
 "template",

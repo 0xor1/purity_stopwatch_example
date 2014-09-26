@@ -2,9 +2,23 @@ library app_bootstrap;
 
 import 'package:polymer/polymer.dart';
 
-import 'package:purity_stopwatch_example/view/purity_stopwatch.dart' as i0;
+import 'package:core_elements/core_meta.dart' as i0;
 import 'package:polymer/src/build/log_injector.dart';
-import 'index_with_purity.dart' as i1;
+import 'package:core_elements/core_iconset.dart' as i1;
+import 'package:polymer/src/build/log_injector.dart';
+import 'package:core_elements/core_icon.dart' as i2;
+import 'package:polymer/src/build/log_injector.dart';
+import 'package:paper_elements/paper_focusable.dart' as i3;
+import 'package:polymer/src/build/log_injector.dart';
+import 'package:paper_elements/paper_ripple.dart' as i4;
+import 'package:polymer/src/build/log_injector.dart';
+import 'package:paper_elements/paper_shadow.dart' as i5;
+import 'package:polymer/src/build/log_injector.dart';
+import 'package:paper_elements/paper_button.dart' as i6;
+import 'package:polymer/src/build/log_injector.dart';
+import 'package:purity_stopwatch_example/view/purity_stopwatch.dart' as i7;
+import 'package:polymer/src/build/log_injector.dart';
+import 'index_with_purity.dart' as i8;
 import 'package:polymer/src/build/log_injector.dart';
 import 'package:smoke/smoke.dart' show Declaration, PROPERTY, METHOD;
 import 'package:smoke/static.dart' show useGeneratedCode, StaticConfiguration;
@@ -18,13 +32,26 @@ void main() {
   useGeneratedCode(new StaticConfiguration(
       checkedMode: false,
       getters: {
+        #blurAction: (o) => o.blurAction,
+        #contextMenuAction: (o) => o.contextMenuAction,
         #counter: (o) => o.counter,
+        #downAction: (o) => o.downAction,
+        #focusAction: (o) => o.focusAction,
+        #icon: (o) => o.icon,
+        #iconSrc: (o) => o.iconSrc,
+        #label: (o) => o.label,
+        #raisedButton: (o) => o.raisedButton,
         #reset: (o) => o.reset,
         #start: (o) => o.start,
         #stop: (o) => o.stop,
+        #upAction: (o) => o.upAction,
+        #z: (o) => o.z,
       },
       setters: {
         #counter: (o, v) { o.counter = v; },
+        #icon: (o, v) { o.icon = v; },
+        #iconSrc: (o, v) { o.iconSrc = v; },
+        #z: (o, v) { o.z = v; },
       },
       parents: {
         smoke_0.PurityStopwatch: _M1,
@@ -37,14 +64,31 @@ void main() {
         },
       },
       names: {
+        #blurAction: r'blurAction',
+        #contextMenuAction: r'contextMenuAction',
         #counter: r'counter',
+        #downAction: r'downAction',
+        #focusAction: r'focusAction',
+        #icon: r'icon',
+        #iconSrc: r'iconSrc',
+        #label: r'label',
+        #raisedButton: r'raisedButton',
         #reset: r'reset',
         #start: r'start',
         #stop: r'stop',
+        #upAction: r'upAction',
+        #z: r'z',
       }));
   new LogInjector().injectLogsFromUrl('index_with_purity.html._buildLogs');
   configureForDeployment([
-      () => Polymer.register('purity-stopwatch', i0.PurityStopwatch),
+      i0.upgradeCoreMeta,
+      i1.upgradeCoreIconset,
+      i2.upgradeCoreIcon,
+      i3.upgradePaperFocusable,
+      i4.upgradePaperRipple,
+      i5.upgradePaperShadow,
+      i6.upgradePaperButton,
+      () => Polymer.register('purity-stopwatch', i7.PurityStopwatch),
     ]);
-  i1.main();
+  i8.main();
 }
