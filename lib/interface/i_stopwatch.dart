@@ -19,12 +19,9 @@ abstract class IStopwatch{
 }
 
 bool _stopwatchTranTypesRegistered = false;
-void registerStopwatchTranTypes(){
-  if(_stopwatchTranTypesRegistered){ return; }
-  _stopwatchTranTypesRegistered = true;
-  registerTranTypes('stopwatch.interface', 'si', (){
-    registerTranSubtype(DurationChange, () => new DurationChange());
-    registerTranSubtype(Start, () => new Start());
-    registerTranSubtype(Stop, () => new Stop());
-  });
-}
+final Registrar registerStopwatchTranTypes = generateRegistrar(
+    'stopwatch.interface', 'si', [
+    new TranRegistration.subtype(DurationChange, () => new DurationChange()),
+    new TranRegistration.subtype(Start, () => new Start()),
+    new TranRegistration.subtype(Stop, () => new Stop())
+  ]);
