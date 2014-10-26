@@ -5,7 +5,6 @@
 library StopwatchLocalTest;
 
 import 'dart:html';
-import 'dart:async';
 import 'package:polymer/polymer.dart';
 import 'package:purity/local.dart';
 import 'package:purity/client.dart' as client;
@@ -17,8 +16,8 @@ void main(){
   initPolymer();
 
   var host = new Host(
-    (_) => new Future.delayed(new Duration(), () => new sw.Stopwatch()),
-    (_) => new Future.delayed(new Duration(), (){}),
+    (_) => new sw.Stopwatch(),
+    (_){},
     0);
 
   var hostView = new client.LocalHostView(host);
