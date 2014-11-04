@@ -26,7 +26,7 @@ class Stopwatch extends Source implements IStopwatch{
 
   void set _duration(Duration du){
     _du = new Duration(seconds:du.inSeconds.abs());
-    emitEvent(
+    emit(
       new DurationChange()
       ..duration = _du);
   }
@@ -34,7 +34,7 @@ class Stopwatch extends Source implements IStopwatch{
   void start(){
     if(!_isRunning){
       _timer = new Timer.periodic(_TIMER_TICK_DURATION, _handleTick);
-      emitEvent(new Start());
+      emit(new Start());
     }
   }
 
@@ -42,7 +42,7 @@ class Stopwatch extends Source implements IStopwatch{
     if(_isRunning){
       _timer.cancel();
       _timer = null;
-      emitEvent(new Stop());
+      emit(new Stop());
     }
   }
 
