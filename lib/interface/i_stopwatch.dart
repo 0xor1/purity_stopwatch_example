@@ -18,7 +18,6 @@ abstract class IStopwatch{
   void reset();
 }
 
-bool _stopwatchTranTypesRegistered = false;
 final Registrar registerStopwatchTranTypes = generateRegistrar(
     'stopwatch.interface', 'si', [
     new TranRegistration.subtype(DurationChange, () => new DurationChange()),

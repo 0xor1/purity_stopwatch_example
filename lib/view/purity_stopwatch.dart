@@ -11,7 +11,7 @@ import 'package:polymer/polymer.dart';
 import 'package:paper_elements/paper_button.dart';
 
 @CustomTag('purity-stopwatch')
-class PurityStopwatch extends PolymerElement with purity.EventDetector{
+class PurityStopwatch extends PolymerElement with purity.Receiver{
 
   @published
   String counter;
@@ -62,7 +62,7 @@ class PurityStopwatch extends PolymerElement with purity.EventDetector{
     return '$hours : $minutes : $seconds';
   }
 
-  void _handleDurationChange(purity.Event<DurationChange> e){
+  void _handleDurationChange(purity.Emission<DurationChange> e){
     counter = _durationToDisplayString(e.data.duration);
   }
 }

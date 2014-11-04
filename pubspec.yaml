@@ -10,7 +10,7 @@ dependencies:
   core_elements: '>=0.2.0 <0.3.0'
   paper_elements: '>=0.2.0 <0.3.0'
   polymer: '>=0.14.0 <0.15.0'
-  purity: '>=0.14.0 <0.15.0'
+  purity: '>=0.15.0 <0.16.0'
 transformers:
 - polymer:
     entry_points:
