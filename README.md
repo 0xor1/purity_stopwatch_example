@@ -8,5 +8,5 @@ to see the whole app running on the client with remote proxy objects
 relaying messages through the **Host** also running on the client.
 
 Run `pub build` and then run `build/bin/host.dart` to run the app as a full distributed
-app, browse to `http://127.0.0.1:4346/` to see the view consuming the remote proxy object 
+app, browse to `http://localhost:4346/` to see the view consuming the remote proxy object 
 with all messages being realyed to/from the **Host** via websockets.
