@@ -4,18 +4,21 @@
 
 library stopwatch.interface;
 
-@MirrorsUsed(targets: const[
-  IDurationChange
-  ], override: '*')
-import 'dart:mirrors';
 import 'package:purity/purity.dart';
-
-part 'stopwatch_events.dart';
 
 abstract class IStopwatch{
   void start();
   void stop();
   void reset();
+}
+
+class Start extends Transmittable{}
+
+class Stop extends Transmittable{}
+
+class DurationChange extends Transmittable{
+  Duration get duration => get('duration');
+  void set duration (Duration o) => set('duration', o);
 }
 
 final Registrar registerStopwatchTranTypes = generateRegistrar(
