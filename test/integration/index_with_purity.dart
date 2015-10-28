@@ -9,7 +9,7 @@ import 'package:polymer/polymer.dart';
 import 'package:purity/local.dart';
 import 'package:purity/client.dart' as client;
 import 'package:purity_stopwatch_example/model/stopwatch.dart' as sw;
-import 'package:purity_stopwatch_example/view/purity_stopwatch.dart';
+import 'package:purity_stopwatch_example/view/stopwatch.dart';
 
 void main(){
 

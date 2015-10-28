@@ -7,7 +7,7 @@ library StopwatchLocalTest;
 import 'dart:html';
 import 'package:polymer/polymer.dart';
 import 'package:purity_stopwatch_example/model/stopwatch.dart' as SW;
-import 'package:purity_stopwatch_example/view/purity_stopwatch.dart';
+import 'package:purity_stopwatch_example/view/stopwatch.dart';
 
 void main(){
   initPolymer();

@@ -6,12 +6,12 @@ library stopwatch.view;
 
 import 'dart:html';
 import 'package:purity/purity.dart' as purity;
-import 'package:purity_stopwatch_example/interface/i_stopwatch.dart';
+import 'package:purity_stopwatch_example/interface/stopwatch.dart';
 import 'package:polymer/polymer.dart';
 import 'package:paper_elements/paper_button.dart';
 
-@CustomTag('purity-stopwatch')
-class PurityStopwatch extends PolymerElement with purity.Receiver{
+@CustomTag('stopwatch-element')
+class StopwatchElement extends PolymerElement with purity.Receiver{
 
   @published
   String counter;
@@ -20,7 +20,7 @@ class PurityStopwatch extends PolymerElement with purity.Receiver{
   PaperButton startButton;
   PaperButton resetButton;
 
-  PurityStopwatch.created() : super.created();
+  StopwatchElement.created() : super.created();
 
   @override
   void attached() {
@@ -62,13 +62,13 @@ class PurityStopwatch extends PolymerElement with purity.Receiver{
     return '$hours : $minutes : $seconds';
   }
 
-  void _handleDurationChange(purity.Emission<DurationChange> e){
+  void _handleDurationChange(purity.Event<DurationChange> e){
     counter = _durationToDisplayString(e.data.duration);
   }
 }
 
 class StopwatchConsumer extends purity.Consumer{
-  final PurityStopwatch view = new Element.tag('purity-stopwatch');
+  final StopwatchElement view = new Element.tag('stopwatch-element');
 
   StopwatchConsumer(src) : super(src){
     registerStopwatchTranTypes();

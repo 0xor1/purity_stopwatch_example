@@ -4,13 +4,9 @@
 
 library stopwatch.model;
 
-@MirrorsUsed(targets: const[
-  Stopwatch
-  ], override: '*')
-import 'dart:mirrors';
 import 'dart:async';
 import 'package:purity/purity.dart';
-import '../interface/i_stopwatch.dart';
+import 'package:purity_stopwatch_example/interface/stopwatch.dart';
 
 const Duration _TIMER_TICK_DURATION = const Duration(seconds:1);
 
