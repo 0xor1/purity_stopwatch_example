@@ -1,9 +1,9 @@
 #Purity Stopwatch Example
 
 An extremely simple example application to demo the Purity framework.
-Run [`test/integration/index_without_purity.html`](http://robsix.github.io/purity_stopwatch_example/without_purity/)
+Run [`test/integration/index_without_purity.html`](http://0xor1.github.io/purity_stopwatch_example/without_purity/)
 to see the whole app running on the client with the view directly
-consuming the source, or run [`test/integration/index_with_purity.html`](http://robsix.github.io/purity_stopwatch_example/)
+consuming the source, or run [`test/integration/index_with_purity.html`](http://0xor1.github.io/purity_stopwatch_example/)
 to see the whole app running on the client with remote proxy objects
 relaying messages through the **Host** also running on the client.
 
